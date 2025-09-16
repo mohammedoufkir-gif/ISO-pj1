@@ -1,30 +1,12 @@
----
-layout: default
-title: "Curso de Machine Learning"
----
-
-Este repositorio contiene el material del curso de Machine Learning desarrollado por Mireia Consarnau.
-
-- Índice y enlaces a las unidades del curso.
-- Recursos en formato PDF, vídeos, y Google Colab.
-- Código y ejemplos prácticos.
-
 ## Licencia
 
 El contenido está bajo licencia [Creative Commons BY-NC-SA 3.0 ES](LICENSE.md).
 
-## Contenido del curso
+## Contenigut del curs 
+![47b2e2a48e7605297a8ab72282d7b5b7](https://github.com/user-attachments/assets/e0bac93d-ecb4-4575-9a16-ddc7e50a52a2)
 
----
-layout: default
-title: "Curso de Machine Learning"
----
 
-Este repositorio contiene el material del curso de Machine Learning desarrollado por Mireia Consarnau.
 
-- Índice y enlaces a las unidades del curso.
-- Recursos en formato PDF, vídeos, y Google Colab.
-- Código y ejemplos prácticos.
 
 ## Licencia
 
@@ -37,12 +19,3 @@ El contenido está bajo licencia [Creative Commons BY-NC-SA 3.0 ES](LICENSE.md).
 ### [Sprint 3: Administració de Dominis i Seguretat](SP3/SP3.md) 
 ### [Sprint 4: Configuració del Programari de Base i Sistemes d’Emmagatzematge en Ubuntu](SP4/SP4.md)  
 ### [Sprint 5: Monitoratge, Auditories i Programari Client/Servidor](SP5/SP5.md)  
-
-### [Relación entre Unidades y Resultados de Aprendizaje (RAs)](ras.md)  
-
-### [FAQs](faqs/faqs.md)  
-
-
-### [Relación entre Unidades y Resultados de Aprendizaje (RAs)](ras.md)  
-
-### [FAQs](faqs/faqs.md)  
