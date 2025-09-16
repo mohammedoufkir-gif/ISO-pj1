@@ -3,3 +3,4 @@
 
 <img width="306" height="201" alt="image" src="https://github.com/user-attachments/assets/8163977f-aba3-4629-9ab5-02c683a6284b" />
 ![imatge](SP1/images/imatge.jpg)
+
