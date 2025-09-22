@@ -1,4 +1,3 @@
-### Curs de ISO 
 ## Licencia
 
 El contenido está bajo licencia [Creative Commons BY-NC-SA 4.0 ES](LICENSE.md).
