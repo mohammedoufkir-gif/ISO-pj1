@@ -1,4 +1,5 @@
-
+# Implementacio de sistemes operatius
+## Contenigut del curs
 
 
 ![47b2e2a48e7605297a8ab72282d7b5b7](https://github.com/user-attachments/assets/e0bac93d-ecb4-4575-9a16-ddc7e50a52a2)
