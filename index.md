@@ -6,11 +6,7 @@
 
 
 
-## Licencia
 
-El contenido está bajo licencia [Creative Commons BY-NC-SA 4.0 ES](LICENSE.md).
-
-## Contenido del curso
 
 ### [Sprint 1: Instal·lació, Configuració Inicial i Programari de Base](SP1/SP1.md)  
 ### [Sprint 2: Instal·lació, Configuració de Programari de Base i Gestió de Fitxers](SP2/SP2.md)  
