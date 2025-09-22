@@ -17,7 +17,7 @@ Esta licencia permite que otros compartan, copien y distribuyan tu trabajo, así
 ## Texto legal completo
 
 Puedes consultar el texto completo de la licencia aquí:  
-https://creativecommons.org/licenses/by-nc-sa/3.0/es/legalcode
+https://creativecommons.org/licenses/by-nc-sa/4.0/es/legalcode
 
 ---
 
@@ -27,4 +27,4 @@ Se debe dar crédito adecuado, proporcionar un enlace a esta licencia e indicar 
 
 ---
 
-© 2025 Mireia Consarnau
+© 2025 Mohamed Oufkir
