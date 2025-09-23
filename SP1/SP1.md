@@ -21,7 +21,9 @@ De emmagatzematge utilidzarem 80GB ja que en un futur ficarem una instalacio dua
 De CPU(nuclis) hem utilitzat només una CPU perquè realment per al ús que li donarem no fa falta res més.
 
 <img width="660" height="259" alt="image" src="https://github.com/user-attachments/assets/a4debaea-4576-4d6d-9d79-e8d83220359e" />
+
 ### Particions
+
 Per a les particions utilidzarem les seguents.
 
 <img width="451" height="173" alt="image" src="https://github.com/user-attachments/assets/bf043212-5f76-4a67-b69c-e4609fce2f1c" />
@@ -40,6 +42,7 @@ Hem utilitzat la xarxa NAT per a poder tindre conexio amb les altre maquines vir
 #### Perque no hem utilidzat adaptador pont
 Tot i que el adaptador pont ens permet tindre acces a la xarxa fisica i a internet te un problema es que al tindre un servidor  i canviarnos de clase com no es la matexa xarxa la ip assignada al servidor ja no serveis i ens toca canviara cosa que no pasa amb xarxa NAT.
 ### Inici
+
 <img width="1281" height="892" alt="image" src="https://github.com/user-attachments/assets/daaefe25-385f-407d-96df-35bf70efe7c8" />
 
 ***Usuari i contrasenya***
