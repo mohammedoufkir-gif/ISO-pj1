@@ -43,10 +43,8 @@ Hem utilitzat la xarxa NAT per a poder tindre conexio amb les altre maquines vir
 Tot i que el adaptador pont ens permet tindre acces a la xarxa fisica i a internet te un problema es que al tindre un servidor  i canviarnos de clase com no es la matexa xarxa la ip assignada al servidor ja no serveis i ens toca canviara cosa que no pasa amb xarxa NAT.
 ### Inici
 
-<img width="1281" height="892" alt="image" src="https://github.com/user-attachments/assets/daaefe25-385f-407d-96df-35bf70efe7c8" />
+<img width="640" height="446" alt="image" src="https://github.com/user-attachments/assets/daaefe25-385f-407d-96df-35bf70efe7c8" />
 
-***Usuari i contrasenya***
-<img width="882" height="469" alt="image" src="https://github.com/user-attachments/assets/fa3e6ab2-7d92-45e1-9da0-42de5db13246" />
 
 
 ## Llicènciament
