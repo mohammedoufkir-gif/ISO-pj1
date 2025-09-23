@@ -71,7 +71,6 @@ Aquests drets es concedeixen amb les següents limitacions:
 
 - El nom “Ubuntu” i els logotips associats són marques registrades de Canonical Ltd.  
 - No es permet distribuir versions modificades utilitzant el nom ni els logotips oficials sense autorització expressa de Canonical.  
-- L’ús de la marca comercial està subjecte a les [Directrius d’ús de marques de Canonical](https://ubuntu.com/legal/trademark).  
 
 #### 3. Absència de garanties
 
