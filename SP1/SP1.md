@@ -41,11 +41,12 @@ Per a les particions utilidzarem les seguents.
 Hem utilitzat la xarxa NAT per a poder tindre conexio amb les altre maquines virtuals al mateix temps tenint NAT (internet).
 #### Perque no hem utilidzat adaptador pont
 Tot i que el adaptador pont ens permet tindre acces a la xarxa fisica i a internet te un problema es que al tindre un servidor  i canviarnos de clase com no es la matexa xarxa la ip assignada al servidor ja no serveis i ens toca canviara cosa que no pasa amb xarxa NAT.
+
 <img width="666" height="135" alt="image" src="https://github.com/user-attachments/assets/64550fe6-6f2b-4c6a-a567-348485d1d808" />
 
 ### Inici
 
-<img width="640" height="446" alt="image" src="https://github.com/user-attachments/assets/daaefe25-385f-407d-96df-35bf70efe7c8" />
+<img width="320" height="223" alt="image" src="https://github.com/user-attachments/assets/daaefe25-385f-407d-96df-35bf70efe7c8" />
 
 
 
