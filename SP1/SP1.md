@@ -4,13 +4,22 @@
 ## Virtualització i instalacio del SO Ubuntu
 
 ### Creacio de la maquina virtual i requisits minims
-Avans de crea la maquina virtual em de entrar a la pagina  oficial de ubuntu i comprobar quins son els requisits minis del sistema operatiu.
+Abans de crear la maquina virtual hem de entrar a la pagina  oficial de ubuntu i comprobar quins son els requisits minis del sistema operatiu.
 
 Segons la pagina oficial els requisits minims recomendats son de 3 GB de ram.
 <img width="872" height="304" alt="image" src="https://github.com/user-attachments/assets/0782f646-46cd-4cfd-a13a-617b57d53fa0" />
+
 En el nostre cas utilidzarem 4 GB de ram ja que de moment nomes arrancarem una maquina al mateix temps.
 <img width="411" height="152" alt="image" src="https://github.com/user-attachments/assets/33a609b8-addd-4abd-a6fd-2d4e26a11455" />
-De emmagatzematge utilidzarem 80 ja que en un futur ficarem una instalacio dual amb window aixis quedara 40 GB per a ubuntu i 40 per a windows.
+
+De emmagatzematge utilidzarem 80GB ja que en un futur ficarem una instalacio dual amb window aixis quedara 40 GB per a ubuntu i 40 per a windows.
+<img width="941" height="545" alt="Captura de pantalla de 2025-09-22 12-34-14" src="https://github.com/user-attachments/assets/87b9f6fe-a260-4fea-ada9-d0188caf66b2" />
+
+Per a les particions utilidzarem les seguents.
+<img width="451" height="173" alt="image" src="https://github.com/user-attachments/assets/bf043212-5f76-4a67-b69c-e4609fce2f1c" />
+EXT4 15gb => /
+EXT4 2gb => /boot
+EXT4 17gb => /home 
 
 
 
