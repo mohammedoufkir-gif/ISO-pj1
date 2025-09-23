@@ -16,7 +16,9 @@ De emmagatzematge utilidzarem 80GB ja que en un futur ficarem una instalacio dua
 <img width="941" height="545" alt="Captura de pantalla de 2025-09-22 12-34-14" src="https://github.com/user-attachments/assets/87b9f6fe-a260-4fea-ada9-d0188caf66b2" />
 
 Per a les particions utilidzarem les seguents.
+
 <img width="451" height="173" alt="image" src="https://github.com/user-attachments/assets/bf043212-5f76-4a67-b69c-e4609fce2f1c" />
+
 EXT4 15gb => /
 EXT4 2gb => /boot
 EXT4 17gb => /home 
