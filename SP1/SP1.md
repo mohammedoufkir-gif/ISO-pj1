@@ -26,11 +26,11 @@ Per a les particions utilidzarem les seguents.
 
 <img width="451" height="173" alt="image" src="https://github.com/user-attachments/assets/bf043212-5f76-4a67-b69c-e4609fce2f1c" />
 
-EXT4 15gb / => Aquesta es la  particio  del arrel l'em ficat 15 GB per que es on se instala el sistema operatiu i algunes applicacions, amb 15 GB ja es mes que suficient.
+**EXT4 15gb** / => Aquesta es la  particio  del arrel l'em ficat 15 GB per que es on se instala el sistema operatiu i algunes applicacions, amb 15 GB ja es mes que suficient.
 
-EXT4 2gb /boot => La partició de boot l'hem creat per a poder tindre una instal·lació dual utilitzant grub customizer, 2 gb és suficient.
+**EXT4 2gb** /boot => La partició de boot l'hem creat per a poder tindre una instal·lació dual utilitzant grub customizer, 2 gb és suficient.
 
-EXT4 17gb /home => Per a la partició del home he ficat 17 GB tot allò que sobra perquè és on es guarden la gran majoria de arxius dels usuaris com tindrem 1 usuari només i és una màquina virtual 17 GB ja va bé.
+**EXT4 17gb** /home => Per a la partició del home he ficat 17 GB tot allò que sobra perquè és on es guarden la gran majoria de arxius dels usuaris com tindrem 1 usuari només i és una màquina virtual 17 GB ja va bé.
 
 Usuari i contrasenya
 <img width="908" height="815" alt="Captura de pantalla de 2025-09-22 13-11-23" src="https://github.com/user-attachments/assets/623830db-700e-4ab7-9b68-9cfe9b17db71" />
