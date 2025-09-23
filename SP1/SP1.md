@@ -32,7 +32,7 @@ Per a les particions utilidzarem les seguents.
 
 **EXT4 17gb** /home => Per a la partició del home he ficat 17 GB tot allò que sobra perquè és on es guarden la gran majoria de arxius dels usuaris com tindrem 1 usuari només i és una màquina virtual 17 GB ja va bé.
 
-Usuari i contrasenya
+***Usuari i contrasenya***
 <img width="908" height="815" alt="Captura de pantalla de 2025-09-22 13-11-23" src="https://github.com/user-attachments/assets/623830db-700e-4ab7-9b68-9cfe9b17db71" />
 
 
