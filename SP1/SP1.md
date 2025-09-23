@@ -26,6 +26,8 @@ Per a les particions utilidzarem les seguents.
 
 <img width="451" height="173" alt="image" src="https://github.com/user-attachments/assets/bf043212-5f76-4a67-b69c-e4609fce2f1c" />
 
+**SWAP** > Jo no he utilidzat una particio swap j a que considero que per a el us que donaremm i sent una maquina virtual trobo que no es necesari.
+
 **EXT4 15gb** / => Aquesta es la  particio  del arrel l'em ficat 15 GB per que es on se instala el sistema operatiu i algunes applicacions, amb 15 GB ja es mes que suficient.
 
 **EXT4 2gb** /boot => La partició de boot l'hem creat per a poder tindre una instal·lació dual utilitzant grub customizer, 2 gb és suficient.
