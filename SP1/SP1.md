@@ -21,7 +21,7 @@ De emmagatzematge utilidzarem 80GB ja que en un futur ficarem una instalacio dua
 De CPU(nuclis) hem utilitzat només una CPU perquè realment per al ús que li donarem no fa falta res més.
 
 <img width="660" height="259" alt="image" src="https://github.com/user-attachments/assets/a4debaea-4576-4d6d-9d79-e8d83220359e" />
-
+### Particions
 Per a les particions utilidzarem les seguents.
 
 <img width="451" height="173" alt="image" src="https://github.com/user-attachments/assets/bf043212-5f76-4a67-b69c-e4609fce2f1c" />
@@ -34,12 +34,11 @@ Per a les particions utilidzarem les seguents.
 
 **EXT4 17gb** /home => Per a la partició del home he ficat 17 GB tot allò que sobra perquè és on es guarden la gran majoria de arxius dels usuaris com tindrem 1 usuari només i és una màquina virtual 17 GB ja va bé.
 
-***Usuari i contrasenya***
-<img width="882" height="469" alt="image" src="https://github.com/user-attachments/assets/fa3e6ab2-7d92-45e1-9da0-42de5db13246" />
-
-****Inici****
+### Inici
 <img width="1281" height="892" alt="image" src="https://github.com/user-attachments/assets/daaefe25-385f-407d-96df-35bf70efe7c8" />
 
+***Usuari i contrasenya***
+<img width="882" height="469" alt="image" src="https://github.com/user-attachments/assets/fa3e6ab2-7d92-45e1-9da0-42de5db13246" />
 
 
 ## Llicènciament
