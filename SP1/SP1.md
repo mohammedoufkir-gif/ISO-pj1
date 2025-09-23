@@ -50,6 +50,38 @@ Tot i que el adaptador pont ens permet tindre acces a la xarxa fisica i a intern
 
 
 ## Llicènciament
+### Llicència d’ús d’Ubuntu
+
+Ubuntu és programari lliure i de codi obert.  
+Aquest sistema operatiu es distribueix sota els termes de la GNU General Public License (GPL) i altres llicències lliures compatibles.
+
+#### 1. Drets atorgats
+
+Se’t concedeix el dret a:
+
+- Utilitzar Ubuntu de manera gratuïta, tant en àmbits personals com professionals.  
+- Copiar i redistribuir Ubuntu en qualsevol suport o mitjà.  
+- Accedir al codi font i estudiar-ne el funcionament.  
+- Modificar el programari i crear obres derivades.  
+- Redistribuir versions modificades, sempre que es mantingui la mateixa llicència lliure aplicable.  
+
+#### 2. Limitacions
+
+Aquests drets es concedeixen amb les següents limitacions:
+
+- El nom “Ubuntu” i els logotips associats són marques registrades de Canonical Ltd.  
+- No es permet distribuir versions modificades utilitzant el nom ni els logotips oficials sense autorització expressa de Canonical.  
+- L’ús de la marca comercial està subjecte a les [Directrius d’ús de marques de Canonical](https://ubuntu.com/legal/trademark).  
+
+#### 3. Absència de garanties
+
+Ubuntu es proporciona **sense cap garantia**.  
+Ni els autors ni Canonical es fan responsables de possibles danys derivats de l’ús, la modificació o la redistribució del programari.
+
+#### 4. Acceptació
+
+En instal·lar, executar o redistribuir Ubuntu, acceptes els termes establerts en aquesta llicència i en les llicències individuals de cada component.
+
 ## Gestors d'arrencada per a instalacions DUALS
 ## Punts de restauracio 
 ## Configuracio de la xarxa
