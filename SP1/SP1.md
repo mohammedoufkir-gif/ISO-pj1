@@ -46,7 +46,7 @@ Tot i que el adaptador pont ens permet tindre acces a la xarxa fisica i a intern
 
 ### Inici
 
-<img width="320" height="223" alt="image" src="https://github.com/user-attachments/assets/daaefe25-385f-407d-96df-35bf70efe7c8" />
+<img width="460" height="334" alt="image" src="https://github.com/user-attachments/assets/daaefe25-385f-407d-96df-35bf70efe7c8" />
 
 
 
