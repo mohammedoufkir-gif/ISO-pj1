@@ -83,6 +83,14 @@ Ni els autors ni Canonical es fan responsables de possibles danys derivats de l�
 En instal·lar, executar o redistribuir Ubuntu, acceptes els termes establerts en aquesta llicència i en les llicències individuals de cada component.
 
 ## Gestors d'arrencada per a instalacions DUALS
+#Instalacio de windows 10 
+Arranquem amb la ISO de windows 10
+<img width="364" height="95" alt="image" src="https://github.com/user-attachments/assets/b28d5cbb-f11d-489e-938f-23e3f7579f27" />
+
+#Arrancar amb super grub
+
+#Arreglar la paricio  de arranc
+Coprobacio 
 ## Punts de restauracio 
 ## Configuracio de la xarxa
 ## Comandes generals i instal·lacions
