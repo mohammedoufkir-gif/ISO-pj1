@@ -173,6 +173,8 @@ Primer instalem el timeshift
 <br/>
 
 Formatem el disc com a ext 4
+<br/>
+
 <img width="753" height="527" alt="Captura de pantalla de 2025-10-07 13-12-26" src="https://github.com/user-attachments/assets/ac62847c-18b9-457a-a272-bfbe96d170b2" />
 <br/>
 Arranquem el timeshift
