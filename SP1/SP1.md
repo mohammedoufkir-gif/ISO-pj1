@@ -241,5 +241,19 @@ Ara podem comproba que tanrt hola com adeu se han restaurat correctament
 <img width="771" height="280" alt="image" src="https://github.com/user-attachments/assets/cbe1d895-ec31-42fd-bddf-11bc7939266f" />
 
 ## Configuracio de la xarxa
+Modifiquem els parametes de xarxa amb la iterficie grafica
+<img width="774" height="528" alt="image" src="https://github.com/user-attachments/assets/59147f2f-4dd0-4ea8-9168-c152c9c372ea" />
+<img width="774" height="528" alt="image" src="https://github.com/user-attachments/assets/14530130-3c5f-4997-90ac-22670769eec7" />
+<img width="818" height="216" alt="image" src="https://github.com/user-attachments/assets/2cedbf4d-6d93-4388-91df-c6f312220629" />
+<img width="762" height="385" alt="image" src="https://github.com/user-attachments/assets/f944efcc-18ee-4eac-ab88-3d82bf8a5bf5" />
+
+
+<img width="523" height="27" alt="image" src="https://github.com/user-attachments/assets/44a53349-1487-4f68-9e38-f96fee579c58" />
+<img width="797" height="312" alt="image" src="https://github.com/user-attachments/assets/f512cff2-09b6-4daf-9741-338c44878697" />
+<img width="797" height="312" alt="image" src="https://github.com/user-attachments/assets/1a86948f-b737-40f3-a828-96482cd51591" />
+
+
+
+
 ## Comandes generals i instal·lacions
 
