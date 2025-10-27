@@ -276,6 +276,8 @@ Comprobem el acces a internet
 ## Comandes generals i instal·lacions
 
 apt-cache policy  paquet
+<br/>
+
 amb aquesta comanda podem comprobar quines vercions de un paquet tenim disponibles
 <br/>
 <img width="905" height="203" alt="image" src="https://github.com/user-attachments/assets/9188b3e8-dfe1-47af-b813-46f6fe52ba20" />
@@ -288,8 +290,14 @@ Per a canviar el paquet que se instala per defecte hem de crear un nou archiu /e
 <br/>
 
 A dins del archiu afegim la seguent informacio
+<br/>
+
 Package: Nom del paquet
+<br/>
+
 Pin: version la vercio
+<br/>
+
 Pin-Priority: la prioritat que li volem assignar
 <br/>
 
