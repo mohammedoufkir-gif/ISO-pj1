@@ -1,4 +1,3 @@
-<img width="579" height="64" alt="Captura de pantalla de 2025-10-06 12-35-21" src="https://github.com/user-attachments/assets/438ed792-d22e-45cf-a243-b1025fdb0701" />
 # Sprint 1: Instal·lació, Configuració Inicial i Programari de Base (13h)
 
 ## Virtualització i instalacio del SO Ubuntu
@@ -84,10 +83,15 @@ En instal·lar, executar o redistribuir Ubuntu, acceptes els termes establerts e
 
 ## Gestors d'arrencada per a instalacions DUALS
 # Instalacio de windows 10 
+
 Arranquem amb la ISO de windows 10
 <br/>
 <img width="364" height="95" alt="image" src="https://github.com/user-attachments/assets/b28d5cbb-f11d-489e-938f-23e3f7579f27" />
+<br/>
+
 Fem una instalacio normal fins a la part de les particions
+<br/>
+
 <img width="709" height="537" alt="Captura de pantalla de 2025-09-30 13-28-19" src="https://github.com/user-attachments/assets/0366236b-5bd8-4b6d-9efa-2eba99e226a5" />
 <br/>
 
@@ -96,10 +100,12 @@ Per a arrancar amb lo super grub hem de inseri la ISO
 <br/>
 
 <img width="336" height="200" alt="Captura de pantalla de 2025-10-06 11-58-25" src="https://github.com/user-attachments/assets/403e95e5-7528-455b-9767-2da0e935547f" />
+<br/>
 
-em de arrancar amb la iso de super grub
+Hem d'arrancar amb la iso de super grub
 <br/>
 <img width="660" height="487" alt="Captura de pantalla de 2025-10-06 11-58-58" src="https://github.com/user-attachments/assets/42cfd84c-dd73-4c9b-9092-2af922b27750" />
+<br/>
 
 Arranquem amb ubuntu
 <br/>
@@ -109,11 +115,13 @@ Arranquem amb ubuntu
 Vale una vegada a dins de ubuntu per a arreglar la particio de arranc primner la hem de identificar
 <br/>
 <img width="733" height="204" alt="Captura desde 2025-10-06 12-37-39" src="https://github.com/user-attachments/assets/1a1c12c1-520e-40a8-8d12-3bf095301095" />
+<br/>
 
 
 I hem de muntarla 
 <br/>
 <img width="579" height="64" alt="Captura de pantalla de 2025-10-06 12-35-21" src="https://github.com/user-attachments/assets/cee2490e-7e77-4c0d-8aa9-8bc19666812e" />
+<br/>
 
 Ara editem el archiu /etc/defaul/grub
 <br/>
@@ -139,6 +147,7 @@ Instalem el efibootmgr
 <br/>
 
 <img width="525" height="98" alt="Captura desde 2025-10-06 12-51-32" src="https://github.com/user-attachments/assets/c7479cd3-ace8-4a99-9e02-2ef51155c2e9" />
+<br/>
 
 Executem el efibootmgr
 <br/>
@@ -152,10 +161,14 @@ Una vegada fet ja funcionara el boot
 
 ## Punts de restauracio 
 Primner afegim un disc per a le copies de seguretat
+<br/>
+
 <img width="209" height="166" alt="image" src="https://github.com/user-attachments/assets/be1a8784-2817-4fd3-a605-682434ed6e18" />
 <br/>
 
 Primer instalem el timeshift
+<br/>
+
 <img width="753" height="527" alt="Captura de pantalla de 2025-10-07 13-09-21" src="https://github.com/user-attachments/assets/89b9a3d9-17ef-437f-841a-e7882d068ecc" />
 <br/>
 
@@ -168,36 +181,57 @@ Arranquem el timeshift
 
 <br/>
 Confegurem una copia de seguretat cada que arranca el SO
+<br/>
+
 <img width="723" height="737" alt="Captura de pantalla de 2025-10-07 13-15-55" src="https://github.com/user-attachments/assets/999d1bf6-1f3c-4769-aee2-12480a925d26" />
 <br/>
+
 Seleccionem el directori /home/mohamed
+<br/>
+
 <img width="926" height="707" alt="Captura de pantalla de 2025-10-07 13-16-12" src="https://github.com/user-attachments/assets/98727b39-08b7-45e1-882f-7dbb4e27e1f3" />
+<br/>
+
 Cremn archius de prova 
+<br/>
+
 <img width="926" height="707" alt="Captura de pantalla de 2025-10-07 13-16-43" src="https://github.com/user-attachments/assets/bdc2b002-27f8-40a5-809f-9417dab52ee1" />
 
 <br/>
 Reiniciem el dispositiu per a poder veure que se ha creat la copia correctament
+<br/>
+
 <img width="608" height="63" alt="image" src="https://github.com/user-attachments/assets/3782c683-23c0-42ff-84e0-cb1f893f58e8" />
 
 <br/>
 Eleminem els archius hola i adeu 
+<br/>
+
 <img width="692" height="255" alt="image" src="https://github.com/user-attachments/assets/dd2f363e-592f-4dc3-b0f4-7ac368abc471" />
 
 <br/>
 Ara restaurem
+<br/>
+
 <img width="504" height="594" alt="image" src="https://github.com/user-attachments/assets/16d63cf2-dc06-4eba-90c1-904489954890" />
 <br/>
 
 I seleccionem els archius que volem restaura
+<br/>
+
 <img width="504" height="594" alt="image" src="https://github.com/user-attachments/assets/40d4554f-dc10-4f1a-9df6-d00f2bbc4cf5" />
 <br/>
 
 Ye comensara fer  la restauracio 
+<br/>
+
 <img width="1286" height="802" alt="image" src="https://github.com/user-attachments/assets/72fa4509-1b96-4e17-8f64-9b5eb35b29d5" />
 
 
 <br/>
 Ara podem comproba que tanrt hola com adeu se han restaurat correctament
+
+<br/>
 <img width="771" height="280" alt="image" src="https://github.com/user-attachments/assets/cbe1d895-ec31-42fd-bddf-11bc7939266f" />
 
 ## Configuracio de la xarxa
