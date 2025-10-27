@@ -85,9 +85,15 @@ En instal·lar, executar o redistribuir Ubuntu, acceptes els termes establerts e
 ## Gestors d'arrencada per a instalacions DUALS
 #Instalacio de windows 10 
 Arranquem amb la ISO de windows 10
+<br/>
 <img width="364" height="95" alt="image" src="https://github.com/user-attachments/assets/b28d5cbb-f11d-489e-938f-23e3f7579f27" />
 
 #Arrancar amb super grub
+Per a arrancar amb lo super grub hem de inseri la ISO
+<img width="336" height="200" alt="Captura de pantalla de 2025-10-06 11-58-25" src="https://github.com/user-attachments/assets/403e95e5-7528-455b-9767-2da0e935547f" />
+
+em de arrancar amb la iso de super grub
+<img width="660" height="487" alt="Captura de pantalla de 2025-10-06 11-58-58" src="https://github.com/user-attachments/assets/42cfd84c-dd73-4c9b-9092-2af922b27750" />
 
 #Arreglar la paricio  de arranc
 Coprobacio 
