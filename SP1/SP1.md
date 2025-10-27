@@ -112,7 +112,25 @@ I hem de muntarla
 <br/>
 <img width="579" height="64" alt="Captura de pantalla de 2025-10-06 12-35-21" src="https://github.com/user-attachments/assets/cee2490e-7e77-4c0d-8aa9-8bc19666812e" />
 
-Coprobacio 
+Ara editem el archiu /etc/defaul/grub
+<br/>
+<img width="622" height="80" alt="Captura desde 2025-10-06 12-50-31" src="https://github.com/user-attachments/assets/41be5ca3-c9f1-4d63-82cc-fb9989de9bed" />
+I ara comeentem les lines seleccionades
+<br/>
+<img width="674" height="178" alt="Captura desde 2025-10-06 12-50-40" src="https://github.com/user-attachments/assets/37c18bdb-75c8-461e-b29c-61cd298b46ca" />
+Affegim la deguent linea:
+<br/>
+<img width="674" height="178" alt="Captura desde 2025-10-06 12-50-42" src="https://github.com/user-attachments/assets/e15b3347-8122-490e-bfbd-6308a38a45f0" />
+
+Actualisem el grub
+<img width="525" height="51" alt="Captura desde 2025-10-06 12-51-15" src="https://github.com/user-attachments/assets/7a703bbd-0b4a-41f9-8472-5cdf7f55eebb" />
+Instalem el efibootmgr
+<img width="525" height="98" alt="Captura desde 2025-10-06 12-51-32" src="https://github.com/user-attachments/assets/c7479cd3-ace8-4a99-9e02-2ef51155c2e9" />
+Executem el efibootmgr
+
+<img width="537" height="229" alt="Captura desde 2025-10-06 12-51-43" src="https://github.com/user-attachments/assets/2d4cd015-afe9-4aae-abc2-8978d857f3cf" />
+Una vegada fet ja funcionara el boot
+
 ## Punts de restauracio 
 ## Configuracio de la xarxa
 ## Comandes generals i instal·lacions
