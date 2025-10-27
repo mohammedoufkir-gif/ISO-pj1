@@ -126,17 +126,23 @@ Afegim la seguent linea:
 <br/>
 <img width="674" height="178" alt="Captura desde 2025-10-06 12-50-42" src="https://github.com/user-attachments/assets/e15b3347-8122-490e-bfbd-6308a38a45f0" />
 <br/>
-Actualisem el grub
+Actualidsem el grub
+<br/>
+
 <img width="525" height="51" alt="Captura desde 2025-10-06 12-51-15" src="https://github.com/user-attachments/assets/7a703bbd-0b4a-41f9-8472-5cdf7f55eebb" />
 <br/>
 
 Instalem el efibootmgr
-<img width="525" height="98" alt="Captura desde 2025-10-06 12-51-32" src="https://github.com/user-attachments/assets/c7479cd3-ace8-4a99-9e02-2ef51155c2e9" />
 <br/>
 
+<img width="525" height="98" alt="Captura desde 2025-10-06 12-51-32" src="https://github.com/user-attachments/assets/c7479cd3-ace8-4a99-9e02-2ef51155c2e9" />
+
 Executem el efibootmgr
+<br/>
 
 <img width="537" height="229" alt="Captura desde 2025-10-06 12-51-43" src="https://github.com/user-attachments/assets/2d4cd015-afe9-4aae-abc2-8978d857f3cf" />
+<br/>
+
 Una vegada fet ja funcionara el boot
 
 ## Punts de restauracio 
