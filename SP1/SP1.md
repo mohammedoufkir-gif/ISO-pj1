@@ -105,7 +105,7 @@ Arranquem amb ubuntu
 <br/>
 <img width="634" height="544" alt="Captura de pantalla de 2025-10-06 11-59-14" src="https://github.com/user-attachments/assets/08c2bbd6-e8f2-4795-9969-1cb6ee7ae713" />
 
-#Arreglar la paricio  de arranc
+# Arreglar la paricio  de arranc
 Vale una vegada a dins de ubuntu per a arreglar la particio de arranc primner la hem de identificar
 <br/>
 <img width="733" height="204" alt="Captura desde 2025-10-06 12-37-39" src="https://github.com/user-attachments/assets/1a1c12c1-520e-40a8-8d12-3bf095301095" />
@@ -150,6 +150,54 @@ Una vegada fet ja funcionara el boot
 <img width="884" height="503" alt="image" src="https://github.com/user-attachments/assets/6d7db200-718d-4b2f-977e-a22ed52b3df2" />
 
 ## Punts de restauracio 
+Primner afegim un disc per a le copies de seguretat
+<img width="209" height="166" alt="image" src="https://github.com/user-attachments/assets/be1a8784-2817-4fd3-a605-682434ed6e18" />
+<br/>
+
+Primer instalem el timeshift
+<img width="753" height="527" alt="Captura de pantalla de 2025-10-07 13-09-21" src="https://github.com/user-attachments/assets/89b9a3d9-17ef-437f-841a-e7882d068ecc" />
+<br/>
+
+Formatem el disc com a ext 4
+<img width="753" height="527" alt="Captura de pantalla de 2025-10-07 13-12-26" src="https://github.com/user-attachments/assets/ac62847c-18b9-457a-a272-bfbe96d170b2" />
+<br/>
+Arranquem el timeshift
+<img width="723" height="737" alt="Captura de pantalla de 2025-10-07 13-15-18" src="https://github.com/user-attachments/assets/1b5ad397-0863-40d2-b09e-0b0bb6689543" />
+
+<br/>
+Confegurem una copia de seguretat cada que arranca el disc
+<img width="723" height="737" alt="Captura de pantalla de 2025-10-07 13-15-55" src="https://github.com/user-attachments/assets/999d1bf6-1f3c-4769-aee2-12480a925d26" />
+<br/>
+Seleccionem el directori /home/mohamed
+<img width="926" height="707" alt="Captura de pantalla de 2025-10-07 13-16-12" src="https://github.com/user-attachments/assets/98727b39-08b7-45e1-882f-7dbb4e27e1f3" />
+Cremn archius de prova 
+<img width="926" height="707" alt="Captura de pantalla de 2025-10-07 13-16-43" src="https://github.com/user-attachments/assets/bdc2b002-27f8-40a5-809f-9417dab52ee1" />
+
+<br/>
+Reiniciem el dispositiu per a poder veure que se ha creat la copia correctament
+<img width="608" height="63" alt="image" src="https://github.com/user-attachments/assets/3782c683-23c0-42ff-84e0-cb1f893f58e8" />
+
+<br/>
+Eleminem els archius hola i adeu 
+<img width="692" height="255" alt="image" src="https://github.com/user-attachments/assets/dd2f363e-592f-4dc3-b0f4-7ac368abc471" />
+
+<br/>
+Ara restaurem
+<img width="504" height="594" alt="image" src="https://github.com/user-attachments/assets/16d63cf2-dc06-4eba-90c1-904489954890" />
+<br/>
+
+I seleccionem els archius que volem restaura
+<img width="504" height="594" alt="image" src="https://github.com/user-attachments/assets/40d4554f-dc10-4f1a-9df6-d00f2bbc4cf5" />
+<br/>
+
+Ye comensara fer  la restauracio 
+<img width="1286" height="802" alt="image" src="https://github.com/user-attachments/assets/72fa4509-1b96-4e17-8f64-9b5eb35b29d5" />
+
+
+<br/>
+Ara podem comproba que tanrt hola com adeu se han restaurat correctament
+<img width="771" height="280" alt="image" src="https://github.com/user-attachments/assets/cbe1d895-ec31-42fd-bddf-11bc7939266f" />
+
 ## Configuracio de la xarxa
 ## Comandes generals i instal·lacions
 
