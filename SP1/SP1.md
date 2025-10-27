@@ -275,3 +275,39 @@ Comprobem el acces a internet
 
 ## Comandes generals i instal·lacions
 
+apt-cache policy  paquet
+amb aquesta comanda podem comprobar quines vercions de un paquet tenim disponibles
+<br/>
+<img width="905" height="203" alt="image" src="https://github.com/user-attachments/assets/9188b3e8-dfe1-47af-b813-46f6fe52ba20" />
+<br/>
+
+Per a canviar el paquet que se instala per defecte hem de crear un nou archiu /etc/apt/preferences.d/nom_del_paquet 
+<br/>
+
+<img width="894" height="54" alt="image" src="https://github.com/user-attachments/assets/6ab6a8ad-a016-4a8e-b893-eb2d16e5c687" />
+<br/>
+
+A dins del archiu afegim la seguent informacio
+Package: Nom del paquet
+Pin: version la vercio
+Pin-Priority: la prioritat que li volem assignar
+<br/>
+
+<img width="653" height="173" alt="image" src="https://github.com/user-attachments/assets/dcaa9d85-3ccc-46d2-8b4d-8ed53750ff61" />
+
+<br/>
+si tornem a executar la comanda apt-cache policy  audacity podem veure que ara la vercio que se instla per defecte altra i te 1000 de prioritat 
+<br/>
+
+<img width="872" height="215" alt="image" src="https://github.com/user-attachments/assets/3ebd1d2c-7114-44f7-9581-436aff234b04" />
+<br/>
+
+Ara si instalem amb un apt install normal ens instalara la vercio que hem indicat alarchiu sempre que li agesim assignat mes prioritat
+<br/>
+
+<img width="868" height="268" alt="image" src="https://github.com/user-attachments/assets/c90b89d2-573d-46d9-bf91-f3e5e22e5a85" />
+<br/>
+
+:)
+
+
