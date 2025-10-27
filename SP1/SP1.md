@@ -87,6 +87,9 @@ En instal·lar, executar o redistribuir Ubuntu, acceptes els termes establerts e
 Arranquem amb la ISO de windows 10
 <br/>
 <img width="364" height="95" alt="image" src="https://github.com/user-attachments/assets/b28d5cbb-f11d-489e-938f-23e3f7579f27" />
+Fem una instalacio normal fins a la part de les particions
+<img width="709" height="537" alt="Captura de pantalla de 2025-09-30 13-28-19" src="https://github.com/user-attachments/assets/0366236b-5bd8-4b6d-9efa-2eba99e226a5" />
+<br/>
 
 # Arrancar amb super grub
 Per a arrancar amb lo super grub hem de inseri la ISO
@@ -144,6 +147,7 @@ Executem el efibootmgr
 <br/>
 
 Una vegada fet ja funcionara el boot
+<img width="884" height="503" alt="image" src="https://github.com/user-attachments/assets/6d7db200-718d-4b2f-977e-a22ed52b3df2" />
 
 ## Punts de restauracio 
 ## Configuracio de la xarxa
