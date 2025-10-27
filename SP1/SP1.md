@@ -1,5 +1,7 @@
-# Sprint 1: Instal·lació, Configuració Inicial i Programari de Base (13h)
-
+---
+layout: default
+title: "Sprint 1: Instalacio i Configuracio inicial"
+---
 ## Virtualització i instalacio del SO Ubuntu
 
 ### Creacio de la maquina virtual i requisits minims
