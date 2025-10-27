@@ -242,15 +242,36 @@ Ara podem comproba que tanrt hola com adeu se han restaurat correctament
 
 ## Configuracio de la xarxa
 Modifiquem els parametes de xarxa amb la iterficie grafica
+<br/>
+
 <img width="774" height="528" alt="image" src="https://github.com/user-attachments/assets/59147f2f-4dd0-4ea8-9168-c152c9c372ea" />
+<br/>
+Comprobem que se han modificat les configuracions de xarxa amb ip a
+<br/>
 <img width="774" height="528" alt="image" src="https://github.com/user-attachments/assets/14530130-3c5f-4997-90ac-22670769eec7" />
+<br/>
+Comprobem el acces a internet
+<br/>
 <img width="818" height="216" alt="image" src="https://github.com/user-attachments/assets/2cedbf4d-6d93-4388-91df-c6f312220629" />
+<br/>
+Araconfigurem utilidzant el netplan per fer-ho modifiquem el archiu /etc/netplan/50-cloud-init.yaml.
+<br/>
+
 <img width="762" height="385" alt="image" src="https://github.com/user-attachments/assets/f944efcc-18ee-4eac-ab88-3d82bf8a5bf5" />
+<br/>
 
-
+Appliquem la configuracio amb la comanda netplan apply
+<br/>
 <img width="523" height="27" alt="image" src="https://github.com/user-attachments/assets/44a53349-1487-4f68-9e38-f96fee579c58" />
+comprobem que se ha aplicat la configuracio correctament
+<br/>
 <img width="797" height="312" alt="image" src="https://github.com/user-attachments/assets/f512cff2-09b6-4daf-9741-338c44878697" />
-<img width="797" height="312" alt="image" src="https://github.com/user-attachments/assets/1a86948f-b737-40f3-a828-96482cd51591" />
+<br/>
+Comprobem el acces a internet
+<br/>
+<img width="809" height="147" alt="image" src="https://github.com/user-attachments/assets/3bf6983c-2a6b-4fe1-b47d-c2cee9c04a74" />
+
+<br/>
 
 
 
