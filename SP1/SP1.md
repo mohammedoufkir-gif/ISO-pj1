@@ -156,6 +156,8 @@ Executem el efibootmgr
 <br/>
 
 Una vegada fet ja funcionara el boot
+<br/>
+
 <img width="884" height="503" alt="image" src="https://github.com/user-attachments/assets/6d7db200-718d-4b2f-977e-a22ed52b3df2" />
 <br/>
 
