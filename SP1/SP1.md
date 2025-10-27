@@ -148,6 +148,7 @@ Executem el efibootmgr
 
 Una vegada fet ja funcionara el boot
 <img width="884" height="503" alt="image" src="https://github.com/user-attachments/assets/6d7db200-718d-4b2f-977e-a22ed52b3df2" />
+<br/>
 
 ## Punts de restauracio 
 Primner afegim un disc per a le copies de seguretat
@@ -162,10 +163,11 @@ Formatem el disc com a ext 4
 <img width="753" height="527" alt="Captura de pantalla de 2025-10-07 13-12-26" src="https://github.com/user-attachments/assets/ac62847c-18b9-457a-a272-bfbe96d170b2" />
 <br/>
 Arranquem el timeshift
+<br/>
 <img width="723" height="737" alt="Captura de pantalla de 2025-10-07 13-15-18" src="https://github.com/user-attachments/assets/1b5ad397-0863-40d2-b09e-0b0bb6689543" />
 
 <br/>
-Confegurem una copia de seguretat cada que arranca el disc
+Confegurem una copia de seguretat cada que arranca el SO
 <img width="723" height="737" alt="Captura de pantalla de 2025-10-07 13-15-55" src="https://github.com/user-attachments/assets/999d1bf6-1f3c-4769-aee2-12480a925d26" />
 <br/>
 Seleccionem el directori /home/mohamed
