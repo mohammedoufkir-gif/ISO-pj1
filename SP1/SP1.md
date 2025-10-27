@@ -1,4 +1,4 @@
-
+<img width="579" height="64" alt="Captura de pantalla de 2025-10-06 12-35-21" src="https://github.com/user-attachments/assets/438ed792-d22e-45cf-a243-b1025fdb0701" />
 # Sprint 1: Instal·lació, Configuració Inicial i Programari de Base (13h)
 
 ## Virtualització i instalacio del SO Ubuntu
@@ -90,12 +90,28 @@ Arranquem amb la ISO de windows 10
 
 #Arrancar amb super grub
 Per a arrancar amb lo super grub hem de inseri la ISO
+<br/>
+
 <img width="336" height="200" alt="Captura de pantalla de 2025-10-06 11-58-25" src="https://github.com/user-attachments/assets/403e95e5-7528-455b-9767-2da0e935547f" />
 
 em de arrancar amb la iso de super grub
+<br/>
 <img width="660" height="487" alt="Captura de pantalla de 2025-10-06 11-58-58" src="https://github.com/user-attachments/assets/42cfd84c-dd73-4c9b-9092-2af922b27750" />
 
+Arranquem amb ubuntu
+<br/>
+<img width="634" height="544" alt="Captura de pantalla de 2025-10-06 11-59-14" src="https://github.com/user-attachments/assets/08c2bbd6-e8f2-4795-9969-1cb6ee7ae713" />
+
 #Arreglar la paricio  de arranc
+Vale una vegada a dins de ubuntu per a arreglar la particio de arranc primner la hem de identificar
+<br/>
+<img width="733" height="204" alt="Captura desde 2025-10-06 12-37-39" src="https://github.com/user-attachments/assets/1a1c12c1-520e-40a8-8d12-3bf095301095" />
+
+
+I hem de muntarla 
+<br/>
+<img width="579" height="64" alt="Captura de pantalla de 2025-10-06 12-35-21" src="https://github.com/user-attachments/assets/cee2490e-7e77-4c0d-8aa9-8bc19666812e" />
+
 Coprobacio 
 ## Punts de restauracio 
 ## Configuracio de la xarxa
