@@ -122,11 +122,10 @@ I ara comeentem les lines seleccionades
 <img width="674" height="178" alt="Captura desde 2025-10-06 12-50-40" src="https://github.com/user-attachments/assets/37c18bdb-75c8-461e-b29c-61cd298b46ca" />
 <br/>
 
-Affegim la deguent linea:
+Afegim la seguent linea:
 <br/>
 <img width="674" height="178" alt="Captura desde 2025-10-06 12-50-42" src="https://github.com/user-attachments/assets/e15b3347-8122-490e-bfbd-6308a38a45f0" />
 <br/>
-
 Actualisem el grub
 <img width="525" height="51" alt="Captura desde 2025-10-06 12-51-15" src="https://github.com/user-attachments/assets/7a703bbd-0b4a-41f9-8472-5cdf7f55eebb" />
 <br/>
