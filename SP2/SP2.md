@@ -8,6 +8,7 @@ La mida del sector és la unitat mínima **física** on es guarden les dades en 
 ### Mida de bloc
 La mida del bloc (o *cluster*) és la unitat mínima **lògica** on es guarden les dades a nivell de sistema operatiu.  
 Per defecte és de **4096 bytes (4 KB)**, equivalent a 8 sectors.  
+
 Creem un fixer amb echo.
 
 Despres fem du -b per veure la mida del fixer.
