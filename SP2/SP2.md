@@ -8,6 +8,7 @@ La mida del sector és la unitat mínima **física** on es guarden les dades en 
 ### Mida de bloc
 La mida del bloc (o *cluster*) és la unitat mínima **lògica** on es guarden les dades a nivell de sistema operatiu.  
 Per defecte és de **4096 bytes (4 KB)**, equivalent a 8 sectors.  
+<img width="853" height="105" alt="image" src="https://github.com/user-attachments/assets/5a5782bf-aee4-4626-8b1e-454b49258725" />
 
 Creem un fixer amb echo.
 
@@ -72,6 +73,8 @@ Eina gràfica per:
 <img width="902" height="313" alt="image" src="https://github.com/user-attachments/assets/95878d7d-b2ba-42ae-bf43-55fc07c08cc2" />
 
 <img width="602" height="487" alt="image" src="https://github.com/user-attachments/assets/59939785-43e6-4ff9-85a4-2179e4c8848e" />
+<img width="799" height="366" alt="image" src="https://github.com/user-attachments/assets/c5c5ece0-27bc-4766-b479-d8c357d53a17" />
+<img width="799" height="366" alt="image" src="https://github.com/user-attachments/assets/96e604dc-5ab9-4bc7-8b4d-188c37b5c6ea" />
 
 ---
 
