@@ -121,20 +121,21 @@ Com hem montat la particio manualment si reinciem la maquina, tornem a aquesedir
 
 <img width="468" height="100" alt="Captura de pantalla de 2025-10-27 13-13-55" src="https://github.com/user-attachments/assets/81c185fc-1d5d-40ae-8473-7cde9a7a4f96" />
 
-Ara tornem a muntar la particio,
+Ara tornem a muntar la particio.
 
 <img width="575" height="84" alt="Captura de pantalla de 2025-10-27 13-14-30" src="https://github.com/user-attachments/assets/a196bfc1-8f12-4301-8c47-557ef0914275" />
 
-I comprobem que tormen a tindre la carpeta creada anteriorment,
+I comprobem que tormen a tindre la carpeta creada anteriorment.
 
-<img width="575" height="84" alt="Captura de pantalla de 2025-10-27 13-14-30" src="https://github.com/user-attachments/assets/2273ca11-7140-4d0a-a37a-99c439ce3f7c" />
+<img width="575" height="84" alt="Captura de pantalla de 2025-10-27 13-15-16" src="https://github.com/user-attachments/assets/c464d4ee-2170-44b6-b8af-7a8ae86c0d11" />
 
 
-Ara per a poder tindtre sempre montada la particio, modifiquem el fixer /etc/fstab  i afegim la seguen linea,
+Ara per a poder tindtre sempre montada la particio, modifiquem el fixer /etc/fstab  i afegim la seguen linea.
 
 <img width="575" height="84" alt="Captura de pantalla de 2025-10-27 13-16-27" src="https://github.com/user-attachments/assets/e0e605d6-af09-408d-8598-f5cbd6b3eae8" />
 
-Ara reiniciem el sistema i comprobem que ja no es necesari mota la particio ja que es fa automaticamnet,
+Ara reiniciem el sistema i comprobem que ja no es necesari mota la particio ja que es fa automaticamnet.
+
 <img width="458" height="121" alt="Captura de pantalla de 2025-10-27 13-18-22" src="https://github.com/user-attachments/assets/f1587aca-bcd8-4130-86f9-8f41f6f681de" />
 
 
