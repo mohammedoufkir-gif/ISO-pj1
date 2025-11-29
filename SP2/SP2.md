@@ -66,6 +66,12 @@ Eina gràfica per:
 - Eliminar  
 - Formatar  
 - Veure sistemes de fitxers
+#### Creacio de particions amb GParted
+<img width="816" height="561" alt="image" src="https://github.com/user-attachments/assets/6a000586-4d9f-4094-83a3-2f386e563388" />
+<img width="602" height="487" alt="image" src="https://github.com/user-attachments/assets/2c6f3529-d029-4396-bc52-5dc414cdf473" />
+<img width="902" height="313" alt="image" src="https://github.com/user-attachments/assets/95878d7d-b2ba-42ae-bf43-55fc07c08cc2" />
+
+<img width="602" height="487" alt="image" src="https://github.com/user-attachments/assets/59939785-43e6-4ff9-85a4-2179e4c8848e" />
 
 ---
 
