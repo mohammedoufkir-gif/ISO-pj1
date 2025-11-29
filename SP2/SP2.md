@@ -142,6 +142,32 @@ Ara reiniciem el sistema i comprobem que ja no es necesari mota la particio ja q
 
 ## Gestió de procesos
 ## Gestió d'usuaris i grups i permisos
+
+A Ubuntu hi ha una alternativa amb interfície gràfica per fer aquesta tasca de manera més senzilla: gnome-system-tools.
+
+<img width="741" height="444" alt="image" src="https://github.com/user-attachments/assets/3cb7aea4-552a-4cec-8f02-ddb4f158d927" />
+
+### fixers implicats
+
+Passwd 
+/etc/passwd: Guarda la informació bàsica de l'usuari (nom, identificadors UID/GID, directori home i shell d'inici).
+
+<img width="831" height="515" alt="Captura de pantalla de 2025-11-04 12-52-30" src="https://github.com/user-attachments/assets/bb4e3da7-0f5d-46a4-bacc-3c1e411e6f93" />
+
+Group 
+/etc/group: Guarda la definició dels grups (nom del grup, GID) i la llista dels membres de cada grup.
+
+<img width="831" height="515" alt="Captura de pantalla de 2025-11-04 12-55-32" src="https://github.com/user-attachments/assets/32d0024e-372e-4442-a22a-b709cee31483" />
+
+Shadow 
+/etc/shadow: Guarda la contrasenya xifrada (hash) de l'usuari i les polítiques de caducitat (quan es va canviar, quan s'ha de canviar, etc.).
+
+<img width="831" height="515" alt="Captura de pantalla de 2025-11-04 12-56-54" src="https://github.com/user-attachments/assets/1dca2ba6-aa7c-468b-9168-e338479dc707" />
+gshadow 
+/etc/gshadow: Guarda la contrasenya xifrada del grup (si se n'utilitza) i la llista dels administradors del grup.
+<img width="831" height="515" alt="Captura de pantalla de 2025-11-04 12-58-20" src="https://github.com/user-attachments/assets/d4dc965a-589b-4558-9394-85bdc6147971" />
+
+
 ## Còpies de seguretat i automatització de tasques
 ## Quotes d'usuari
 
