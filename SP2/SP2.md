@@ -243,6 +243,7 @@ per a modificar els permisos podem utilidzar chmod
 
 <img width="619" height="114" alt="image" src="https://github.com/user-attachments/assets/5da3f0c9-b421-4bb5-806a-e1c50e17f2c8" />
 
+---
 per a fer les proves creemun grup palomes
 
 <img width="725" height="98" alt="Captura de pantalla de 2025-11-18 13-43-43" src="https://github.com/user-attachments/assets/462617c6-9d13-406f-8047-76126d39525c" />
@@ -257,19 +258,16 @@ creem els 4 usuaris
 
 <img width="494" height="25" alt="image" src="https://github.com/user-attachments/assets/168ecce7-fff4-47e9-a20b-9b2dd706832c" />
 
+
 <img width="725" height="98" alt="Captura de pantalla de 2025-11-18 13-45-00" src="https://github.com/user-attachments/assets/d3f7902e-67b6-4a36-b9ba-5642664d1fd7" />
 
 ara creem una carpeta palomes 
 
 <img width="725" height="98" alt="Captura de pantalla de 2025-11-18 13-45-46" src="https://github.com/user-attachments/assets/53036a96-0240-4aca-a3bf-b40c4857265a" />
 
-ara creem un archiu prova
-
-<img width="725" height="98" alt="Captura de pantalla de 2025-11-18 13-46-28" src="https://github.com/user-attachments/assets/1fbddc4b-b81e-44d1-8261-8d6645fb257f" />
-
 el propetari sera nick
 
-<img width="735" height="47" alt="Captura de pantalla de 2025-11-18 13-47-26" src="https://github.com/user-attachments/assets/f36ffbc2-ef80-44ca-8b54-46eda0687ae7" />
+<img width="393" height="33" alt="image" src="https://github.com/user-attachments/assets/890b685b-29c4-4a2f-b6c5-65bbeb186bbb" />
 
 <img width="735" height="47" alt="Captura de pantalla de 2025-11-18 13-47-58" src="https://github.com/user-attachments/assets/c8a80a48-ca5b-4b66-9be3-c024596c968c" />
 
@@ -279,7 +277,31 @@ ara afegim a cire al grup de paloma
 <img width="734" height="75" alt="Captura de pantalla de 2025-11-18 13-51-09" src="https://github.com/user-attachments/assets/afa861ec-2195-4bcd-911a-5a7e948dbb66" />
 
 donem els seguents permisos
+
 <img width="543" height="54" alt="image" src="https://github.com/user-attachments/assets/751fc412-61c9-4ecc-ad92-3a73d84d564b" />
+
+Ara podem comprovar si entem com a nick ens permet llistar archius crer archius aixo per que es propetari i te els permisos 7 rwx
+
+<img width="599" height="124" alt="image" src="https://github.com/user-attachments/assets/79d07317-b357-470e-bed3-945fa32aa18c" />
+
+En canvi cire com es membre del grup palomes nomes te els permisos 5 r-x, nomes podra llista els archius pero ni crear ni elminar
+
+<img width="593" height="138" alt="image" src="https://github.com/user-attachments/assets/a5f2f7f5-43a0-4937-aacd-d6506ab25d1b" />
+
+en canvi ferran no pot ni accedir a la carpeta ni llistarla desde fora
+
+<img width="577" height="118" alt="image" src="https://github.com/user-attachments/assets/8d81da5c-a38a-482f-bac1-45ea1ea339db" />
+
+ara afegim a ferran i deivi a paloma
+
+<img width="503" height="78" alt="image" src="https://github.com/user-attachments/assets/7459682a-3e90-4b75-8669-8e760c600d2b" />
+
+ara canviem els permisos per 770
+<img width="304" height="31" alt="image" src="https://github.com/user-attachments/assets/6ced047d-ec70-4e0b-9d63-ff415ecd4d9a" />
+<img width="773" height="80" alt="Captura de pantalla de 2025-11-18 13-56-39" src="https://github.com/user-attachments/assets/7f399c1f-ef1e-4dc5-9dd7-51b1af1242d3" />
+
+Una vegada fet podrem comprobar que desde els comptes de ferran i deivi podem fer tot lo anterior 
+<img width="745" height="278" alt="Captura de pantalla de 2025-11-18 13-57-30" src="https://github.com/user-attachments/assets/ca194cae-d51f-4edb-b297-ee523f198938" />
 
 ## Còpies de seguretat i automatització de tasques
 ## Quotes d'usuari
