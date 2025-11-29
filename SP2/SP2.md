@@ -1,4 +1,4 @@
-#Sprint 2: Instal·lació, Configuració de Programari de Base i Gestió de Fitxers (20h)
+<img width="446" height="59" alt="image" src="https://github.com/user-attachments/assets/71268f0d-cc5f-450d-8fac-08dd461bf6b9" />#Sprint 2: Instal·lació, Configuració de Programari de Base i Gestió de Fitxers (20h)
 -
 ## Sistemes de fitxers i particions
 
@@ -97,8 +97,29 @@ Ara podem comprobar que la mida de bloc de la primera particio
 <img width="743" height="120" alt="Captura de pantalla de 2025-10-27 12-56-36" src="https://github.com/user-attachments/assets/f4a3497e-2795-4c31-8ad6-e67636ea920f" />
 
 #### monta automanicament una particio
-Primer creem una carpeta dins de la carpeta /mnt
-<img width="602" height="124" alt="image" src="https://github.com/user-attachments/assets/e749c335-8943-4f57-bdca-dd52999455ed" />
+Primer creem una carpeta dins de la carpeta /mnt.
+
+<img width="561" height="27" alt="image" src="https://github.com/user-attachments/assets/cde1dd92-be0e-4dc8-a5e7-726bc83b9e9c" />
+
+Una vegada creada accedim a la carpeta i crem un fixer proba.
+
+<img width="550" height="94" alt="image" src="https://github.com/user-attachments/assets/da15097a-21b8-4cdb-8af8-8701f9648f7e" />
+
+Ara montem manualment la particio sda1 dins de la carperta creada. 
+
+<img width="631" height="38" alt="image" src="https://github.com/user-attachments/assets/b7452eae-a411-4214-8552-400a53f669e1" />
+
+Ara tornem a entrar a la carpeta i fem un ls podem comprobar que no nomes hi ha un un directori lost+found i no el archiu creat anterior ment ja que hem montat la particio ahi.
+
+<img width="670" height="73" alt="image" src="https://github.com/user-attachments/assets/73d8328e-de87-4406-a22d-05d1ba971744" />
+
+Ara creem una carpeta dins
+
+<img width="446" height="59" alt="image" src="https://github.com/user-attachments/assets/50df3b6d-eb41-4f72-94b0-24f8a9d90092" />
+
+Com hem montat la particio manualment si reinciem la mquina, tornem a aquesedir a la carpeta i fem un ls, podrem comprobar que ja no esta montada la particio i que ara esta ahi el fixer creat anteriorment.
+
+<img width="468" height="100" alt="Captura de pantalla de 2025-10-27 13-13-55" src="https://github.com/user-attachments/assets/81c185fc-1d5d-40ae-8473-7cde9a7a4f96" />
 
 
 ## Gestió de procesos
