@@ -198,25 +198,26 @@ userdel -r per eleminar el usuari amb la carpeta home
 <img width="569" height="32" alt="image" src="https://github.com/user-attachments/assets/53fa1587-8e2e-4119-8b77-213bccce24a0" />
 
 per a crear un grup utilidzem groupadd
+
 <img width="624" height="45" alt="image" src="https://github.com/user-attachments/assets/35554188-14b2-4325-b512-c27694e36c85" />
 
 desactivar usuari
 
-sudo passwd -u nom_d'usuari
+***sudo passwd -u nom_d'usuari***
 
 activar usuari
 
-**sudo passwd -l nom_d'usuari**
+***sudo passwd -l nom_d'usuari***
 
 renombra el nom del grup
 
-**sudo groupmod -n nou_nom_grup antic_nom_grup**
+***sudo groupmod -n nou_nom_grup antic_nom_grup***
 
 afegir grups a un usuari
 
-**sudo usermod -aG nom_del_grup nom_usuari**
+***sudo usermod -aG nom_del_grup nom_usuari***
 Eliminar un usuari d'un grup suplementari amb deluser
-**sudo deluser nom_usuari nom_del_grup**
+***sudo deluser nom_usuari nom_del_grup***
 ## Còpies de seguretat i automatització de tasques
 ## Quotes d'usuari
 
