@@ -1,3 +1,5 @@
+#Sprint 2: Instal·lació, Configuració de Programari de Base i Gestió de Fitxers (20h)
+-
 ## Sistemes de fitxers i particions
 
 ### Mida de sector
@@ -46,9 +48,9 @@ Un volum és una **capa d’abstracció** per damunt de les particions i/o discs
 
 ---
 
-## Gestió de particions
+### Gestió de particions
 
-### GParted
+#### GParted
 Eina gràfica per:
 - Crear particions  
 - Redimensionar  
@@ -58,6 +60,9 @@ Eina gràfica per:
 
 ---
 
-## Comandes (Linux)
-*(Afegeix-les si vols que ampliï aquesta secció)*
+### Comandes (Linux)
+##Gestió de procesos
+##Gestió d'usuaris i grups i permisos
+##Còpies de seguretat i automatització de tasques
+##Quotes d'usuari
 
