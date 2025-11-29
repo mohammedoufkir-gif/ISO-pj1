@@ -218,6 +218,69 @@ afegir grups a un usuari
 ***sudo usermod -aG nom_del_grup nom_usuari***
 Eliminar un usuari d'un grup suplementari amb deluser
 ***sudo deluser nom_usuari nom_del_grup***
+
+al fixer  /etc/skel/.profile podem determina la ubicacio del usuari al inicia secio
+
+<img width="638" height="301" alt="image" src="https://github.com/user-attachments/assets/4c55a90f-bbad-4ae0-9a31-2f5935027b6d" />
+
+### gestio de permisos
+
+en la seguent imatge podem veure el orden que segeix linux per a assigna els permisos r: lectura w: escritora x: execucio, cada un equival e un 1 bit per exemple si nomes volem lectura  seria 4.
+
+Lectura (r) = 4
+
+Escritura (w) = 2
+
+Ejecución (x) = 1
+
+<img width="472" height="196" alt="image" src="https://github.com/user-attachments/assets/56b0c1d6-d63b-463d-ae73-d2282983e84d" />
+
+ls -la ens permet veure els permisos que te un fixer
+
+<img width="567" height="128" alt="image" src="https://github.com/user-attachments/assets/9400f52c-8349-42ba-8a46-55949b764974" />
+
+per a modificar els permisos podem utilidzar chmod
+
+<img width="619" height="114" alt="image" src="https://github.com/user-attachments/assets/5da3f0c9-b421-4bb5-806a-e1c50e17f2c8" />
+
+per a fer les proves creemun grup palomes
+
+<img width="725" height="98" alt="Captura de pantalla de 2025-11-18 13-43-43" src="https://github.com/user-attachments/assets/462617c6-9d13-406f-8047-76126d39525c" />
+
+creem els 4 usuaris 
+
+<img width="540" height="32" alt="image" src="https://github.com/user-attachments/assets/382e9bb2-9dfe-4c46-9b0e-6780fc373ac0" />
+
+
+<img width="494" height="25" alt="image" src="https://github.com/user-attachments/assets/d353b512-5820-4fd8-8ea2-af7294ad3617" />
+
+
+<img width="494" height="25" alt="image" src="https://github.com/user-attachments/assets/168ecce7-fff4-47e9-a20b-9b2dd706832c" />
+
+<img width="725" height="98" alt="Captura de pantalla de 2025-11-18 13-45-00" src="https://github.com/user-attachments/assets/d3f7902e-67b6-4a36-b9ba-5642664d1fd7" />
+
+ara creem una carpeta palomes 
+
+<img width="725" height="98" alt="Captura de pantalla de 2025-11-18 13-45-46" src="https://github.com/user-attachments/assets/53036a96-0240-4aca-a3bf-b40c4857265a" />
+
+ara creem un archiu prova
+
+<img width="725" height="98" alt="Captura de pantalla de 2025-11-18 13-46-28" src="https://github.com/user-attachments/assets/1fbddc4b-b81e-44d1-8261-8d6645fb257f" />
+
+el propetari sera nick
+
+<img width="735" height="47" alt="Captura de pantalla de 2025-11-18 13-47-26" src="https://github.com/user-attachments/assets/f36ffbc2-ef80-44ca-8b54-46eda0687ae7" />
+
+<img width="735" height="47" alt="Captura de pantalla de 2025-11-18 13-47-58" src="https://github.com/user-attachments/assets/c8a80a48-ca5b-4b66-9be3-c024596c968c" />
+
+
+ara afegim a cire al grup de paloma
+
+<img width="734" height="75" alt="Captura de pantalla de 2025-11-18 13-51-09" src="https://github.com/user-attachments/assets/afa861ec-2195-4bcd-911a-5a7e948dbb66" />
+
+donem els seguents permisos
+<img width="543" height="54" alt="image" src="https://github.com/user-attachments/assets/751fc412-61c9-4ecc-ad92-3a73d84d564b" />
+
 ## Còpies de seguretat i automatització de tasques
 ## Quotes d'usuari
 
