@@ -317,6 +317,28 @@ ara desde el usuari de ferran que li pica mol i el vol elemina la practica que h
 <img width="562" height="66" alt="image" src="https://github.com/user-attachments/assets/09b4b5fa-707f-4c25-8c4e-0cbc2329a8d1" />
 
 
+Les ACL (Access Control Lists) són un mecanisme de permisos avançat en Linux que permet assignar drets d'accés (L/E/X) individuals a usuaris i grups específics més enllà dels permisos bàsics.
+
+ACLs per fer proves tindrem una carpta proves i un fixer proves 2 amb els seguents permisos.
+
+<img width="531" height="89" alt="Captura de pantalla de 2025-11-24 11-58-17" src="https://github.com/user-attachments/assets/2d1be497-7045-4c01-ae21-a4bcc8146408" />
+
+ara podem veure els acl amb la comanda  getfacl
+
+<img width="666" height="212" alt="Captura de pantalla de 2025-11-24 11-59-50" src="https://github.com/user-attachments/assets/621559a7-661a-4b61-92f3-1be1ca350fb5" />
+
+
+per a crear noves llistes de acces podem fero amb la comanda setfacl
+
+<img width="702" height="305" alt="Captura de pantalla de 2025-11-24 12-03-16" src="https://github.com/user-attachments/assets/880d7112-84d1-4831-9a62-93755119dd2c" />
+
+una vegada crades les acl intentem modificar el fixer desde el usuari blau podrem comprobar que ens dona un error de permisos 
+
+<img width="659" height="462" alt="image" src="https://github.com/user-attachments/assets/355abd84-8b23-4d47-b1b4-df249abb26d7" />
+
+ara accedim desde el usuari vermei i si que podem modificar-ho sense problemes
+<img width="833" height="611" alt="Captura de pantalla de 2025-11-24 12-14-10" src="https://github.com/user-attachments/assets/7bb1501b-8677-4b7a-b5b1-b9052ebd38ad" />
+
 ## Còpies de seguretat i automatització de tasques
 ## Quotes d'usuari
 
