@@ -301,7 +301,21 @@ ara canviem els permisos per 770
 <img width="773" height="80" alt="Captura de pantalla de 2025-11-18 13-56-39" src="https://github.com/user-attachments/assets/7f399c1f-ef1e-4dc5-9dd7-51b1af1242d3" />
 
 Una vegada fet podrem comprobar que desde els comptes de ferran i deivi podem fer tot lo anterior 
+
 <img width="745" height="278" alt="Captura de pantalla de 2025-11-18 13-57-30" src="https://github.com/user-attachments/assets/ca194cae-d51f-4edb-b297-ee523f198938" />
+
+Ara unavegada fet aixo podem activar els sticky bit aixo ens permet que tot que un usuari te tots els permisos sobre el directori si puja un fixer una alte usuari no el podra ni eleminar ni modificar.
+
+<img width="816" height="92" alt="Captura de pantalla de 2025-11-18 14-00-34" src="https://github.com/user-attachments/assets/66132ebf-d703-4b44-89ef-a69f9cd9c656" />
+
+ara  desde el usuari de deivi creem un fixer ptVaras
+
+<img width="554" height="46" alt="image" src="https://github.com/user-attachments/assets/6d689df3-4deb-467c-a81e-7cada2f19bf2" />
+
+ara desde el usuari de ferran que li pica mol i el vol elemina la practica que ha penjat deivi, pero no pot tot i tenin els permiso rwx ja que gracies a les sticky bit protegeix els fixers penjats per altes usuaris.
+
+<img width="562" height="66" alt="image" src="https://github.com/user-attachments/assets/09b4b5fa-707f-4c25-8c4e-0cbc2329a8d1" />
+
 
 ## Còpies de seguretat i automatització de tasques
 ## Quotes d'usuari
