@@ -147,7 +147,7 @@ A Ubuntu hi ha una alternativa amb interfície gràfica per fer aquesta tasca de
 
 <img width="741" height="444" alt="image" src="https://github.com/user-attachments/assets/3cb7aea4-552a-4cec-8f02-ddb4f158d927" />
 
-### fixers implicats
+### fixers implicats i drectoris 
 
 Passwd 
 /etc/passwd: Guarda la informació bàsica de l'usuari (nom, identificadors UID/GID, directori home i shell d'inici).
@@ -166,7 +166,14 @@ Shadow
 gshadow 
 /etc/gshadow: Guarda la contrasenya xifrada del grup (si se n'utilitza) i la llista dels administradors del grup.
 <img width="831" height="515" alt="Captura de pantalla de 2025-11-04 12-58-20" src="https://github.com/user-attachments/assets/d4dc965a-589b-4558-9394-85bdc6147971" />
+Skel
+Quan un administrador crea un compte d'usuari nou, el sistema operatiu copia automàticament tots els fitxers i subdirectoris que hi ha a /etc/skel
 
+### Comandes basiques
+La comanda adduser serveix per a crear usuari humans, la carpeta hom no es creara fins que el usuari inici secio. 
+<img width="1306" height="586" alt="image" src="https://github.com/user-attachments/assets/f2722db5-ba9d-4fc2-b176-e3b9ce1b0e5c" />
+
+Ara utilidzarem la comanda useradd la comanda useradd sol ser mol util per a crear scripts, ara la diferencia amb l'anterior es que aquesta hem de assigan una contraseña per a poder inicia secio i no es copiaran els fixer de skel
 
 ## Còpies de seguretat i automatització de tasques
 ## Quotes d'usuari
