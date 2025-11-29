@@ -79,6 +79,7 @@ Pera crear una particio amb Gparted podem seguir els seguents pasos
 ---
 
 ### Comandes (Linux)
+#### Creacio de particions amb la mateixa mida de block
 per a crear 2 particions amb diferents tamanys de block primer hem de identificar primer el disc que volem formata amb ***lsblk o fdisk -l***
 
 <img width="636" height="103" alt="Captura de pantalla de 2025-10-27 12-48-20" src="https://github.com/user-attachments/assets/c72d962b-b1b2-4da4-b6ce-eb1929bb6fa3" />
@@ -94,6 +95,10 @@ Ara formatem l'atra particio com ntfs no especifiquem la mida de block aixo esqu
 Ara podem comprobar que la mida de bloc de la primera particio
 
 <img width="743" height="120" alt="Captura de pantalla de 2025-10-27 12-56-36" src="https://github.com/user-attachments/assets/f4a3497e-2795-4c31-8ad6-e67636ea920f" />
+
+#### monta automanicament una particio
+Primer creem una carpeta dins de la carpeta /mnt
+<img width="602" height="124" alt="image" src="https://github.com/user-attachments/assets/e749c335-8943-4f57-bdca-dd52999455ed" />
 
 
 ## Gestió de procesos
