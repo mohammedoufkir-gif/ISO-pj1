@@ -117,9 +117,20 @@ Ara creem una carpeta dins
 
 <img width="446" height="59" alt="image" src="https://github.com/user-attachments/assets/50df3b6d-eb41-4f72-94b0-24f8a9d90092" />
 
-Com hem montat la particio manualment si reinciem la mquina, tornem a aquesedir a la carpeta i fem un ls, podrem comprobar que ja no esta montada la particio i que ara esta ahi el fixer creat anteriorment.
+Com hem montat la particio manualment si reinciem la maquina, tornem a aquesedir a la carpeta i fem un ls, podrem comprobar que ja no esta montada la particio i que ara esta ahi el fixer creat anteriorment.
 
 <img width="468" height="100" alt="Captura de pantalla de 2025-10-27 13-13-55" src="https://github.com/user-attachments/assets/81c185fc-1d5d-40ae-8473-7cde9a7a4f96" />
+
+Ara tornem a muntar la particio
+
+<img width="575" height="84" alt="Captura de pantalla de 2025-10-27 13-14-30" src="https://github.com/user-attachments/assets/a196bfc1-8f12-4301-8c47-557ef0914275" />
+
+I comprobem que tormen a tindre la carpeta creada anteriorment
+
+<img width="575" height="84" alt="Captura de pantalla de 2025-10-27 13-14-30" src="https://github.com/user-attachments/assets/4e9e91f2-b8c8-44fd-a638-cb71e13434aa" />
+
+Ara per a poder tindtre sempre montada la particio, modifiquem el fixer /etc/fstab  i afegim la seguen linea
+<img width="575" height="84" alt="Captura de pantalla de 2025-10-27 13-16-27" src="https://github.com/user-attachments/assets/e0e605d6-af09-408d-8598-f5cbd6b3eae8" />
 
 
 ## Gestió de procesos
