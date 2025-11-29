@@ -1,4 +1,4 @@
-<img width="446" height="59" alt="image" src="https://github.com/user-attachments/assets/71268f0d-cc5f-450d-8fac-08dd461bf6b9" />#Sprint 2: Instal·lació, Configuració de Programari de Base i Gestió de Fitxers (20h)
+# Sprint 2: Instal·lació, Configuració de Programari de Base i Gestió de Fitxers (20h)
 -
 ## Sistemes de fitxers i particions
 
