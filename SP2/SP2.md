@@ -165,16 +165,58 @@ Shadow
 <img width="831" height="515" alt="Captura de pantalla de 2025-11-04 12-56-54" src="https://github.com/user-attachments/assets/1dca2ba6-aa7c-468b-9168-e338479dc707" />
 gshadow 
 /etc/gshadow: Guarda la contrasenya xifrada del grup (si se n'utilitza) i la llista dels administradors del grup.
+
 <img width="831" height="515" alt="Captura de pantalla de 2025-11-04 12-58-20" src="https://github.com/user-attachments/assets/d4dc965a-589b-4558-9394-85bdc6147971" />
 Skel
 Quan un administrador crea un compte d'usuari nou, el sistema operatiu copia automàticament tots els fitxers i subdirectoris que hi ha a /etc/skel
 
 ### Comandes basiques
 La comanda adduser serveix per a crear usuari humans, la carpeta hom no es creara fins que el usuari inici secio. 
+
 <img width="1306" height="586" alt="image" src="https://github.com/user-attachments/assets/f2722db5-ba9d-4fc2-b176-e3b9ce1b0e5c" />
 
-Ara utilidzarem la comanda useradd la comanda useradd sol ser mol util per a crear scripts, ara la diferencia amb l'anterior es que aquesta hem de assigan una contraseña per a poder inicia secio i no es copiaran els fixer de skel
+Ara utilidzarem la comanda useradd la comanda useradd sol ser mol util per a crear scripts, ara la diferencia amb l'anterior es que aquesta hem de assigan una contrasenya per a poder inicia secio i no es copiaran els fixer de skel
 
+<img width="725" height="38" alt="image" src="https://github.com/user-attachments/assets/bffda872-ac99-4b08-a19e-d34ada2e0854" />
+
+Assignem una contrasenya
+
+<img width="569" height="32" alt="image" src="https://github.com/user-attachments/assets/86e05c4a-3c0f-4484-af10-91f5a8db9fc0" />
+
+i creem un home 
+
+<img width="569" height="32" alt="image" src="https://github.com/user-attachments/assets/d73d384f-27bf-4fb1-bf55-ed19b52f79c6" />
+
+<img width="569" height="32" alt="image" src="https://github.com/user-attachments/assets/aa857f12-d7c7-4617-99e5-637c38e850c1" />
+
+deluser sense elminar la carpeta home 
+
+<img width="569" height="32" alt="image" src="https://github.com/user-attachments/assets/d381781b-16af-4e27-99ae-dfc4e7ddb5c4" />
+
+userdel -r per eleminar el usuari amb la carpeta home
+
+<img width="569" height="32" alt="image" src="https://github.com/user-attachments/assets/53fa1587-8e2e-4119-8b77-213bccce24a0" />
+
+per a crear un grup utilidzem groupadd
+<img width="624" height="45" alt="image" src="https://github.com/user-attachments/assets/35554188-14b2-4325-b512-c27694e36c85" />
+
+desactivar usuari
+
+sudo passwd -u nom_d'usuari
+
+activar usuari
+
+**sudo passwd -l nom_d'usuari**
+
+renombra el nom del grup
+
+**sudo groupmod -n nou_nom_grup antic_nom_grup**
+
+afegir grups a un usuari
+
+**sudo usermod -aG nom_del_grup nom_usuari**
+Eliminar un usuari d'un grup suplementari amb deluser
+**sudo deluser nom_usuari nom_del_grup**
 ## Còpies de seguretat i automatització de tasques
 ## Quotes d'usuari
 
