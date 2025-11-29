@@ -127,7 +127,8 @@ Ara tornem a muntar la particio,
 
 I comprobem que tormen a tindre la carpeta creada anteriorment,
 
-<img width="575" height="84" alt="Captura de pantalla de 2025-10-27 13-14-30" src="https://github.com/user-attachments/assets/4e9e91f2-b8c8-44fd-a638-cb71e13434aa" />
+<img width="575" height="84" alt="Captura de pantalla de 2025-10-27 13-14-30" src="https://github.com/user-attachments/assets/2273ca11-7140-4d0a-a37a-99c439ce3f7c" />
+
 
 Ara per a poder tindtre sempre montada la particio, modifiquem el fixer /etc/fstab  i afegim la seguen linea,
 
