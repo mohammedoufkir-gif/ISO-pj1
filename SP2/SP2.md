@@ -79,6 +79,15 @@ Eina gràfica per:
 ---
 
 ### Comandes (Linux)
+per a crear 2 particions amb diferents tamanys de block primer hem de identificar primer el disc que volem formata amb ***lsblk o fdisk -l***
+<img width="636" height="103" alt="Captura de pantalla de 2025-10-27 12-48-20" src="https://github.com/user-attachments/assets/c72d962b-b1b2-4da4-b6ce-eb1929bb6fa3" />
+
+Una vegada fet aixo podem crear la primera particio en format ext4 amb la opcio -b podem elegir la mida de block en aquest cas sera 2048.
+<img width="733" height="299" alt="Captura de pantalla de 2025-10-27 12-54-26" src="https://github.com/user-attachments/assets/69dc7335-36e2-49f3-be0d-e12b2fea6a54" />
+Ara formatem l'atra particio com ntfs no especifiquem la mida de block aixo esque per defecte agafara la mida de 4048
+<img width="743" height="120" alt="Captura de pantalla de 2025-10-27 12-55-13" src="https://github.com/user-attachments/assets/31c14e55-f831-4b33-98ab-96dc464885b1" />
+<img width="743" height="120" alt="Captura de pantalla de 2025-10-27 12-56-36" src="https://github.com/user-attachments/assets/f4a3497e-2795-4c31-8ad6-e67636ea920f" />
+
 ## Gestió de procesos
 ## Gestió d'usuaris i grups i permisos
 ## Còpies de seguretat i automatització de tasques
