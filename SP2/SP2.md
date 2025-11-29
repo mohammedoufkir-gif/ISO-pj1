@@ -113,7 +113,7 @@ Ara tornem a entrar a la carpeta i fem un ls podem comprobar que no nomes hi ha 
 
 <img width="670" height="73" alt="image" src="https://github.com/user-attachments/assets/73d8328e-de87-4406-a22d-05d1ba971744" />
 
-Ara creem una carpeta dins
+Ara creem una carpeta dins,
 
 <img width="446" height="59" alt="image" src="https://github.com/user-attachments/assets/50df3b6d-eb41-4f72-94b0-24f8a9d90092" />
 
@@ -121,16 +121,21 @@ Com hem montat la particio manualment si reinciem la maquina, tornem a aquesedir
 
 <img width="468" height="100" alt="Captura de pantalla de 2025-10-27 13-13-55" src="https://github.com/user-attachments/assets/81c185fc-1d5d-40ae-8473-7cde9a7a4f96" />
 
-Ara tornem a muntar la particio
+Ara tornem a muntar la particio,
 
 <img width="575" height="84" alt="Captura de pantalla de 2025-10-27 13-14-30" src="https://github.com/user-attachments/assets/a196bfc1-8f12-4301-8c47-557ef0914275" />
 
-I comprobem que tormen a tindre la carpeta creada anteriorment
+I comprobem que tormen a tindre la carpeta creada anteriorment,
 
 <img width="575" height="84" alt="Captura de pantalla de 2025-10-27 13-14-30" src="https://github.com/user-attachments/assets/4e9e91f2-b8c8-44fd-a638-cb71e13434aa" />
 
-Ara per a poder tindtre sempre montada la particio, modifiquem el fixer /etc/fstab  i afegim la seguen linea
+Ara per a poder tindtre sempre montada la particio, modifiquem el fixer /etc/fstab  i afegim la seguen linea,
+
 <img width="575" height="84" alt="Captura de pantalla de 2025-10-27 13-16-27" src="https://github.com/user-attachments/assets/e0e605d6-af09-408d-8598-f5cbd6b3eae8" />
+
+Ara reiniciem el sistema i comprobem que ja no es necesari mota la particio ja que es fa automaticamnet,
+<img width="458" height="121" alt="Captura de pantalla de 2025-10-27 13-18-22" src="https://github.com/user-attachments/assets/f1587aca-bcd8-4130-86f9-8f41f6f681de" />
+
 
 
 ## Gestió de procesos
