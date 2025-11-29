@@ -61,8 +61,8 @@ Eina gràfica per:
 ---
 
 ### Comandes (Linux)
-##Gestió de procesos
-##Gestió d'usuaris i grups i permisos
-##Còpies de seguretat i automatització de tasques
-##Quotes d'usuari
+## Gestió de procesos
+## Gestió d'usuaris i grups i permisos
+## Còpies de seguretat i automatització de tasques
+## Quotes d'usuari
 
