@@ -22,28 +22,28 @@ Hi ha molts tipus de sistemes de fitxers. Cada un està **optimitzat per funcion
 
 ---
 
-## Tipus de formateig
+### Tipus de formateig
 
-### Baix nivell
+#### Baix nivell
 - Elimina tot.  
 - Reconstrueix estructures físiques i pot **reparar sectors defectuosos**.  
 - Necessita programes específics.  
 - No s’usa habitualment en discs moderns.
 
-### Mig nivell
+#### Mig nivell
 - Similar a l’alt nivell però **marca sectors defectuosos** per no utilitzar-los.
 
-### Alt nivell
+#### Alt nivell
 - No elimina tots els arxius físicament; només **esborra el sistema de fitxers**.  
 - Si troba sectors defectuosos, normalment **els ignora**.
 
 ---
 
-## Partició
+### Partició
 Una partició és un **tros físic del disc dur**.  
 Amb eines com **GParted** podem crear, eliminar i redimensionar particions, però **no podem canviar la mida de bloc** sense tornar a formatar.
 
-## Volum
+### Volum
 Un volum és una **capa d’abstracció** per damunt de les particions i/o discs, utilitzada per sistemes com LVM o RAID.
 
 ---
