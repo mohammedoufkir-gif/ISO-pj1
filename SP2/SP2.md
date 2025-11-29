@@ -1,5 +1,5 @@
 # Sprint 2: Instal·lació, Configuració de Programari de Base i Gestió de Fitxers (20h)
--
+
 ## Sistemes de fitxers i particions
 
 ### Mida de sector
