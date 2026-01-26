@@ -7,6 +7,19 @@ server
 <img width="643" height="50" alt="image" src="https://github.com/user-attachments/assets/3e69395e-d8c7-4b7c-bb5f-a2b72242cee7" />
 
 <img width="675" height="105" alt="image" src="https://github.com/user-attachments/assets/969b7981-85cc-45fe-947f-2ee8b2373d62" />
+<img width="631" height="42" alt="image" src="https://github.com/user-attachments/assets/929d535e-0f01-47f6-9e3b-77ec8576fbf5" />
+<img width="631" height="42" alt="image" src="https://github.com/user-attachments/assets/f0f9a2de-36aa-4bb3-b47b-679b650ef5d1" />
+<img width="631" height="42" alt="image" src="https://github.com/user-attachments/assets/6405dc3c-e000-4ff9-bb15-0fbbe59e6d55" />
+<img width="631" height="42" alt="image" src="https://github.com/user-attachments/assets/313462ed-2c40-4b16-aade-2da4233c50e3" />
+<img width="631" height="42" alt="image" src="https://github.com/user-attachments/assets/e57e0a43-6982-47ce-ab5d-e3c744e76285" />
+
+
+
+
+
+
+
+<img width="465" height="300" alt="image" src="https://github.com/user-attachments/assets/7db872b4-b3c8-4c7f-97c2-0ef621418036" />
 
 client
 
