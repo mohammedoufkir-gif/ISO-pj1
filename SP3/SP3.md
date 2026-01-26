@@ -24,10 +24,15 @@ server
 
 
 
+
 <img width="465" height="300" alt="image" src="https://github.com/user-attachments/assets/7db872b4-b3c8-4c7f-97c2-0ef621418036" />
 
 client
+apt install smbclient
+ip a 
+ping a server
 
 nfs 
+
 
 Compartir amb autinticacio amb IP  tant ubuntu com windowst
