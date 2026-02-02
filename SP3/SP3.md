@@ -1,17 +1,21 @@
 
 
 ## Samba
-# Què és Samba?
+### Què és Samba?
 
 **Samba** és el programari que actua com a **pont de comunicació** entre sistemes Linux/Unix i sistemes Windows.
 
-## Funcions principals
+#### Funcions principals
 *  **Compartir fitxers:** Permet que ordinadors Windows vegin i utilitzin carpetes d'un servidor Linux com si fossin locals.
 *  **Compartir impressores:** Fa que qualsevol impressora de la xarxa sigui accessible per a tots els dispositius.
 *  **Gestió d'usuaris:** Pot actuar com a controlador de domini per gestionar permisos i contrasenyes centralitzadament.
 
-## Per què serveix?
+#### Per què serveix?
 Principalment per a la **interoperabilitat**. Gràcies al protocol **SMB**, permet que dispositius amb sistemes operatius diferents col·laborin en una mateixa xarxa sense conflictes.
+
+
+### Instalacio i configuracio 
+#### Server:
 
 <img width="684" height="215" alt="Captura de pantalla de 2026-01-26 11-51-17" src="https://github.com/user-attachments/assets/8fd286bf-3ca0-4003-bdfb-1e3594e4724f" />
 <img width="595" height="17" alt="image" src="https://github.com/user-attachments/assets/7fc88070-9306-46b9-87a3-91e86063111d" />
