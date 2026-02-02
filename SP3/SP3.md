@@ -1,4 +1,6 @@
-Samba
+
+
+#Samba
 Compartir amb autinticacio amb ldap o no en permet tant ubuntu com windows
 server 
 <img width="684" height="215" alt="Captura de pantalla de 2026-01-26 11-51-17" src="https://github.com/user-attachments/assets/8fd286bf-3ca0-4003-bdfb-1e3594e4724f" />
