@@ -16,13 +16,22 @@ Principalment per a la **interoperabilitat**. Gràcies al protocol **SMB**, perm
 
 ### Instalacio i configuracio 
 #### Server:
+Instalem samba
 
-<img width="684" height="215" alt="Captura de pantalla de 2026-01-26 11-51-17" src="https://github.com/user-attachments/assets/8fd286bf-3ca0-4003-bdfb-1e3594e4724f" />
+<img width="439" height="25" alt="image" src="https://github.com/user-attachments/assets/36cfc0e4-f353-4775-a02f-f0bf1afbee7d" />
+
+Creem una carpeta proves
+
 <img width="595" height="17" alt="image" src="https://github.com/user-attachments/assets/7fc88070-9306-46b9-87a3-91e86063111d" />
-<img width="595" height="17" alt="image" src="https://github.com/user-attachments/assets/e3330c95-d222-4eff-88d6-72b7488e4f9f" />
-<img width="643" height="50" alt="image" src="https://github.com/user-attachments/assets/3e69395e-d8c7-4b7c-bb5f-a2b72242cee7" />
 
-<img width="675" height="105" alt="image" src="https://github.com/user-attachments/assets/969b7981-85cc-45fe-947f-2ee8b2373d62" />
+Creem un fixer de prova 
+<img width="197" height="33" alt="image" src="https://github.com/user-attachments/assets/97ef59f1-023d-4bfe-ab5e-e1b80a3d7c9c" />
+
+canviem el usuari i li donem tots els permisos
+
+<img width="533" height="36" alt="image" src="https://github.com/user-attachments/assets/199de517-e21b-4cee-a815-055c8de13c2e" />
+
+<img width="515" height="56" alt="image" src="https://github.com/user-attachments/assets/017e2cd1-3045-4cea-9359-6c4b344af0af" />
 <img width="631" height="42" alt="image" src="https://github.com/user-attachments/assets/929d535e-0f01-47f6-9e3b-77ec8576fbf5" />
 <img width="631" height="42" alt="image" src="https://github.com/user-attachments/assets/f0f9a2de-36aa-4bb3-b47b-679b650ef5d1" />
 <img width="631" height="42" alt="image" src="https://github.com/user-attachments/assets/6405dc3c-e000-4ff9-bb15-0fbbe59e6d55" />
