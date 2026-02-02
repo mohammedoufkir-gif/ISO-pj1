@@ -54,23 +54,19 @@ afegim el usuari groc i roig al grup colors
 
 Comprobem que se an creat correctament
 
-
-Modifiquem el fixer smb.conf
-<img width="396" height="185" alt="image" src="https://github.com/user-attachments/assets/bcfa0025-b671-4737-8611-6183cd032a25" />
-
-fiquem la seguent configuracio
 <img width="702" height="348" alt="image" src="https://github.com/user-attachments/assets/638eca44-ae37-4fc5-97a1-10d8b22d143d" />
 
+
+Modifiquem el fixer smb.conf i fiquem la seguent configuracio
+
+<img width="396" height="185" alt="image" src="https://github.com/user-attachments/assets/bcfa0025-b671-4737-8611-6183cd032a25" />
+
 reiniciem els serveis i fem un status 
+
 <img width="785" height="616" alt="image" src="https://github.com/user-attachments/assets/f37ca6da-b953-4efd-8547-888afced1243" />
-<img width="886" height="758" alt="image" src="https://github.com/user-attachments/assets/67c0ec0e-3f30-4529-b00d-8ebbb565ed21" />
 
 
-
-
-
-
-
+Les assignem una contrasenya als usuaris per a poder accedir remotament
 
 <img width="465" height="300" alt="image" src="https://github.com/user-attachments/assets/7db872b4-b3c8-4c7f-97c2-0ef621418036" />
 
