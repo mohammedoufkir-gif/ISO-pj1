@@ -50,10 +50,10 @@ afegim el usuari groc i roig al grup colors
 
 
 <img width="691" height="45" alt="image" src="https://github.com/user-attachments/assets/f8ceb788-3737-457d-afd6-aadf990e817b" />
+<img width="691" height="45" alt="image" src="https://github.com/user-attachments/assets/b73ff897-e4f8-4737-96c8-13aef19a9fc8" />
 
 Comprobem que se an creat correctament
 
-<img width="691" height="45" alt="image" src="https://github.com/user-attachments/assets/b73ff897-e4f8-4737-96c8-13aef19a9fc8" />
 
 Modifiquem el fixer smb.conf
 <img width="396" height="185" alt="image" src="https://github.com/user-attachments/assets/bcfa0025-b671-4737-8611-6183cd032a25" />
