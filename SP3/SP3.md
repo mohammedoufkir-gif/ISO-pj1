@@ -1,3 +1,54 @@
+## LDAP
+### Que es LDAP?
+**LDAP** (*Lightweight Directory Access Protocol*) és un **protocol** que permet **consultar i gestionar directoris d’informació** a través d’una xarxa.
+
+#### Per a què serveix?
+- Gestionar **usuaris i contrasenyes**
+- Controlar **permisos i rols**
+- Centralitzar l’**autenticació**
+  
+### Instalacio i configuracio 
+#### Server:
+Editem el fixer hostname i fiquem el nom del nostre server
+
+<img width="420" height="23" alt="image" src="https://github.com/user-attachments/assets/8fa4c5b5-79b9-4914-a248-321b68250b30" />
+
+<img width="730" height="101" alt="image" src="https://github.com/user-attachments/assets/edddcc7c-4111-44a3-abe3-d39b3172c327" />
+
+Ara afegim un host al fixer hosts que sera la IP del nostre servidor, el domini que utilidzarem i el nostre servidor 
+
+<img width="728" height="118" alt="image" src="https://github.com/user-attachments/assets/1c21c1b4-d461-42a6-a52b-7f3de14446b4"/>
+
+
+Instalem LDAP utilis
+
+<img width="554" height="23" alt="image" src="https://github.com/user-attachments/assets/14e65b3a-ff55-4f01-a112-f428cd78d0a4" />
+
+
+Ara fem un slapcat
+<img width="558" height="269" alt="image" src="https://github.com/user-attachments/assets/c0824959-b40c-4d61-ae22-ac11bbd7ef15"/>
+
+Ara fem el dpkg reconfigure
+
+<img width="571" height="20" alt="image" src="https://github.com/user-attachments/assets/ae7d64b5-e6ed-44f7-9fc5-1dbd5f53fd8b" />
+
+
+Fiquem el nom del domini
+
+<img width="703" height="274" alt="image" src="https://github.com/user-attachments/assets/9d5627ff-de76-4de3-9395-cec91e56b16f" />
+
+Nom de l'organitzacio
+
+<img width="703" height="274" alt="image" src="https://github.com/user-attachments/assets/86662991-56d1-4fb1-853b-3aa6d8b3120a" />
+
+Diem que si
+
+<img width="703" height="274" alt="image" src="https://github.com/user-attachments/assets/ad0db8c0-d0a5-4e2d-b76f-44d79d6337f5" />
+<img width="703" height="274" alt="image" src="https://github.com/user-attachments/assets/3412757a-babb-40ad-afbf-05c7264f6358" />
+
+Fem un slapcat per a comprobar que la configuracio se a aplicat correctament
+
+<img width="488" height="275" alt="Captura de pantalla de 2026-01-12 12-35-10" src="https://github.com/user-attachments/assets/2c784a67-001e-419c-a874-a27b356ca838" />
 
 
 ## Samba
