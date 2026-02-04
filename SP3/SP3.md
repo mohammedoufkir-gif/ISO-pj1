@@ -7,7 +7,10 @@
 - Gestionar **usuaris i contrasenyes**
 - Controlar **permisos i rols**
 - Centralitzar l’**autenticació**
-  
+#### usuaris
+#### Recursos
+#### UO
+
 ### Instalacio i configuracio 
 #### Server:
 Editem el fixer hostname i fiquem el nom del nostre server
@@ -51,6 +54,20 @@ Diem que si
 Fem un slapcat per a comprobar que la configuracio se a aplicat correctament
 
 <img width="488" height="275" alt="Captura de pantalla de 2026-01-12 12-35-10" src="https://github.com/user-attachments/assets/2c784a67-001e-419c-a874-a27b356ca838" />
+
+Ara modifiquem el fixer uo.ldif
+
+<img width="700" height="172" alt="image" src="https://github.com/user-attachments/assets/4eb087c9-51f7-4ee8-a1f8-d0f132e20e71" />
+
+grup.ldif
+
+<img width="700" height="172" alt="image" src="https://github.com/user-attachments/assets/f82b3dcf-cb58-4b60-aaee-59ec6d8a6632" />
+
+usu.ldif
+
+<img width="722" height="393" alt="image" src="https://github.com/user-attachments/assets/404e41ce-38e5-4c72-9586-b95eccd723f4" />
+
+
 
 
 ## Samba
