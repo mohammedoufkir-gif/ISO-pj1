@@ -27,6 +27,7 @@ Instalem LDAP utilis
 
 
 Ara fem un slapcat
+
 <img width="558" height="269" alt="image" src="https://github.com/user-attachments/assets/c0824959-b40c-4d61-ae22-ac11bbd7ef15"/>
 
 Ara fem el dpkg reconfigure
@@ -36,7 +37,7 @@ Ara fem el dpkg reconfigure
 
 Fiquem el nom del domini
 
-<img width="703" height="274" alt="image" src="https://github.com/user-attachments/assets/9d5627ff-de76-4de3-9395-cec91e56b16f" />
+<img width="703" height="274" alt="image" src="https://github.com/user-attachments/assets/9d5627ff-de76-4de3-9395-cec91e56b16f"/>
 
 Nom de l'organitzacio
 
