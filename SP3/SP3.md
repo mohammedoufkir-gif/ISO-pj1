@@ -49,6 +49,7 @@ Nom de l'organitzacio
 Diem que si
 
 <img width="703" height="274" alt="image" src="https://github.com/user-attachments/assets/ad0db8c0-d0a5-4e2d-b76f-44d79d6337f5" />
+
 <img width="703" height="274" alt="image" src="https://github.com/user-attachments/assets/3412757a-babb-40ad-afbf-05c7264f6358" />
 
 Fem un slapcat per a comprobar que la configuracio se a aplicat correctament
@@ -68,6 +69,7 @@ usu.ldif
 <img width="722" height="393" alt="image" src="https://github.com/user-attachments/assets/404e41ce-38e5-4c72-9586-b95eccd723f4" />
 
 apliquem les configuracions dels fixers
+
 <img width="650" height="148" alt="Captura de pantalla de 2026-02-04 09-36-27" src="https://github.com/user-attachments/assets/425e76fb-492c-44dd-b1e1-607f8e838a1a" />
 
 
@@ -84,6 +86,7 @@ fiquem la IP del servidor
 <img width="800" height="143" alt="image" src="https://github.com/user-attachments/assets/dd1527fb-a497-44da-a66c-a1f2e2dc41f0" />
 
 El domini
+
 <img width="800" height="143" alt="image" src="https://github.com/user-attachments/assets/acb7cdfe-63c6-45f4-b119-ab91cf464340" />
 
 Si a crear la base de dades
