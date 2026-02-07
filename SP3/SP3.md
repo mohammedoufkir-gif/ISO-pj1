@@ -93,10 +93,24 @@ Si a crear la base de dades
 
 <img width="648" height="151" alt="image" src="https://github.com/user-attachments/assets/2393d381-c41a-4e96-bbe9-3d056e4f3755"/>
 
-Fiquem el usuari root
+Fiquem el usuari root que sera admin
 
 <img width="467" height="192" alt="image" src="https://github.com/user-attachments/assets/a2f65e92-a82b-4706-baff-f4fd912951c4" />
 
+Fem un reconfigure
+
+<img width="648" height="26" alt="image" src="https://github.com/user-attachments/assets/39ca6324-3e80-4df0-b7f0-dfd7ddfcd309" />
+
+
+Elegim el xifratge md5
+
+<img width="748" height="276" alt="image" src="https://github.com/user-attachments/assets/680c919c-3036-4936-b447-70b412e472d3" />
+
+
+Editem el fixer nsswitch.conf
+<img width="470" height="25" alt="image" src="https://github.com/user-attachments/assets/1562c87b-a097-4a77-a24d-129738d886df" />
+
+<img width="449" height="121" alt="image" src="https://github.com/user-attachments/assets/f7f98e4b-06b0-4943-a6b3-893a25e992a9" />
 
 
 
