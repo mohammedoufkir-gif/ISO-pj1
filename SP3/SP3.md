@@ -108,10 +108,24 @@ Elegim el xifratge md5
 
 
 Editem el fixer nsswitch.conf
+
 <img width="470" height="25" alt="image" src="https://github.com/user-attachments/assets/1562c87b-a097-4a77-a24d-129738d886df" />
 
 <img width="449" height="121" alt="image" src="https://github.com/user-attachments/assets/f7f98e4b-06b0-4943-a6b3-893a25e992a9" />
 
+
+Modifiquem el fixer common-session
+
+<img width="636" height="34" alt="image" src="https://github.com/user-attachments/assets/a4fdae83-2f62-40e7-84e8-f224e967fd2f" />
+
+<img width="706" height="699" alt="image" src="https://github.com/user-attachments/assets/d7d6bf91-b36c-4894-8332-bf52dc30c092" />
+
+modifiquem el fixer common-password
+
+<img width="741" height="27" alt="image" src="https://github.com/user-attachments/assets/f316a6c7-7827-4626-ac15-f05ca9435169" />
+
+
+<img width="672" height="470" alt="image" src="https://github.com/user-attachments/assets/e1740c6d-cdc7-4561-93a6-67741283b469" />
 
 
 ## Samba
