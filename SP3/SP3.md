@@ -121,12 +121,38 @@ Modifiquem el fixer common-session
 
 <img width="706" height="699" alt="image" src="https://github.com/user-attachments/assets/d7d6bf91-b36c-4894-8332-bf52dc30c092" />
 
-modifiquem el fixer common-password
+Modifiquem el fixer common-password
 
 <img width="741" height="27" alt="image" src="https://github.com/user-attachments/assets/f316a6c7-7827-4626-ac15-f05ca9435169" />
 
 
 <img width="672" height="470" alt="image" src="https://github.com/user-attachments/assets/e1740c6d-cdc7-4561-93a6-67741283b469" />
+
+Modifiquem el fixer 50-ubuntu.conf
+
+<img width="770" height="30" alt="image" src="https://github.com/user-attachments/assets/da83d1c7-7d89-4696-9127-419f5694ec70" />
+
+<img width="331" height="74" alt="image" src="https://github.com/user-attachments/assets/387d846c-962f-4d34-83e7-864e372306bd" />
+
+Reiniciem la maquina, entrem al usuari "Primer" del LDAP si no surt a qui has de anar a no esteu al llistat
+
+<img width="657" height="556" alt="image" src="https://github.com/user-attachments/assets/f6231891-44ba-43ea-ab87-e4a803869af1" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Samba
