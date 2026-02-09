@@ -138,18 +138,26 @@ Reiniciem la maquina, entrem al usuari "Primer" del LDAP si no surt a qui has de
 
 <img width="657" height="556" alt="image" src="https://github.com/user-attachments/assets/f6231891-44ba-43ea-ab87-e4a803869af1" />
 
+### Interficie grafica
+
+#### Instalacio
+
+Instalem el PHP ldap my admin
+
+<img width="685" height="25" alt="Captura de pantalla de 2026-01-13 13-01-25" src="https://github.com/user-attachments/assets/643e0974-9fa6-4131-bd0d-19e723f08c01" />
+
+Editem el fixer config.php
+
+<img width="769" height="52" alt="Captura de pantalla de 2026-01-13 13-02-36" src="https://github.com/user-attachments/assets/11aba6b1-836c-42fb-bec2-8ed700387937" />
+
+<img width="708" height="694" alt="Captura de pantalla de 2026-01-13 13-08-54" src="https://github.com/user-attachments/assets/a6f335bc-0125-4c48-846c-56593dc5d831" />
 
 
+#### Us del php ldap my admin
 
+Fiquem la ip del nostre servidor per accedir a la configuracio web
 
-
-
-
-
-
-
-
-
+<img width="882" height="977" alt="Captura de pantalla de 2026-01-13 13-12-12" src="https://github.com/user-attachments/assets/252df3d7-3083-4d3f-a1fb-e63d523db4c8" />
 
 
 
