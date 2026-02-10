@@ -244,6 +244,9 @@ Compartir amb autinticacio amb IP  tant ubuntu com windowst
 NTFS es un protoco que ens permet compartir fixer i directoris (no impresores) atrabes de una xarxa local la autenticacion se fa a nivell de host no de usuari, a diferencia de samba. Poden accedir tant clients windows com Linux.  
 
 #### NFS senese ldap
+
+##### Server
+
 <img width="620" height="26" alt="image" src="https://github.com/user-attachments/assets/726ef888-f870-45ea-a912-f903ae2e6877" />
 
 
@@ -252,8 +255,32 @@ NTFS es un protoco que ens permet compartir fixer i directoris (no impresores) a
 
 <img width="376" height="28" alt="image" src="https://github.com/user-attachments/assets/be4b9942-5a2a-479b-8840-f8390ba2c703" />
 
-##### Server
+
+Per a compartir la capeta editem el fixer exports i fiquem primer la nostra carpeta i al constat el filtre el filtre que hem ficat amb el asterisc per met el acces a tots el equips per xarxa.
+
+<img width="376" height="28" alt="image" src="https://github.com/user-attachments/assets/a8312a4b-f63a-4780-ac75-2de8e1501f94" />
+
+<img width="521" height="21" alt="image" src="https://github.com/user-attachments/assets/610079b7-d625-41b5-bfb0-b9c14fdf2c17" />
 
 
+<img width="846" height="214" alt="image" src="https://github.com/user-attachments/assets/47a373db-fe56-4e38-b537-e534e83be30f" />
+
+<img width="448" height="66" alt="image" src="https://github.com/user-attachments/assets/3317021b-6a4d-4906-a88e-a88608b37cea" />
 
 
+##### client
+
+<img width="643" height="22" alt="image" src="https://github.com/user-attachments/assets/ce18a698-22bf-401e-b6a0-ddba647bc99e" />
+
+
+<img width="435" height="43" alt="image" src="https://github.com/user-attachments/assets/b987ddaf-fcb9-4894-9f94-0f86ded521ee" />
+
+<img width="440" height="37" alt="image" src="https://github.com/user-attachments/assets/8e72343c-5cf2-4746-bafd-9bf814ed52d6" />
+
+<img width="596" height="25" alt="image" src="https://github.com/user-attachments/assets/1251fc60-8e2b-4783-9bef-861fa2c01633" />
+
+<img width="375" height="39" alt="image" src="https://github.com/user-attachments/assets/6bb52844-8192-445b-8ce4-c4e5c1d94703" />
+
+<img width="844" height="54" alt="image" src="https://github.com/user-attachments/assets/1b484dd0-106c-423f-a99b-73474a617664" />
+
+<img width="885" height="19" alt="image" src="https://github.com/user-attachments/assets/af060ad8-9f32-4c2b-ab75-0f7bbf618d60" />
