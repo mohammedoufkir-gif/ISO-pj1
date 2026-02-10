@@ -286,3 +286,45 @@ Per a compartir la capeta editem el fixer exports i fiquem primer la nostra carp
 <img width="885" height="19" alt="image" src="https://github.com/user-attachments/assets/af060ad8-9f32-4c2b-ab75-0f7bbf618d60" />
 
 <img width="556" height="47" alt="image" src="https://github.com/user-attachments/assets/d04b53f9-c3ce-442e-9589-40b9b9df0639" />
+
+
+#### exercici 2
+
+<img width="495" height="64" alt="image" src="https://github.com/user-attachments/assets/d0e1af30-0253-48c1-a3eb-8861ad8eeed9" />
+
+
+<img width="478" height="22" alt="image" src="https://github.com/user-attachments/assets/7ae5b7c0-db75-4a2f-8188-cad5d6d07b4e" />
+
+
+<img width="557" height="42" alt="image" src="https://github.com/user-attachments/assets/bbf894a9-2820-4974-b6d5-9d17b5262a5d" />
+
+
+
+<img width="609" height="62" alt="image" src="https://github.com/user-attachments/assets/b4788932-64b5-4970-b9b9-cf27aed00981" />
+
+
+<img width="723" height="279" alt="image" src="https://github.com/user-attachments/assets/90f0db2d-04d5-457f-beab-66ac314ed068" />
+
+
+<img width="628" height="29" alt="image" src="https://github.com/user-attachments/assets/6a366fea-66c3-4ab4-bada-beb401170ddb" />
+
+
+<img width="836" height="518" alt="image" src="https://github.com/user-attachments/assets/9b6e1aa4-f761-4d01-b4f9-0d1f5bfc36ee" />
+
+##### client
+
+<img width="490" height="47" alt="image" src="https://github.com/user-attachments/assets/3d99132e-4239-4340-9a41-9d0e001e311b" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
