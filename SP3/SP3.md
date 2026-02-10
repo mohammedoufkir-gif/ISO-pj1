@@ -284,3 +284,5 @@ Per a compartir la capeta editem el fixer exports i fiquem primer la nostra carp
 <img width="844" height="54" alt="image" src="https://github.com/user-attachments/assets/1b484dd0-106c-423f-a99b-73474a617664" />
 
 <img width="885" height="19" alt="image" src="https://github.com/user-attachments/assets/af060ad8-9f32-4c2b-ab75-0f7bbf618d60" />
+
+<img width="556" height="47" alt="image" src="https://github.com/user-attachments/assets/d04b53f9-c3ce-442e-9589-40b9b9df0639" />
