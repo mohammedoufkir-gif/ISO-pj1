@@ -311,11 +311,15 @@ Per a compartir la capeta editem el fixer exports i fiquem primer la nostra carp
 
 <img width="836" height="518" alt="image" src="https://github.com/user-attachments/assets/9b6e1aa4-f761-4d01-b4f9-0d1f5bfc36ee" />
 
+<img width="867" height="70" alt="image" src="https://github.com/user-attachments/assets/92ec30f5-dc1d-46d5-af07-71ec6f6e557b" />
+
+fem un ls a vans de inicia secio al client
+<img width="596" height="58" alt="image" src="https://github.com/user-attachments/assets/ca9e2660-4d02-497b-8caa-bc61cd221b65" />
+
+
 ##### client
 
 <img width="490" height="47" alt="image" src="https://github.com/user-attachments/assets/3d99132e-4239-4340-9a41-9d0e001e311b" />
-
-
 
 
 
