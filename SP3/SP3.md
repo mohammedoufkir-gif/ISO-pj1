@@ -230,15 +230,30 @@ reiniciem els serveis i fem un status
 
 
 Les assignem una contrasenya als usuaris per a poder accedir remotament
-
+ls
 <img width="465" height="300" alt="image" src="https://github.com/user-attachments/assets/7db872b4-b3c8-4c7f-97c2-0ef621418036" />
 
 client
 apt install smbclient
 ip a 
 ping a server
-
-nfs 
-
-
 Compartir amb autinticacio amb IP  tant ubuntu com windowst
+
+### NFS
+
+NTFS es un protoco que ens permet compartir fixer i directoris (no impresores) atrabes de una xarxa local la autenticacion se fa a nivell de host no de usuari, a diferencia de samba. Poden accedir tant clients windows com Linux.  
+
+#### NFS senese ldap
+<img width="620" height="26" alt="image" src="https://github.com/user-attachments/assets/726ef888-f870-45ea-a912-f903ae2e6877" />
+
+
+<img width="745" height="24" alt="image" src="https://github.com/user-attachments/assets/8a3a22ed-31f9-4739-a001-2ba20be6ae11" />
+
+
+<img width="376" height="28" alt="image" src="https://github.com/user-attachments/assets/be4b9942-5a2a-479b-8840-f8390ba2c703" />
+
+##### Server
+
+
+
+
