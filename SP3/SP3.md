@@ -246,13 +246,19 @@ NTFS es un protoco que ens permet compartir fixer i directoris (no impresores) a
 
 ##### Server
 
+Instalem el packet de nfs-kernel-server
+
 <img width="620" height="26" alt="image" src="https://github.com/user-attachments/assets/726ef888-f870-45ea-a912-f903ae2e6877" />
 
+creem una carpeta  amb el nom "lexercici" li donem tots els permisos i de usuar nobody i de grop nogorup.
 
 <img width="745" height="24" alt="image" src="https://github.com/user-attachments/assets/8a3a22ed-31f9-4739-a001-2ba20be6ae11" />
 
+Editem el fixer exports
 
 <img width="376" height="28" alt="image" src="https://github.com/user-attachments/assets/be4b9942-5a2a-479b-8840-f8390ba2c703" />
+
+<img width="376" height="28" alt="Captura de pantalla de 2026-02-10 12-57-30" src="https://github.com/user-attachments/assets/b75fd534-ac31-4a9e-b598-5492df92ce05" />
 
 
 Per a compartir la capeta editem el fixer exports i fiquem primer la nostra carpeta i al constat el filtre el filtre que hem ficat amb el asterisc per met el acces a tots el equips per xarxa.
@@ -268,7 +274,7 @@ Per a compartir la capeta editem el fixer exports i fiquem primer la nostra carp
 
 
 ##### client
-
+###### Linux
 <img width="643" height="22" alt="image" src="https://github.com/user-attachments/assets/ce18a698-22bf-401e-b6a0-ddba647bc99e" />
 
 
@@ -286,6 +292,7 @@ Per a compartir la capeta editem el fixer exports i fiquem primer la nostra carp
 
 <img width="556" height="47" alt="image" src="https://github.com/user-attachments/assets/d04b53f9-c3ce-442e-9589-40b9b9df0639" />
 
+###### Windows
 
 #### exercici 2
 
