@@ -111,7 +111,6 @@ Editem el fixer nsswitch.conf
 
 <img width="470" height="25" alt="image" src="https://github.com/user-attachments/assets/1562c87b-a097-4a77-a24d-129738d886df" />
 
-
 <img width="449" height="121" alt="image" src="https://github.com/user-attachments/assets/f7f98e4b-06b0-4943-a6b3-893a25e992a9" />
 
 
