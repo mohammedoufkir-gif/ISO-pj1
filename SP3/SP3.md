@@ -294,6 +294,16 @@ Per a compartir la capeta editem el fixer exports i fiquem primer la nostra carp
 
 ###### Windows
 
+Activeme el servei NFS 
+
+<img width="415" height="368" alt="Captura de pantalla de 2026-02-23 11-50-38" src="https://github.com/user-attachments/assets/7a278142-6c24-483e-b900-3438ea2058c6" />
+
+
+<img width="340" height="292" alt="image" src="https://github.com/user-attachments/assets/9b484848-e4fe-48de-aca7-759fd09d9983" />
+
+<img width="611" height="453" alt="image" src="https://github.com/user-attachments/assets/ff353c80-6b7f-4582-8dd3-8f1543332772" />
+
+
 #### exercici 2
 
 <img width="495" height="64" alt="image" src="https://github.com/user-attachments/assets/d0e1af30-0253-48c1-a3eb-8861ad8eeed9" />
