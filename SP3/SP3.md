@@ -298,11 +298,17 @@ Activeme el servei NFS
 
 <img width="415" height="368" alt="Captura de pantalla de 2026-02-23 11-50-38" src="https://github.com/user-attachments/assets/7a278142-6c24-483e-b900-3438ea2058c6" />
 
+Ara anem a xarxa fem clic dret i conectar a unitat de xarxa
 
 <img width="340" height="292" alt="image" src="https://github.com/user-attachments/assets/9b484848-e4fe-48de-aca7-759fd09d9983" />
 
+Ara fiquem la IP i la carpeta compartida
+
 <img width="611" height="453" alt="image" src="https://github.com/user-attachments/assets/ff353c80-6b7f-4582-8dd3-8f1543332772" />
 
+Una vegada fet ja el tindrem muntat
+
+<img width="791" height="592" alt="image" src="https://github.com/user-attachments/assets/58547343-4f3f-4ec0-99ae-f2254662c130" />
 
 #### exercici 2
 
