@@ -320,6 +320,7 @@ Per a compartir la capeta editem el fixer exports i fiquem primer la nostra carp
 <img width="867" height="70" alt="image" src="https://github.com/user-attachments/assets/92ec30f5-dc1d-46d5-af07-71ec6f6e557b" />
 
 fem un ls a vans de inicia secio al client
+
 <img width="596" height="58" alt="image" src="https://github.com/user-attachments/assets/ca9e2660-4d02-497b-8caa-bc61cd221b65" />
 
 
