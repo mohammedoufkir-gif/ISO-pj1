@@ -140,7 +140,70 @@ Ara reiniciem el sistema i comprobem que ja no es necesari mota la particio ja q
 
 
 
-## Gestió de procesos
+## 2. Gestió de Processos
+
+Un procés és un programa que s’està executant en un moment determinat, juntament amb tots els recursos que necessita per funcionar.
+
+---
+
+### Eines de Visualització i Monitoratge
+
+#### **pstree**
+Mostra els processos del sistema operatiu en forma d'arbre. Permet veure la jerarquia i identificar fàcilment quins processos són pare i quins són fills.
+
+#### **top**
+Mostra en temps real els processos que s’estan executant i els recursos que utilitzen. Proporciona dades clau com el PID, l'usuari, el percentatge de CPU i la memòria RAM utilitzada.
+
+#### **htop**
+Evolució de top amb una interfície més amigable. Utilitza colors i barres visuals per a la CPU. Permet navegar, filtrar i gestionar processos amb el teclat de manera interactiva.
+
+
+
+#### **btop**
+Monitor modern amb gràfics avançats. Mostra informació detallada sobre el processador, la memòria, els discos i la xarxa de manera molt intuïtiva.
+
+#### **ps aux**
+S'utilitza per veure una llista detallada de tots els processos que s'estan executant al sistema en un moment precís. És una fotografia fixa de l'estat actual.
+
+---
+
+### Control de Processos amb el Teclat
+
+#### **CTRL C**
+Envia el senyal SIGINT per interrompre un procés que s'executa en primer pla. S'utilitza per aturar programes que no acaben sols.
+
+#### **CTRL Z**
+Envia el senyal SIGSTOP per aturar temporalment un procés i enviar-lo al segon pla en estat suspès.
+
+---
+
+### Gestió de Cua i Estats
+
+#### **jobs**
+Mostra la llista de processos que l'usuari té en estat suspès o funcionant en segon pla des de la terminal actual.
+
+#### **fg**
+Torna a posar en primer pla un procés que estava a la llista de jobs per poder tornar a interactuar amb ell.
+
+---
+
+### Enviament de Senyals amb Kill
+
+La comanda kill serveix per enviar senyals específics als processos mitjançant el seu número d'identificació PID.
+
+
+
+#### **kill -15**
+Envia el senyal SIGTERM. Demana al procés que es tanqui de manera neta, permetent-li guardar dades i alliberar recursos correctament abans de marxar.
+
+#### **kill -9**
+Envia el senyal SIGKILL. Mata el procés de manera immediata i forçosa. S'usa quan un programa s'ha bloquejat i no respon a cap altra ordre.
+
+#### **kill -19**
+Envia el senyal SIGSTOP. Suspèn o pausa el procés completament, deixant-lo congelat a la memòria.
+
+#### **kill -18**
+Envia el senyal SIGCONT. Reprèn l'execució d'un procés que prèviament havia estat suspès o pausat.
 ## Gestió d'usuaris i grups i permisos
 
 A Ubuntu hi ha una alternativa amb interfície gràfica per fer aquesta tasca de manera més senzilla: gnome-system-tools.
