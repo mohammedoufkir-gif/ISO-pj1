@@ -93,10 +93,23 @@ Ara fiquem el seguent comando per que es munte automaticament el RAID al reinici
 
 <img width="739" height="32" alt="image" src="https://github.com/user-attachments/assets/ab1718bd-0280-4069-a16c-18dea0cb17b8" />
 
+Configuram al fstab el muntatge automatic a la carpeta /mnt/raid(creada anteriorment)
 
 <img width="875" height="372" alt="image" src="https://github.com/user-attachments/assets/0eb939b7-64d9-4156-acf3-1926b2c7d739" />
-re<img width="675" height="21" alt="image" src="https://github.com/user-attachments/assets/81019100-1341-4518-acd6-b4e243a076e4" />
+
+Actualitzem iniframs i reiniciem 
+
+<img width="675" height="21" alt="image" src="https://github.com/user-attachments/assets/81019100-1341-4518-acd6-b4e243a076e4" />
+
+Ara accedim a la carpeta raid1 fem un ls podrem comproba que ens surt el lost+found
+
 <img width="372" height="78" alt="image" src="https://github.com/user-attachments/assets/0f3b0c73-2542-46a9-b800-8c2c1276b94c" />
+
+Amb el touch creem un fixer prova
+
+<img width="346" height="20" alt="image" src="https://github.com/user-attachments/assets/31e40526-3c12-4c4e-8396-db5c3acd92da" />
+<img width="466" height="21" alt="image" src="https://github.com/user-attachments/assets/426bae02-5012-41c1-8f3c-1d68f3bca137" />
+
 <img width="549" height="51" alt="image" src="https://github.com/user-attachments/assets/17e06826-b4a3-44f0-bdd4-7b3054ae89f5" />
 
 <img width="714" height="133" alt="image" src="https://github.com/user-attachments/assets/7f82c35f-216c-4ba0-8bb5-a41957ba9e43" />
