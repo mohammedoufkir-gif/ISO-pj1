@@ -129,6 +129,8 @@ Ara tornem a connecta el un disc al RAID utilitsant el -a
 
 Primer al fixer fstap comentem la linea per a que al reinicia no intente muntar 
 
+<img width="620" height="50" alt="image" src="https://github.com/user-attachments/assets/a670522d-74dd-435f-bc8f-06fc959fddaf" />
+
 <img width="645" height="48" alt="image" src="https://github.com/user-attachments/assets/d3d511bc-899f-4085-b0d0-7b92ec5c9beb" />
 
 <img width="470" height="27" alt="image" src="https://github.com/user-attachments/assets/f9ad26b6-214c-4aed-b689-c5a208c12457" />
@@ -141,8 +143,8 @@ Primer al fixer fstap comentem la linea per a que al reinicia no intente muntar
 
 <img width="688" height="285" alt="image" src="https://github.com/user-attachments/assets/e9b014e1-bb6b-4ff1-9717-70e0c5e9013a" />
 <img width="753" height="62" alt="image" src="https://github.com/user-attachments/assets/51698b6e-34bd-410a-8d3c-cc9ea2f52df7" />
-borra raid
-<img width="620" height="50" alt="image" src="https://github.com/user-attachments/assets/a670522d-74dd-435f-bc8f-06fc959fddaf" />
+
+
 <img width="730" height="297" alt="image" src="https://github.com/user-attachments/assets/1f89b778-6689-42ed-834e-7cb6e4b16e0f" />
 <img width="757" height="491" alt="image" src="https://github.com/user-attachments/assets/9ad7c528-bfbc-40a9-9b90-00966b0aacd1" />
 <img width="653" height="97" alt="image" src="https://github.com/user-attachments/assets/86f05be2-2bc2-418c-97a4-30e98b023f2c" />
