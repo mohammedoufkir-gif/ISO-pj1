@@ -150,7 +150,7 @@ Ara esborrem la carpeta on estaba muntat el RAID i formatem els discos
 <img width="577" height="49" alt="image" src="https://github.com/user-attachments/assets/00e87b35-a09e-43fb-ba1b-8ce81e5cda7c" />
 
 
-Ara esborrem la line que se habia creat al fixer de configuracio
+Ara esborrem la linea que se habia creat al fixer de configuracio
 
 <img width="757" height="491" alt="image" src="https://github.com/user-attachments/assets/9ad7c528-bfbc-40a9-9b90-00966b0aacd1" />
 
