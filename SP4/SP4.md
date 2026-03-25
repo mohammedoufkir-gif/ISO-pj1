@@ -131,9 +131,13 @@ Primer al fixer fstap comentem la linea per a que al reinicia no intente muntar
 
 <img width="620" height="50" alt="image" src="https://github.com/user-attachments/assets/a670522d-74dd-435f-bc8f-06fc959fddaf" />
 
-<img width="645" height="48" alt="image" src="https://github.com/user-attachments/assets/d3d511bc-899f-4085-b0d0-7b92ec5c9beb" />
+
+
 
 <img width="470" height="27" alt="image" src="https://github.com/user-attachments/assets/f9ad26b6-214c-4aed-b689-c5a208c12457" />
+
+<img width="454" height="28" alt="image" src="https://github.com/user-attachments/assets/4eacebf5-00cb-41f5-8f80-dbec123b5d5b" />
+
 
 <img width="400" height="26" alt="image" src="https://github.com/user-attachments/assets/0d536956-2d16-4178-a4c5-a8720401df2b" />
 
