@@ -1,3 +1,49 @@
+##  Introducció als Sistemes RAID
+
+El terme **RAID** (*Redundant Array of Independent Disks*) es refereix a una tecnologia d'emmagatzematge que combina diversos discs durs físics en una sola unitat lògica per millorar el rendiment o la seguretat.
+
+---
+
+###  Nivells de RAID més utilitzats
+
+#### RAID 0 (Striping)
+Distribueix les dades equitativament entre dos o més discs.
+* **Objectiu:** Rendiment màxim.
+* **Risc:** Si un sol disc falla, **es perden totes les dades**.
+* **Capacitat:** $100\%$.
+
+#### RAID 1 (Mirroring)
+Crea una còpia exacta (mirall) de les dades en dos discs.
+* **Objectiu:** Seguretat i continuïtat.
+* **Avantatge:** Si un disc falla, l'altre té tota la informació.
+* **Capacitat:** $50\%$.
+
+#### RAID 5 (Paritat distribuïda)
+Reparteix dades i informació de recuperació (paritat) entre almenys 3 discs.
+* **Objectiu:** Equilibri entre capacitat i seguretat.
+* **Resiliència:** Pot fallar **un disc** sense pèrdua de dades.
+* **Capacitat:** $n - 1$ discs.
+
+#### RAID 10 (1+0)
+Combina el mirall (RAID 1) i el fraccionament (RAID 0). Requereix 4 discs.
+* **Objectiu:** El millor rendiment i alta seguretat.
+* **Capacitat:** $50\%$.
+
+---
+
+### 📊 Taula Comparativa
+
+| Nivell RAID | Discs Mínims | Tolerància a Fallades | Rendiment |
+| :--- | :--- | :--- | :--- |
+| **RAID 0** | 2 | Cap | Molt Alt |
+| **RAID 1** | 2 | 1 disc | Mitjà |
+| **RAID 5** | 3 | 1 disc | Alt (Lectura) |
+| **RAID 10** | 4 | Almenys 1 disc | Excel·lent |
+
+---
+
+> [!IMPORTANT]
+> **El RAID no és un Backup.** Un RAID protegeix contra la fallada física d'un disc, però no contra errors humans o virus. Cal seguir fent còpies de seguretat externes.
 <img width="528" height="24" alt="image" src="https://github.com/user-attachments/assets/1f7ed0ce-837f-415a-998b-672b5977f769" />
 
 <img width="715" height="447" alt="image" src="https://github.com/user-attachments/assets/d8e1cf59-4398-441f-bb89-222dfe01c932" />
