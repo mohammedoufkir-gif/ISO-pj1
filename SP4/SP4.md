@@ -154,5 +154,6 @@ Ara esborrem la line que se habia creat al fixer de configuracio
 <img width="757" height="491" alt="image" src="https://github.com/user-attachments/assets/9ad7c528-bfbc-40a9-9b90-00966b0aacd1" />
 
 Per ultim fem un --detail i comprobem que no el troba ja que esta ven esborrat
-<img width="653" height="97" alt="image" src="https://github.com/user-attachments/assets/86f05be2-2bc2-418c-97a4-
-30e98b023f2c" />
+
+<img width="923" height="126" alt="567707023-707b934e-5405-4d41-9203-019f93b1cbeb" src="https://github.com/user-attachments/assets/2eb6b90a-5e47-417f-8f2d-177703d309e1" />
+
