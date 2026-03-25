@@ -1,6 +1,6 @@
 
 ## RAIDs
-## Teoria RAID
+### Teoria RAID
 
 El terme **RAID** (*Redundant Array of Independent Disks*) es refereix a una tecnologia d'emmagatzematge que combina diversos discs durs físics en una sola unitat lògica per millorar el rendiment o la seguretat.
 
@@ -46,8 +46,14 @@ Combina el mirall (RAID 1) i el fraccionament (RAID 0). Requereix 4 discs.
 
 > [!IMPORTANT]
 > **El RAID no és un Backup.** Un RAID protegeix contra la fallada física d'un disc, però no contra errors humans o virus. Cal seguir fent còpies de seguretat externes.
+
+
+## RAID a Linux
+**Aquesta es una maquina ubuntu amb dos disc per el RAID **
+Primer instalem el paket mdam
 <img width="528" height="24" alt="image" src="https://github.com/user-attachments/assets/1f7ed0ce-837f-415a-998b-672b5977f769" />
 
+Fem 
 <img width="715" height="447" alt="image" src="https://github.com/user-attachments/assets/d8e1cf59-4398-441f-bb89-222dfe01c932" />
 
 
