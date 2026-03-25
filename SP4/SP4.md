@@ -48,25 +48,36 @@ Combina el mirall (RAID 1) i el fraccionament (RAID 0). Requereix 4 discs.
 > **El RAID no és un Backup.** Un RAID protegeix contra la fallada física d'un disc, però no contra errors humans o virus. Cal seguir fent còpies de seguretat externes.
 
 
-## RAID a Linux
+### RAID a Linux
 **Aquesta es una maquina ubuntu amb dos disc (1GB + 1GB)per el RAID**
+
+#### Instalacio del paquet
 
 Primer instalem el paket mdam
 
 <img width="528" height="24" alt="image" src="https://github.com/user-attachments/assets/1f7ed0ce-837f-415a-998b-672b5977f769" />
 
-Fem 
+#### Formatacio dels discos
+
+Fem un **lsblk** per identeficar els discos
 
 <img width="715" height="447" alt="image" src="https://github.com/user-attachments/assets/d8e1cf59-4398-441f-bb89-222dfe01c932" />
 
+Formatem els discos amb fdisk tant el "sdb" com el "sdc"
 
 <img width="806" height="35" alt="image" src="https://github.com/user-attachments/assets/5ce24be4-f90b-4dae-bf15-1538786eda70" />
 
+#### Creacio del RAID
+
+Primer creem una carpeta dins de /mnt per muntar el RAID amb els permisos necesaris
 
 <img width="695" height="195" alt="image" src="https://github.com/user-attachments/assets/f20e53f2-1505-4575-b032-53d6caef52a9" />
 
+Creem un RAID que indiquem amb /dev/md0 com el veurem al nostre SO  , el level=1 que es equivalent a RAID 1, per ultim se indica els discos que se utilitzaran
+
 <img width="875" height="202" alt="image" src="https://github.com/user-attachments/assets/5b33c7f9-9d04-46db-a252-761717e295e6" />
 
+Formatem el raid amb el sistema de fixer ext4
 <img width="873" height="271" alt="image" src="https://github.com/user-attachments/assets/fe6b315c-9413-4770-bcef-d31d57087d94" />
 
 <img width="648" height="598" alt="image" src="https://github.com/user-attachments/assets/34a08b6d-53d3-4875-b31f-97e9a0314109" />
