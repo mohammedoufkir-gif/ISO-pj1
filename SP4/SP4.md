@@ -49,7 +49,7 @@ Combina el mirall (RAID 1) i el fraccionament (RAID 0). Requereix 4 discs.
 
 
 ## RAID a Linux
-**Aquesta es una maquina ubuntu amb dos disc per el RAID**
+**Aquesta es una maquina ubuntu amb dos disc (1GB + 1GB)per el RAID**
 
 Primer instalem el paket mdam
 
