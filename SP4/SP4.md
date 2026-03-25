@@ -105,16 +105,40 @@ Ara accedim a la carpeta raid1 fem un ls podrem comproba que ens surt el lost+fo
 
 <img width="372" height="78" alt="image" src="https://github.com/user-attachments/assets/0f3b0c73-2542-46a9-b800-8c2c1276b94c" />
 
+#### Proves d'error
+
 Amb el touch creem un fixer prova
 
 <img width="346" height="20" alt="image" src="https://github.com/user-attachments/assets/31e40526-3c12-4c4e-8396-db5c3acd92da" />
+
+Ara simulem una fallida amb el -f al disco sdb1 
+
 <img width="466" height="21" alt="image" src="https://github.com/user-attachments/assets/426bae02-5012-41c1-8f3c-1d68f3bca137" />
 
 <img width="549" height="51" alt="image" src="https://github.com/user-attachments/assets/17e06826-b4a3-44f0-bdd4-7b3054ae89f5" />
 
+Ara comprovem que tot i falla un disc el raid continua funcionant igual  fem un ls i creem un archiu prova 2
+
 <img width="714" height="133" alt="image" src="https://github.com/user-attachments/assets/7f82c35f-216c-4ba0-8bb5-a41957ba9e43" />
+
+Ara tornem a connecta el un disc al RAID utilitsant el -a 
+
 <img width="714" height="133" alt="image" src="https://github.com/user-attachments/assets/d7f18e7d-a420-4ccd-801b-061a624f4c7d" />
+
+#### Eleminar correctament el RAID
+
+Primer al fixer fstap comentem la linea per a que al reinicia no intente muntar 
+
 <img width="645" height="48" alt="image" src="https://github.com/user-attachments/assets/d3d511bc-899f-4085-b0d0-7b92ec5c9beb" />
+
+<img width="470" height="27" alt="image" src="https://github.com/user-attachments/assets/f9ad26b6-214c-4aed-b689-c5a208c12457" />
+
+<img width="400" height="26" alt="image" src="https://github.com/user-attachments/assets/0d536956-2d16-4178-a4c5-a8720401df2b" />
+
+<img width="375" height="25" alt="image" src="https://github.com/user-attachments/assets/7a6dffa5-3ccb-4cec-ad96-6dad09482726" />
+
+<img width="577" height="49" alt="image" src="https://github.com/user-attachments/assets/00e87b35-a09e-43fb-ba1b-8ce81e5cda7c" />
+
 <img width="688" height="285" alt="image" src="https://github.com/user-attachments/assets/e9b014e1-bb6b-4ff1-9717-70e0c5e9013a" />
 <img width="753" height="62" alt="image" src="https://github.com/user-attachments/assets/51698b6e-34bd-410a-8d3c-cc9ea2f52df7" />
 borra raid
