@@ -78,16 +78,22 @@ Creem un RAID que indiquem amb /dev/md0 com el veurem al nostre SO  , el level=1
 <img width="875" height="202" alt="image" src="https://github.com/user-attachments/assets/5b33c7f9-9d04-46db-a252-761717e295e6" />
 
 Formatem el raid amb el sistema de fixer ext4
+
 <img width="873" height="271" alt="image" src="https://github.com/user-attachments/assets/fe6b315c-9413-4770-bcef-d31d57087d94" />
+
+#### Configuracio i muntatge del RAID al sistema
+
+Per a veure els detais del RAID fiquem la seguent comanda
 
 <img width="648" height="598" alt="image" src="https://github.com/user-attachments/assets/34a08b6d-53d3-4875-b31f-97e9a0314109" />
 
-<img width="847" height="90" alt="image" src="https://github.com/user-attachments/assets/86fa3b0b-f3ae-401e-a055-536487e9745c" />
+
+
+Ara fiquem el seguent comando per que es munte automaticament el RAID al reiniciar
 
 <img width="739" height="32" alt="image" src="https://github.com/user-attachments/assets/ab1718bd-0280-4069-a16c-18dea0cb17b8" />
 
 
-<img width="885" height="63" alt="image" src="https://github.com/user-attachments/assets/96b1c941-ac36-40a8-84b2-dfcc9a318371" />
 <img width="875" height="372" alt="image" src="https://github.com/user-attachments/assets/0eb939b7-64d9-4156-acf3-1926b2c7d739" />
 re<img width="675" height="21" alt="image" src="https://github.com/user-attachments/assets/81019100-1341-4518-acd6-b4e243a076e4" />
 <img width="372" height="78" alt="image" src="https://github.com/user-attachments/assets/0f3b0c73-2542-46a9-b800-8c2c1276b94c" />
