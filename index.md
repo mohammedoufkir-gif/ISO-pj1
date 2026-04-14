@@ -8,6 +8,7 @@
 
 
 
+## Projecte 1
 
 ### [Sprint 1: Instal·lació, Configuració Inicial i Programari de Base](SP1/SP1.md)  
 
@@ -15,9 +16,10 @@
 ### [Sprint 3: Administració de Dominis i Seguretat](SP3/SP3.md) 
 ### [Sprint 4: Configuració del Programari de Base i Sistemes d’Emmagatzematge en Ubuntu](SP4/SP4.md)  
 ### [Sprint 5: Monitoratge, Auditories i Programari Client/Servidor](SP5/SP5.md)  
-## Licencia
 ## Projecte 2
 ### [Sprint 1: Instal·lació, Configuració Inicial i Programari de Base](SP1/SP1-windows.md)  
+## Licencia
+
 
 
 El contenido está bajo licencia [Creative Commons BY-NC-SA 4.0 ES](LICENSE.md).
