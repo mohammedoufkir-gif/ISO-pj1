@@ -27,6 +27,14 @@
 
 ## Fase 2 - Punts de restauració
 * **Pas 6 al 8:** Cercar "Crear un punt de restauració", activar la protecció al disc C: i crear un punt manual.
+  <img width="802" height="683" alt="image" src="https://github.com/user-attachments/assets/b233cd64-53bc-4b9d-8946-2b2f6059ff36" />
+  <img width="413" height="470" alt="image" src="https://github.com/user-attachments/assets/3d836df7-17b9-4ac4-bd32-196d8d942be3" />
+<img width="413" height="470" alt="image" src="https://github.com/user-attachments/assets/5bd0b87a-3603-422a-9b0b-105909ebef48" />
+<img width="416" height="226" alt="image" src="https://github.com/user-attachments/assets/88156170-cb05-45af-a90b-94d226356549" />
+<img width="302" height="100" alt="image" src="https://github.com/user-attachments/assets/17a509ca-a2c0-467e-9fb9-bde068f921e6" />
+<img width="361" height="131" alt="image" src="https://github.com/user-attachments/assets/5c8245b8-f98c-4863-9b64-00459639ac7b" />
+
+
 * **Pas 9 i 10:** Fer un canvi (instal·lar app o configuració), restaurar i comprovar resultats.
 
 ## Fase 3 - Llicències de Windows
