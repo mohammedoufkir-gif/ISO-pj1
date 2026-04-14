@@ -36,6 +36,19 @@
 
 
 * **Pas 9 i 10:** Fer un canvi (instal·lar app o configuració), restaurar i comprovar resultats.
+  fem un canvi
+<img width="963" height="778" alt="image" src="https://github.com/user-attachments/assets/d67956a0-331a-454d-bf77-4add24572a22" />
+
+<img width="429" height="513" alt="image" src="https://github.com/user-attachments/assets/44177cf2-d691-4d57-83e4-641feafe3f54" />
+
+<img width="569" height="467" alt="image" src="https://github.com/user-attachments/assets/3f7731ba-cfb9-4122-8cc1-fe597586585d" />
+
+<img width="569" height="467" alt="image" src="https://github.com/user-attachments/assets/6f155f5f-8634-4fd8-8459-41b5a7613c58" />
+
+<img width="295" height="100" alt="image" src="https://github.com/user-attachments/assets/d5ccb817-e725-4d4e-b49f-8b072590b2a6" />
+
+<img width="531" height="468" alt="image" src="https://github.com/user-attachments/assets/ad550113-efe7-4a94-9215-a6c7496d9e7e" />
+
 
 ## Fase 3 - Llicències de Windows
 * **Pas 11 i 12:** Obrir Configuració → Sistema → Activació per veure si Windows està activat.
