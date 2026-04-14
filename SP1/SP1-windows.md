@@ -1,4 +1,4 @@
-# [cite_start]GUIA PRÀCTICA: Instal·lació i configuració de Windows [cite: 3, 4]
+# GUIA PRÀCTICA: Instal·lació i configuració de Windows
 
 ## Índex
 1. [Fase 1: Instal·lació del sistema operatiu](#fase-1-installació-del-sistema-operatiu)
@@ -11,36 +11,36 @@
 
 ---
 
-## [cite_start]Fase 1 - Instal·lació del sistema operatiu [cite: 5]
-* [cite_start]**Crear màquina virtual** amb VirtualBox[cite: 6].
-* [cite_start]**Assignar recursos:** Memòria RAM mínima de 4 GB i disc de 40 GB[cite: 7].
-* [cite_start]**Carregar ISO** de Windows 10 o Windows 11[cite: 7].
-* [cite_start]**Instal·lar el sistema:** Configuració d'idioma, usuari i contrasenya[cite: 13].
+## Fase 1 - Instal·lació del sistema operatiu
+* **Pas 1 al 3:** Crear màquina virtual amb VirtualBox assignant recursos (RAM mínim 4 GB, disc mínim 40 GB).
+* **Pas 4:** Carregar la imatge ISO de Windows 10 o Windows 11.
+* **Pas 5:** Instal·lar el sistema (idioma, usuari, contrasenya) i comprovar que arrenca correctament.
 
-## [cite_start]Fase 2 - Punts de restauració [cite: 14]
-* [cite_start]**Activació:** Cercar "Crear un punt de restauració" i activar la protecció al disc C:[cite: 15].
-* [cite_start]**Gestió:** Crear un punt manual, realitzar un canvi (instal·lar app) i restaurar per comprovar[cite: 15, 16].
+## Fase 2 - Punts de restauració
+* **Pas 6 al 8:** Cercar "Crear un punt de restauració", activar la protecció al disc C: i crear un punt manual.
+* **Pas 9 i 10:** Fer un canvi (instal·lar app o configuració), restaurar i comprovar resultats.
 
-## [cite_start]Fase 3 - Llicències de Windows [cite: 17]
-* [cite_start]**Verificació:** Consultar l'estat des de Sistema → Activació i executar `slmgr /xpr` al cmd[cite: 18, 19, 21].
-* [cite_start]**Investigació:** Explicar el llicenciament i consultar preus en webs oficials[cite: 22, 23].
+## Fase 3 - Llicències de Windows
+* **Pas 11 i 12:** Obrir Configuració → Sistema → Activació per veure si Windows està activat.
+* **Pas 13:** Executar al cmd la comanda `slmgr /xpr`.
+* **Pas 14 i 15:** Esbrinar el llicenciament de Windows i consultar el preu aproximat d'una llicència en webs oficials.
 
-## [cite_start]Fase 4 - Gestor d'arrencada [cite: 24]
-* [cite_start]**Anàlisi tècnica:** Obrir Command Prompt com a administrador i executar `bcdedit`[cite: 25].
-* [cite_start]**Identificació:** Diferenciar entre el **Boot Manager** (qui decideix l'arrencada) i el **Boot Loader** (qui carrega el sistema)[cite: 25, 42].
-* [cite_start]**Dades clau:** Identificar el `default`, el `timeout` i la ruta del fitxer `winload.efi`[cite: 32, 33, 36].
+## Fase 4 - Gestor d'arrencada
+* **Pas 16 i 17:** Obrir Command Prompt com administrador i executar `bcdedit`.
+* **Pas 18 i 19:** Identificar els blocs (Boot Manager i Boot Loader) i interpretar dades com `default`, `timeout`, `device` i `path`.
+* **Pas 20 i 21:** Respondre preguntes sobre el sistema d'arrencada i explicar la funció del Boot Manager i Boot Loader.
 
-## [cite_start]Fase 5 - Xarxa bàsica [cite: 45]
-* [cite_start]**Consulta:** Obrir configuració i utilitzar `ipconfig`[cite: 46, 47].
-* [cite_start]**Configuració:** Alternar entre IP dinàmica (DHCP) i IP fixa (manual)[cite: 48, 49].
-* [cite_start]**Comprovació:** Validar la connexió amb `ping google.com`[cite: 50].
+## Fase 5 - Xarxa bàsica
+* **Pas 22 i 23:** Obrir configuració de xarxa i consultar la IP amb la comanda `ipconfig`.
+* **Pas 24 i 25:** Configurar la IP dinàmica (DHCP) i la IP fixa (manual: IP, màscara, gateway, DNS).
+* **Pas 26:** Comprovar la connexió amb `ping google.com`.
 
-## [cite_start]Fase 6 - Comandes generals [cite: 51]
-* [cite_start]**Eines:** Diferenciar entre **cmd** (bàsic) i **PowerShell** (més potent, objectes i automatització)[cite: 53, 54, 55].
-* [cite_start]**Comandes de fitxers:** Ús de `dir`, `cd`, `mkdir`, `echo` i `del`[cite: 58, 60, 61, 62, 63].
-* [cite_start]**Gestió del sistema:** `tasklist` (processos), `systeminfo` (informació sistema), `hostname` i `whoami`[cite: 65, 71, 72, 73].
-* [cite_start]**Xarxa i utilitats:** `netstat -an` (connexions), `tree` (estructura), `help` i `shutdown`[cite: 77, 80, 82, 84].
+## Fase 6 - Comandes generals
+* **Pas 27 i 28:** Obrir PowerShell i diferenciar-lo del cmd (bàsic vs potent/automatització).
+* **Pas 29:** Provar comandes bàsiques de fitxers: `dir`, `cd`, `mkdir`, `echo` i `del`.
+* **Pas 30 al 33:** Utilitzar comandes de sistema i xarxa com `tasklist`, `taskkill`, `systeminfo`, `hostname`, `whoami`, `netstat`, `tree`, `help` i `shutdown`.
 
-## [cite_start]Fase 7 - Instal·lació d'aplicacions [cite: 90]
-* [cite_start]**Descàrrega:** Obtenir programes via navegador o des de la Microsoft Store[cite: 91, 94].
-* [cite_start]**Manteniment:** Instal·lar mitjançant l'assistent i realitzar la desinstal·lació des de Configuració → Aplicacions[cite: 92, 96].
+## Fase 7 - Instal·lació d'aplicacions
+* **Pas 34 al 36:** Descarregar un programa des del navegador (Chrome o VS Code), instal·lar-lo i comprovar-ne el funcionament.
+* **Pas 37 i 38:** Instal·lar una aplicació des de la Microsoft Store.
+* **Pas 39 i 40:** Desinstal·lar una aplicació des de la configuració i verificar que ja no apareix al sistema.
