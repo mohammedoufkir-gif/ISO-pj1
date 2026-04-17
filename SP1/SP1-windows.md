@@ -1,3 +1,4 @@
+<img width="955" height="874" alt="Captura de pantalla de 2026-04-17 09-11-18" src="https://github.com/user-attachments/assets/87289754-bcd1-43a3-959f-a4cf4cd632ac" />
 # GUIA PRÀCTICA: Instal·lació i configuració de Windows
 
 ## Índex
@@ -48,11 +49,17 @@
 <img width="295" height="100" alt="image" src="https://github.com/user-attachments/assets/d5ccb817-e725-4d4e-b49f-8b072590b2a6" />
 
 <img width="531" height="468" alt="image" src="https://github.com/user-attachments/assets/ad550113-efe7-4a94-9215-a6c7496d9e7e" />
+<img width="955" height="874" alt="Captura de pantalla de 2026-04-17 09-11-18" src="https://github.com/user-attachments/assets/dc5dc755-40f6-4393-9add-5ef9536a642a" />
+
 
 
 ## Fase 3 - Llicències de Windows
 * **Pas 11 i 12:** Obrir Configuració → Sistema → Activació per veure si Windows està activat.
+  <img width="804" height="650" alt="Captura de pantalla de 2026-04-17 09-13-13" src="https://github.com/user-attachments/assets/01c18255-f816-41e4-92d7-1a6cac497ead" />
+
 * **Pas 13:** Executar al cmd la comanda `slmgr /xpr`.
+  <img width="927" height="513" alt="Captura de pantalla de 2026-04-17 09-15-17" src="https://github.com/user-attachments/assets/4224870f-562b-438f-b2fd-a40184a514d0" />
+
 * **Pas 14 i 15:** Esbrinar el llicenciament de Windows i consultar el preu aproximat d'una llicència en webs oficials.
 
 ## Fase 4 - Gestor d'arrencada
