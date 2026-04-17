@@ -98,8 +98,14 @@ IP fixa
 <img width="420" height="24" alt="image" src="https://github.com/user-attachments/assets/8c507c0d-74f1-4219-a399-936e31342a85" />
 
 * **Pas 30 al 33:** Utilitzar comandes de sistema i xarxa com `tasklist`, `taskkill`, `systeminfo`, `hostname`, `whoami`, `netstat`, `tree`, `help` i `shutdown`.
+* 
+<img width="661" height="610" alt="image" src="https://github.com/user-attachments/assets/7d254556-2db9-48b1-a05d-df129f63fc27" />
+
+<img width="862" height="680" alt="image" src="https://github.com/user-attachments/assets/b58d7173-35ba-4d31-b4de-2bcdbf49f7be" />
+
+<img width="453" height="74" alt="image" src="https://github.com/user-attachments/assets/465c188b-3764-4fb9-9566-8757873c3298" />
 
 ## Fase 7 - Instal·lació d'aplicacions
-* **Pas 34 al 36:** Descarregar un programa des del navegador (Chrome o VS Code), instal·lar-lo i comprovar-ne el funcionament.
+* **Pas 34 al 36:** Descarregar un programa des del navegador, instal·lar-lo i comprovar-ne el funcionament.
 * **Pas 37 i 38:** Instal·lar una aplicació des de la Microsoft Store.
 * **Pas 39 i 40:** Desinstal·lar una aplicació des de la configuració i verificar que ja no apareix al sistema.
