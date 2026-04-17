@@ -104,6 +104,12 @@ IP fixa
 <img width="862" height="680" alt="image" src="https://github.com/user-attachments/assets/b58d7173-35ba-4d31-b4de-2bcdbf49f7be" />
 
 <img width="453" height="74" alt="image" src="https://github.com/user-attachments/assets/465c188b-3764-4fb9-9566-8757873c3298" />
+<img width="826" height="576" alt="Captura de pantalla de 2026-04-17 22-18-56" src="https://github.com/user-attachments/assets/012fba7e-13de-4351-bb33-83b70a94648e" />
+<img width="247" height="40" alt="Captura de pantalla de 2026-04-17 22-19-24" src="https://github.com/user-attachments/assets/5727b593-4496-494c-9959-be2831045a01" />
+
+<img width="264" height="37" alt="Captura de pantalla de 2026-04-17 22-19-55" src="https://github.com/user-attachments/assets/b93771c2-8e19-482b-8444-119c41cf4609" />
+<img width="727" height="473" alt="Captura de pantalla de 2026-04-17 22-20-17" src="https://github.com/user-attachments/assets/871e8e35-00e9-4fcb-a2fd-88f0c07f9f0e" />
+<img width="727" height="473" alt="Captura de pantalla de 2026-04-17 22-20-31" src="https://github.com/user-attachments/assets/edc271c7-74bb-49ef-9694-e49f48ca5a28" />
 
 ## Fase 7 - Instal·lació d'aplicacions
 * **Pas 34 al 36:** Descarregar un programa des del navegador, instal·lar-lo i comprovar-ne el funcionament.
