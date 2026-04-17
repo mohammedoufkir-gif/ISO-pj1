@@ -110,6 +110,7 @@ IP fixa
 <img width="264" height="37" alt="Captura de pantalla de 2026-04-17 22-19-55" src="https://github.com/user-attachments/assets/b93771c2-8e19-482b-8444-119c41cf4609" />
 <img width="727" height="473" alt="Captura de pantalla de 2026-04-17 22-20-17" src="https://github.com/user-attachments/assets/871e8e35-00e9-4fcb-a2fd-88f0c07f9f0e" />
 <img width="727" height="473" alt="Captura de pantalla de 2026-04-17 22-20-31" src="https://github.com/user-attachments/assets/edc271c7-74bb-49ef-9694-e49f48ca5a28" />
+<img width="727" height="473" alt="Captura de pantalla de 2026-04-17 22-24-32" src="https://github.com/user-attachments/assets/814da669-56cc-4004-a978-8a52999af2a5" />
 
 ## Fase 7 - Instal·lació d'aplicacions
 * **Pas 34 al 36:** Descarregar un programa des del navegador, instal·lar-lo i comprovar-ne el funcionament.
