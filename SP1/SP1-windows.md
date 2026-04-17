@@ -1,4 +1,3 @@
-<img width="955" height="874" alt="Captura de pantalla de 2026-04-17 09-11-18" src="https://github.com/user-attachments/assets/87289754-bcd1-43a3-959f-a4cf4cd632ac" />
 # GUIA PRÀCTICA: Instal·lació i configuració de Windows
 
 ## Índex
@@ -64,17 +63,40 @@
 
 ## Fase 4 - Gestor d'arrencada
 * **Pas 16 i 17:** Obrir Command Prompt com administrador i executar `bcdedit`.
+<img width="788" height="502" alt="Captura de pantalla de 2026-04-17 09-17-29" src="https://github.com/user-attachments/assets/b5afb003-5888-47d8-a0ef-67b458695682" />
+
 * **Pas 18 i 19:** Identificar els blocs (Boot Manager i Boot Loader) i interpretar dades com `default`, `timeout`, `device` i `path`.
 * **Pas 20 i 21:** Respondre preguntes sobre el sistema d'arrencada i explicar la funció del Boot Manager i Boot Loader.
 
 ## Fase 5 - Xarxa bàsica
 * **Pas 22 i 23:** Obrir configuració de xarxa i consultar la IP amb la comanda `ipconfig`.
+  <img width="732" height="381" alt="image" src="https://github.com/user-attachments/assets/cba316b6-b474-41c0-ac98-e18553728182" />
+  
+<img width="705" height="199" alt="image" src="https://github.com/user-attachments/assets/0b1819a1-33e1-42c6-8be3-54b0e8261d75" />
+
 * **Pas 24 i 25:** Configurar la IP dinàmica (DHCP) i la IP fixa (manual: IP, màscara, gateway, DNS).
+  DHCP    
+  <img width="428" height="218" alt="image" src="https://github.com/user-attachments/assets/6fa6c3da-9c5f-41b2-971b-66d1f20e14b3" />
+  
+IP fixa
+
+<img width="397" height="642" alt="image" src="https://github.com/user-attachments/assets/c58c45aa-216d-4bd2-b12f-44b27b553eb8" />
+
+
 * **Pas 26:** Comprovar la connexió amb `ping google.com`.
+<img width="668" height="246" alt="image" src="https://github.com/user-attachments/assets/eb794a24-3cde-4eca-a806-e279a419ed83" />
 
 ## Fase 6 - Comandes generals
 * **Pas 27 i 28:** Obrir PowerShell i diferenciar-lo del cmd (bàsic vs potent/automatització).
+  <img width="768" height="531" alt="image" src="https://github.com/user-attachments/assets/4d8ea62c-b499-4858-abb7-0c0fb40ef7df" />
+
 * **Pas 29:** Provar comandes bàsiques de fitxers: `dir`, `cd`, `mkdir`, `echo` i `del`.
+  <img width="709" height="320" alt="image" src="https://github.com/user-attachments/assets/574b8318-6546-4705-8ee2-bf783b9cc772" />
+<img width="324" height="19" alt="image" src="https://github.com/user-attachments/assets/a6aa77d3-2c59-4fa7-8077-9ea56c66a9ce" />
+<img width="427" height="150" alt="image" src="https://github.com/user-attachments/assets/3b78f554-95ff-441a-9df5-60a4016aeb4d" />
+<img width="442" height="74" alt="image" src="https://github.com/user-attachments/assets/b56f31c6-f107-490c-9b8e-acae6ec3c26a" />
+<img width="420" height="24" alt="image" src="https://github.com/user-attachments/assets/8c507c0d-74f1-4219-a399-936e31342a85" />
+
 * **Pas 30 al 33:** Utilitzar comandes de sistema i xarxa com `tasklist`, `taskkill`, `systeminfo`, `hostname`, `whoami`, `netstat`, `tree`, `help` i `shutdown`.
 
 ## Fase 7 - Instal·lació d'aplicacions
