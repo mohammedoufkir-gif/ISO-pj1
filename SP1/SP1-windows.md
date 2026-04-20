@@ -20,7 +20,7 @@
   <img width="328" height="225" alt="Captura de pantalla de 2026-04-14 08-35-09" src="https://github.com/user-attachments/assets/385caa77-e766-4f7e-92f4-1f0a641d5b22" />
 
 * **Pas 5:** Instal·lar el sistema (idioma, usuari, contrasenya) i comprovar que arrenca correctament.
-* 
+  Anem a a "Crear un punto de restauracio"
 <img width="381" height="303" alt="Captura de pantalla de 2026-04-14 08-33-13" src="https://github.com/user-attachments/assets/7162f54d-76eb-4f01-9a78-23a27c898d86" />
 
 <img width="381" height="303" alt="Captura de pantalla de 2026-04-14 08-33-56" src="https://github.com/user-attachments/assets/60e62e4e-1d38-4830-a1c6-7028ec741e82" />
