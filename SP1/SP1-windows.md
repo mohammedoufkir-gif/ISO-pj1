@@ -61,10 +61,10 @@ Uan vegada reinciat com podem veure que se ha restaurat el sistema operatiu, ja 
 
 
 ## Fase 3 - Llicències de Windows
-* **Pas 11 i 12:** Obrir Configuració → Sistema → Activació per veure si Windows està activat.
+* Anem a onfiguració → Sistema → Activació per veure si Windows està activat en el nostr eca no .
   <img width="804" height="650" alt="Captura de pantalla de 2026-04-17 09-13-13" src="https://github.com/user-attachments/assets/01c18255-f816-41e4-92d7-1a6cac497ead" />
 
-* **Pas 13:** Executar al cmd la comanda `slmgr /xpr`.
+* Executar al cmd la comanda `slmgr /xpr` per veure quin edicion de windows tenim.
   <img width="927" height="513" alt="Captura de pantalla de 2026-04-17 09-15-17" src="https://github.com/user-attachments/assets/4224870f-562b-438f-b2fd-a40184a514d0" />
 
 * **Pas 14 i 15:** Esbrinar el llicenciament de Windows i consultar el preu aproximat d'una llicència en webs oficials.
