@@ -40,16 +40,22 @@ Ara fiquem un nom al punt de restauracio
 
 <img width="963" height="778" alt="image" src="https://github.com/user-attachments/assets/d67956a0-331a-454d-bf77-4add24572a22" />
 
+Restaurem el SO 
 
 <img width="429" height="513" alt="image" src="https://github.com/user-attachments/assets/44177cf2-d691-4d57-83e4-641feafe3f54" />
 
+Elegim la nostre punt de restauracio
+
 <img width="569" height="467" alt="image" src="https://github.com/user-attachments/assets/3f7731ba-cfb9-4122-8cc1-fe597586585d" />
+
+Confirmem
 
 <img width="569" height="467" alt="image" src="https://github.com/user-attachments/assets/6f155f5f-8634-4fd8-8459-41b5a7613c58" />
 
-<img width="295" height="100" alt="image" src="https://github.com/user-attachments/assets/d5ccb817-e725-4d4e-b49f-8b072590b2a6" />
-
+I el el sistem es reiniciara
 <img width="531" height="468" alt="image" src="https://github.com/user-attachments/assets/ad550113-efe7-4a94-9215-a6c7496d9e7e" />
+
+Uan vegada reinciat com podem veure que se ha restaurat el sistema operatiu, ja que no tenim el fons de panatalla de la pala.
 <img width="955" height="874" alt="Captura de pantalla de 2026-04-17 09-11-18" src="https://github.com/user-attachments/assets/dc5dc755-40f6-4393-9add-5ef9536a642a" />
 
 
