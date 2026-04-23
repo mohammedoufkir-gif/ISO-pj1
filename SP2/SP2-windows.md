@@ -1,4 +1,4 @@
-# Planificación de Sprint 2: Configuración Avanzada de Windows
+# Planificació de Sprint 2: Configuració Avançada de Windows
 
 ## Índex
 1. [Fase 1: Preparació del sistema](#fase-1---preparació-del-sistema)
@@ -11,28 +11,30 @@
 ---
 
 ## Fase 1 - Preparació del sistema
-* [cite_start]**Configuració de discs:** Afegir un nou disc virtual, inicialitzar-lo i crear les particions "Dades" (NTFS) i "Portable" (FAT32)[cite: 101, 102, 103].
-* [cite_start]**Verificació:** Assignar lletres d'unitat i comprovar la configuració mitjançant l'eina `diskpart`[cite: 104].
+* **Pas 1 i 2:** Afegir un nou disc virtual a la màquina virtual i iniciar Windows per obrir la "Gestió de discs".
+* **Pas 3:** Inicialitzar el disc i crear dues particions: una NTFS anomenada "Dades" i una FAT32 anomenada "Portable".
+* **Pas 4:** Assignar lletres d'unitat i comprovar la configuració final mitjançant la comanda `diskpart`.
 
 ## Fase 2 - Quotes i usuaris
-* [cite_start]**Control de l'espai:** Activar les quotes de disc a la partició Dades amb un límit de 300 MB per usuari i avisos de notificació[cite: 106, 107].
-* [cite_start]**Gestió d'usuaris:** Creació dels usuaris locals `alumne1` i `alumne2` i la seva assignació al grup "Limitats"[cite: 108, 109].
-* [cite_start]**Proves de quota:** Verificació del bloqueig d'escriptura en superar el límit de dades[cite: 110].
+* **Pas 5 i 6:** Activar les quotes de disc a la partició Dades, establint un límit de 300 MB per usuari amb notificació d'advertència.
+* **Pas 7 i 8:** Crear els usuaris locals `alumne1` i `alumne2` i afegir-los al nou grup "Limitats".
+* **Pas 9:** Provar la còpia de fitxers fins a superar el límit per verificar que la quota bloqueja l'escriptura.
 
 ## Fase 3 - Script de còpia i automatització
-* [cite_start]**Unitat de Backup:** Configuració d'un tercer disc en NTFS anomenat "Backups" amb la carpeta `CòpiesUsuaris`[cite: 112, 113].
-* [cite_start]**Desenvolupament d'Scripts:** Creació d'un fitxer `.bat` per copiar el perfil de l'usuari a la unitat de seguretat[cite: 114, 115].
-* [cite_start]**Automatització:** Ús de `gpedit.msc` per assignar l'script a l'inici de sessió dels alumnes[cite: 116, 117].
+* **Pas 10 i 11:** Afegir un tercer disc virtual (Backups) en format NTFS i crear la carpeta `CòpiesUsuaris`.
+* **Pas 12:** Crear un fitxer `script.bat` que copiï el contingut de la carpeta de l'usuari actual cap a la unitat de Backups.
+* **Pas 13 i 14:** Utilitzar `gpedit.msc` per configurar l'script perquè s'executi automàticament en l'inici de sessió.
 
 ## Fase 4 - Verificació i documentació
-* [cite_start]**Comprovació final:** Validació que l'script realitza la còpia correctament i que les quotes bloquegen l'accés quan toca[cite: 119].
+* **Pas 15:** Iniciar sessió amb els usuaris creats per comprovar que l'automatització funciona i que les restriccions d'espai s'apliquen correctament.
 
 ## Fase 5 - Gestió de processos i serveis
-* [cite_start]**Monitorització:** Llistat de processos actius (`tasklist`) i exportació a un fitxer de text[cite: 121, 124, 125].
-* [cite_start]**Optimització:** Identificació i eliminació manual de processos prescindibles com `OneDrive.exe` o `Teams.exe`[cite: 128, 130, 137].
-* [cite_start]**Millora del rendiment:** Automatització del tancament de processos no essencials a l'inici de sessió per estalviar recursos[cite: 139, 140, 144].
+* **Pas 19:** Llistar i exportar els processos actius a un fitxer de text mitjançant `tasklist > procesos_inici.txt`.
+* **Pas 20 i 21:** Identificar processos no essencials (OneDrive, Teams, Skype) i eliminar-los manualment amb la comanda `taskkill /IM [nom] /F`.
+* **Pas 22 i 23:** Automatitzar el tancament d'aquests processos a l'script d'inici i documentar la millora de rendiment a la màquina virtual.
 
 ## Fase 6 - Gestió de permisos (ACLs)
-* [cite_start]**Conceptes:** Introducció a les llistes de control d'accés (ACL) i les entrades de control d'accés (ACE)[cite: 146, 147, 149].
-* [cite_start]**Configuració de permisos:** Creació de la carpeta `Projectes`, desactivació de l'herència i assignació de control total al grup "Limitats"[cite: 159, 162, 164].
-* [cite_start]**Excepcions detallades:** Ús de la comanda `icacls` per restringir a `alumne2` a només lectura, mantenint el control total per a la resta del grup[cite: 171, 172, 177].
+* **Teoria:** Comprendre el funcionament de les ACL (Access Control List) i les ACE (entrades de control d'accés) per a permisos detallats.
+* **Pas 24 i 25:** Crear la carpeta `Projectes`, desactivar l'herència de permisos i donar "Control total" al grup "Limitats".
+* **Pas 26 al 28:** Aplicar una excepció per a `alumne2` mitjançant `icacls`, restringint el seu accés a "Només lectura" mentre la resta del grup manté el control total.
+* **Pas 29:** Consultar i verificar els permisos finals aplicats amb la comanda `icacls "D:\Projectes"`.
