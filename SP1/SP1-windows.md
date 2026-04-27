@@ -68,6 +68,7 @@ Uan vegada reinciat com podem veure que se ha restaurat el sistema operatiu, ja 
   <img width="927" height="513" alt="Captura de pantalla de 2026-04-17 09-15-17" src="https://github.com/user-attachments/assets/4224870f-562b-438f-b2fd-a40184a514d0" />
   
 * Tipus de llicecies
+  
 | Edición de Windows | Precio Microsoft Store (PVP) | Precio Distribuidores Autorizados | Tipo de Licencia |
 | :--- | :---: | :---: | :--- |
 | **Windows 11 Home** | 145,00 € | ~100,00 € - 115,00 € | Retail (Digital) |
