@@ -20,7 +20,11 @@
 <img width="762" height="106" alt="image" src="https://github.com/user-attachments/assets/d1209893-3525-4995-906b-d3296025d370" />
 
 
+
 * **Pas 4:** Assignar lletres d'unitat i comprovar la configuració final mitjançant la comanda `diskpart`.
+<img width="489" height="342" alt="image" src="https://github.com/user-attachments/assets/356f4c00-5b5f-4476-81b2-ff572a34ec64" />
+<img width="581" height="162" alt="image" src="https://github.com/user-attachments/assets/db0f33f7-f651-45ac-9c9d-5d8f1537d461" />
+<img width="388" height="273" alt="image" src="https://github.com/user-attachments/assets/89526098-e86a-44cd-a7a0-a93603b4dd98" />
 
 ## Fase 2 - Quotes i usuaris
 * **Pas 5 i 6:** Activar les quotes de disc a la partició Dades, establint un límit de 300 MB per usuari amb notificació d'advertència.
