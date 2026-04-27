@@ -15,7 +15,7 @@
 <img width="742" height="450" alt="image" src="https://github.com/user-attachments/assets/5e1d2f73-8eb3-41a3-9121-57265d613fa1" />
   
 * **Pas 3:** Inicialitzar el disc i crear dues particions: una NTFS anomenada "Dades" i una FAT32 anomenada "Portable".
-  <img width="499" height="394" alt="image" src="https://github.com/user-attachments/assets/069e517f-08a8-4ef9-8b64-e23613c36cff" />
+<img width="499" height="394" alt="image" src="https://github.com/user-attachments/assets/069e517f-08a8-4ef9-8b64-e23613c36cff" />
 <img width="499" height="394" alt="image" src="https://github.com/user-attachments/assets/a7aa07a4-b0ed-4ac3-9fb2-ea162e0edaca" />
 <img width="762" height="106" alt="image" src="https://github.com/user-attachments/assets/d1209893-3525-4995-906b-d3296025d370" />
 
