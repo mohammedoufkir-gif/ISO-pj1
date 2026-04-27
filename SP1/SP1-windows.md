@@ -77,16 +77,17 @@ Uan vegada reinciat com podem veure que se ha restaurat el sistema operatiu, ja 
 * **Pas 20 i 21:** Respondre preguntes sobre el sistema d'arrencada i explicar la funció del Boot Manager i Boot Loader.
 
 ## Fase 5 - Xarxa bàsica
-* **Pas 22 i 23:** Obrir configuració de xarxa i consultar la IP amb la comanda `ipconfig`.
+* Configuracio de xarxa
   <img width="732" height="381" alt="image" src="https://github.com/user-attachments/assets/cba316b6-b474-41c0-ac98-e18553728182" />
-  
+* comanda ifconfig per a vuere informarcio de xarxa
+
 <img width="705" height="199" alt="image" src="https://github.com/user-attachments/assets/0b1819a1-33e1-42c6-8be3-54b0e8261d75" />
 
-* **Pas 24 i 25:** Configurar la IP dinàmica (DHCP) i la IP fixa (manual: IP, màscara, gateway, DNS).
-  DHCP    
+
+*  Configuracio DHCP    
   <img width="428" height="218" alt="image" src="https://github.com/user-attachments/assets/6fa6c3da-9c5f-41b2-971b-66d1f20e14b3" />
   
-IP fixa
+* Configuracio d'ip fixa
 
 <img width="397" height="642" alt="image" src="https://github.com/user-attachments/assets/c58c45aa-216d-4bd2-b12f-44b27b553eb8" />
 
