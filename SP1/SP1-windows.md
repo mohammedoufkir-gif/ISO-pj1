@@ -92,12 +92,13 @@ Uan vegada reinciat com podem veure que se ha restaurat el sistema operatiu, ja 
 <img width="397" height="642" alt="image" src="https://github.com/user-attachments/assets/c58c45aa-216d-4bd2-b12f-44b27b553eb8" />
 
 
-* **Pas 26:** Comprovar la connexió amb `ping google.com`.
+* Fem la comprovar la connexió amb `ping google.com`.
 <img width="668" height="246" alt="image" src="https://github.com/user-attachments/assets/eb794a24-3cde-4eca-a806-e279a419ed83" />
 
 ## Fase 6 - Comandes generals
-* **Pas 27 i 28:** Obrir PowerShell i diferenciar-lo del cmd (bàsic vs potent/automatització).
+* Obrime power Shell 
   <img width="768" height="531" alt="image" src="https://github.com/user-attachments/assets/4d8ea62c-b499-4858-abb7-0c0fb40ef7df" />
+* Diferencies etre powershell i cmd
 
 * **Pas 29:** Provar comandes bàsiques de fitxers: `dir`, `cd`, `mkdir`, `echo` i `del`.
   <img width="709" height="320" alt="image" src="https://github.com/user-attachments/assets/574b8318-6546-4705-8ee2-bf783b9cc772" />
