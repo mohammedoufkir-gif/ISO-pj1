@@ -69,11 +69,11 @@ Uan vegada reinciat com podem veure que se ha restaurat el sistema operatiu, ja 
   
 * Tipus de llicecies
   
-| Edición de Windows | Precio Microsoft Store (PVP) | Precio Distribuidores Autorizados | Tipo de Licencia |
+| Edició de Windows | Preu Microsoft Store (PVP) | Preu Distribuidors Autoritzats | Tipus de Llicència |
 | :--- | :---: | :---: | :--- |
 | **Windows 11 Home** | 145,00 € | ~100,00 € - 115,00 € | Retail (Digital) |
 | **Windows 11 Pro** | 259,00 € | ~140,00 € - 160,00 € | Retail / OEM |
-| **Windows 11 Pro for Workstations** | 439,00 € | ~350,00 € | Professional Avanzado |
+| **Windows 11 Pro for Workstations** | 439,00 € | ~350,00 € | Professional Avançat |
 ## Fase 4 - Gestor d'arrencada
 * **Pas 16 i 17:** Obrir Command Prompt com administrador i executar `bcdedit`.
 <img width="788" height="502" alt="Captura de pantalla de 2026-04-17 09-17-29" src="https://github.com/user-attachments/assets/b5afb003-5888-47d8-a0ef-67b458695682" />
@@ -129,16 +129,32 @@ Uan vegada reinciat com podem veure que se ha restaurat el sistema operatiu, ja 
 <img width="311" height="42" alt="image" src="https://github.com/user-attachments/assets/3e3db94b-1cca-4395-b064-77685273396c" />
 
 ## Fase 7 - Instal·lació d'aplicacions
-* Instalem el cercador de chrome
+* Instalacio desde el cercado o altres fonts
+Primer ens baixem el ejectuble
   <img width="396" height="140" alt="image" src="https://github.com/user-attachments/assets/10152caf-0d15-4969-b5c7-2c7de4805238" />
-<img width="470" height="342" alt="image" src="https://github.com/user-attachments/assets/32428314-21f5-4ce9-980b-de2f96791694" />
-<img width="918" height="697" alt="image" src="https://github.com/user-attachments/assets/ea6c614f-43e1-4266-9ba3-d07e35a24d93" />
-<img width="1024" height="766" alt="image" src="https://github.com/user-attachments/assets/7da82c3c-f615-4d6d-9c83-83734d06d160" />
 
+El ejecutem com a administrador
+<img width="470" height="342" alt="image" src="https://github.com/user-attachments/assets/32428314-21f5-4ce9-980b-de2f96791694" />
+
+Despres nomes sera fe clic a seguent i es comensaraa la instalacio
+<img width="580" height="250" alt="image" src="https://github.com/user-attachments/assets/721f5ae9-bc68-447e-b685-5cd939989166" />
+
+Aqui comprovem que se ha instlat correctament 
+<img width="918" height="697" alt="image" src="https://github.com/user-attachments/assets/ea6c614f-43e1-4266-9ba3-d07e35a24d93" />
 
 * Instal·lar una aplicació des de la Microsoft Store.
+
+Fem un a cerca per veure que se ha instlat correctament 
+<img width="1024" height="766" alt="image" src="https://github.com/user-attachments/assets/7da82c3c-f615-4d6d-9c83-83734d06d160" />
+
+Ara desde la store de microsoft tambe podem instara applicacions com ara chat gpt
 <img width="802" height="642" alt="image" src="https://github.com/user-attachments/assets/42b4d460-86bf-4924-a24a-17435ebcfeb0" />
 
 
 * Desinstal·lar una aplicació.
+Per desinstalar applicacion anem a afegir o treure programes
+
+<img width="779" height="259" alt="image" src="https://github.com/user-attachments/assets/57c7e077-760f-4b25-9aca-dc5d3fdb0fbe" />
+
+Ara desde ahi podem desinstala els programes
 <img width="494" height="156" alt="image" src="https://github.com/user-attachments/assets/98fd7072-8c8f-4cc0-b142-456ce6c1aead" />
