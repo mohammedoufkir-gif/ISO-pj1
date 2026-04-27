@@ -66,9 +66,13 @@ Uan vegada reinciat com podem veure que se ha restaurat el sistema operatiu, ja 
 
 * Executar al cmd la comanda `slmgr /xpr` per veure quin edicion de windows tenim.
   <img width="927" height="513" alt="Captura de pantalla de 2026-04-17 09-15-17" src="https://github.com/user-attachments/assets/4224870f-562b-438f-b2fd-a40184a514d0" />
-
-* **Pas 14 i 15:** Esbrinar el llicenciament de Windows i consultar el preu aproximat d'una llicència en webs oficials.
-
+  
+* Tipus de llicecies
+| Edición de Windows | Precio Microsoft Store (PVP) | Precio Distribuidores Autorizados | Tipo de Licencia |
+| :--- | :---: | :---: | :--- |
+| **Windows 11 Home** | 145,00 € | ~100,00 € - 115,00 € | Retail (Digital) |
+| **Windows 11 Pro** | 259,00 € | ~140,00 € - 160,00 € | Retail / OEM |
+| **Windows 11 Pro for Workstations** | 439,00 € | ~350,00 € | Professional Avanzado |
 ## Fase 4 - Gestor d'arrencada
 * **Pas 16 i 17:** Obrir Command Prompt com administrador i executar `bcdedit`.
 <img width="788" height="502" alt="Captura de pantalla de 2026-04-17 09-17-29" src="https://github.com/user-attachments/assets/b5afb003-5888-47d8-a0ef-67b458695682" />
