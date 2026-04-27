@@ -31,6 +31,9 @@
   <img width="496" height="526" alt="image" src="https://github.com/user-attachments/assets/5898f403-663e-4711-a87e-310ed14a86ec" />
 
 * **Pas 7 i 8:** Crear els usuaris locals `alumne1` i `alumne2` i afegir-los al nou grup "Limitats".
+  al<img width="436" height="404" alt="image" src="https://github.com/user-attachments/assets/f7f61474-18ea-44c1-8458-570fdeadb3ab" />
+<img width="436" height="404" alt="image" src="https://github.com/user-attachments/assets/54e6f138-13fc-46fe-b842-f42b81d17890" />
+
 * **Pas 9:** Provar la còpia de fitxers fins a superar el límit per verificar que la quota bloqueja l'escriptura.
 
 ## Fase 3 - Script de còpia i automatització
