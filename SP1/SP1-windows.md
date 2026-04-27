@@ -123,5 +123,15 @@ IP fixa
 
 ## Fase 7 - Instal·lació d'aplicacions
 * **Pas 34 al 36:** Descarregar un programa des del navegador, instal·lar-lo i comprovar-ne el funcionament.
+  <img width="396" height="140" alt="image" src="https://github.com/user-attachments/assets/10152caf-0d15-4969-b5c7-2c7de4805238" />
+<img width="470" height="342" alt="image" src="https://github.com/user-attachments/assets/32428314-21f5-4ce9-980b-de2f96791694" />
+<img width="918" height="697" alt="image" src="https://github.com/user-attachments/assets/ea6c614f-43e1-4266-9ba3-d07e35a24d93" />
+<img width="1024" height="766" alt="image" src="https://github.com/user-attachments/assets/7da82c3c-f615-4d6d-9c83-83734d06d160" />
+
+
 * **Pas 37 i 38:** Instal·lar una aplicació des de la Microsoft Store.
+<img width="802" height="642" alt="image" src="https://github.com/user-attachments/assets/42b4d460-86bf-4924-a24a-17435ebcfeb0" />
+
+
 * **Pas 39 i 40:** Desinstal·lar una aplicació des de la configuració i verificar que ja no apareix al sistema.
+<img width="494" height="156" alt="image" src="https://github.com/user-attachments/assets/98fd7072-8c8f-4cc0-b142-456ce6c1aead" />
