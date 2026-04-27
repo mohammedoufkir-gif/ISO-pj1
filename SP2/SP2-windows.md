@@ -28,6 +28,8 @@
 
 ## Fase 2 - Quotes i usuaris
 * **Pas 5 i 6:** Activar les quotes de disc a la partició Dades, establint un límit de 300 MB per usuari amb notificació d'advertència.
+  <img width="496" height="526" alt="image" src="https://github.com/user-attachments/assets/5898f403-663e-4711-a87e-310ed14a86ec" />
+
 * **Pas 7 i 8:** Crear els usuaris locals `alumne1` i `alumne2` i afegir-los al nou grup "Limitats".
 * **Pas 9:** Provar la còpia de fitxers fins a superar el límit per verificar que la quota bloqueja l'escriptura.
 
