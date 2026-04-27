@@ -11,20 +11,31 @@
 ---
 
 ## Fase 1 - Preparació del sistema
-* **Pas 1 i 2:** Afegir un nou disc virtual a la màquina virtual i iniciar Windows per obrir la "Gestió de discs".
+* Afeggim un dis vdi a la nostra maquina
 <img width="742" height="450" alt="image" src="https://github.com/user-attachments/assets/5e1d2f73-8eb3-41a3-9121-57265d613fa1" />
   
-* **Pas 3:** Inicialitzar el disc i crear dues particions: una NTFS anomenada "Dades" i una FAT32 anomenada "Portable".
+* Creacio de partcions
+
+NTFS DADES
 <img width="499" height="394" alt="image" src="https://github.com/user-attachments/assets/069e517f-08a8-4ef9-8b64-e23613c36cff" />
+
+FAT32 PORTABLE
 <img width="499" height="394" alt="image" src="https://github.com/user-attachments/assets/a7aa07a4-b0ed-4ac3-9fb2-ea162e0edaca" />
 <img width="762" height="106" alt="image" src="https://github.com/user-attachments/assets/d1209893-3525-4995-906b-d3296025d370" />
 
 
 
-* **Pas 4:** Assignar lletres d'unitat i comprovar la configuració final mitjançant la comanda `diskpart`.
+* Assignar lletres d'unitat i comprovar la configuració final mitjançant la comanda `diskpart`.
+  
+Assignem les lletres
 <img width="489" height="342" alt="image" src="https://github.com/user-attachments/assets/356f4c00-5b5f-4476-81b2-ff572a34ec64" />
-<img width="581" height="162" alt="image" src="https://github.com/user-attachments/assets/db0f33f7-f651-45ac-9c9d-5d8f1537d461" />
 <img width="388" height="273" alt="image" src="https://github.com/user-attachments/assets/89526098-e86a-44cd-a7a0-a93603b4dd98" />
+
+Comprobem amb diskpart les particions creades al disk
+<img width="581" height="162" alt="image" src="https://github.com/user-attachments/assets/db0f33f7-f651-45ac-9c9d-5d8f1537d461" />
+
+Surt una particio mes per que hem elegit la taula de particions GPT aixo lo que fa es que windows cree una nova particio que es diu MSR (Microsoft Reserved Partition).
+
 
 ## Fase 2 - Quotes i usuaris
 * **Pas 5 i 6:** Activar les quotes de disc a la partició Dades, establint un límit de 300 MB per usuari amb notificació d'advertència.
