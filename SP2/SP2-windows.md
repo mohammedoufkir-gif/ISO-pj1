@@ -39,9 +39,8 @@ Surt una particio mes per que hem elegit la taula de particions GPT aixo lo que 
 
 ## Fase 2 - Quotes i usuaris
 * Activar les quotes de disc a la partició Dades, establint un límit de 300 MB per usuari amb notificació d'advertència.
-*
 
-    <img width="470" height="511" alt="image" src="https://github.com/user-attachments/assets/11aa8058-7a66-434f-b9b1-6967bc10a486" />
+<img width="470" height="511" alt="image" src="https://github.com/user-attachments/assets/11aa8058-7a66-434f-b9b1-6967bc10a486" />
 <img width="376" height="503" alt="image" src="https://github.com/user-attachments/assets/947b3a51-5b17-4a0f-aa23-bf807cc34d0d" />
 <img width="376" height="503" alt="image" src="https://github.com/user-attachments/assets/e9416f5f-2e9b-4657-bcc6-aaefc67c4364" />
 
