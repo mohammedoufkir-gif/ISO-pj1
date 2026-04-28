@@ -11,10 +11,14 @@
 <img width="447" height="378" alt="image" src="https://github.com/user-attachments/assets/5be56e19-7962-48f4-83d8-c87a59be8f9e" />
 <img width="447" height="378" alt="image" src="https://github.com/user-attachments/assets/ff53662e-1f1f-466a-a7c2-e21d69d7b856" />
 
-Alumne1
-crear uo
-crear usr
+
 
 
 <img width="665" height="243" alt="image" src="https://github.com/user-attachments/assets/944b882b-9ee8-440f-bac3-244051ad6d1f" />
+
+<img width="398" height="456" alt="image" src="https://github.com/user-attachments/assets/db74b59b-2ada-4d98-bf93-71fdd03ad444" />
+<img width="687" height="270" alt="image" src="https://github.com/user-attachments/assets/167248c1-02c3-423f-9deb-671a6b2faf5a" />
+<img width="687" height="270" alt="image" src="https://github.com/user-attachments/assets/22d75814-c54b-4364-8545-f7a3139e5494" />
+<img width="456" height="311" alt="image" src="https://github.com/user-attachments/assets/d612d039-7e26-4586-9868-a993ccc796d7" />
+<img width="556" height="543" alt="image" src="https://github.com/user-attachments/assets/420a6f12-d849-4236-b638-a9c55754bd82" />
 
