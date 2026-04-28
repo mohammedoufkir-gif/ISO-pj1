@@ -75,10 +75,13 @@ I alumne2
 <img width="436" height="404" alt="image" src="https://github.com/user-attachments/assets/54e6f138-13fc-46fe-b842-f42b81d17890" />
 
 * Provar la còpia de fitxers fins a superar el límit per verificar que la quota bloqueja l'escriptura.
+Entrem desde un dels usuaris  creats
 <img width="240" height="232" alt="image" src="https://github.com/user-attachments/assets/9b427976-386e-4bae-828e-0668bfe8e83e" />
 
+Per a fer les proves he agafat un fixer de 90MB 
 <img width="277" height="172" alt="image" src="https://github.com/user-attachments/assets/a76c446e-46b5-4e84-86db-4b91bc2bc7cb" />
 
+Podem comprobar que al supera el limit de 300 MB no hem deixa pujar mes fixers
 <img width="594" height="469" alt="image" src="https://github.com/user-attachments/assets/5865dc20-92c3-416b-b209-ff24d58c2b23" />
 
 
