@@ -56,13 +56,22 @@ Mostra configuracio de couota i assegnim 300MB de cuota i 200 MB per la adverten
 
 
 * Crear els usuaris locals `alumne1` i `alumne2` i afegir-los al nou grup "Limitats".
-  
+
+Per a crear els usuaris anem a administracio d'equips
 <img width="298" height="582" alt="image" src="https://github.com/user-attachments/assets/7cab2625-6eeb-472a-9271-5d5a90e93b2c" />
+
+Usuaris i grups locals> usuaris
 <img width="185" height="81" alt="image" src="https://github.com/user-attachments/assets/a7e874b3-7abc-4828-bd2f-e12ecf1eadf0" />
+
+Ara adins podem fer clic dret i usuari nou
 
 <img width="264" height="226" alt="image" src="https://github.com/user-attachments/assets/6976805b-82d5-4b52-bd37-9f58fa391dfd" />
 
+Creem primer el usuari alumne1 
 <img width="436" height="404" alt="image" src="https://github.com/user-attachments/assets/f7f61474-18ea-44c1-8458-570fdeadb3ab" />
+
+I alumne2
+
 <img width="436" height="404" alt="image" src="https://github.com/user-attachments/assets/54e6f138-13fc-46fe-b842-f42b81d17890" />
 
 * **Pas 9:** Provar la còpia de fitxers fins a superar el límit per verificar que la quota bloqueja l'escriptura.
