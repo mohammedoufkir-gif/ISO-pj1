@@ -40,15 +40,29 @@ Surt una particio mes per que hem elegit la taula de particions GPT aixo lo que 
 ## Fase 2 - Quotes i usuaris
 * Activar les quotes de disc a la partició Dades, establint un límit de 300 MB per usuari amb notificació d'advertència.
 
+Per actva les quotes hem de fer clic dret al volum que li volem fica alguna quota
+
 <img width="470" height="511" alt="image" src="https://github.com/user-attachments/assets/11aa8058-7a66-434f-b9b1-6967bc10a486" />
+
 <img width="376" height="503" alt="image" src="https://github.com/user-attachments/assets/947b3a51-5b17-4a0f-aa23-bf807cc34d0d" />
+
+Ara anem a cuota
+
 <img width="376" height="503" alt="image" src="https://github.com/user-attachments/assets/e9416f5f-2e9b-4657-bcc6-aaefc67c4364" />
+
+Mostra configuracio de couota i assegnim 300MB de cuota i 200 MB per la advertencia
 
 <img width="376" height="503" alt="image" src="https://github.com/user-attachments/assets/c7062179-ea37-4545-a371-25f22679bb5d" />
 
 
-* **Pas 7 i 8:** Crear els usuaris locals `alumne1` i `alumne2` i afegir-los al nou grup "Limitats".
-  al<img width="436" height="404" alt="image" src="https://github.com/user-attachments/assets/f7f61474-18ea-44c1-8458-570fdeadb3ab" />
+* Crear els usuaris locals `alumne1` i `alumne2` i afegir-los al nou grup "Limitats".
+  
+<img width="298" height="582" alt="image" src="https://github.com/user-attachments/assets/7cab2625-6eeb-472a-9271-5d5a90e93b2c" />
+<img width="185" height="81" alt="image" src="https://github.com/user-attachments/assets/a7e874b3-7abc-4828-bd2f-e12ecf1eadf0" />
+
+<img width="264" height="226" alt="image" src="https://github.com/user-attachments/assets/6976805b-82d5-4b52-bd37-9f58fa391dfd" />
+
+<img width="436" height="404" alt="image" src="https://github.com/user-attachments/assets/f7f61474-18ea-44c1-8458-570fdeadb3ab" />
 <img width="436" height="404" alt="image" src="https://github.com/user-attachments/assets/54e6f138-13fc-46fe-b842-f42b81d17890" />
 
 * **Pas 9:** Provar la còpia de fitxers fins a superar el límit per verificar que la quota bloqueja l'escriptura.
