@@ -60,7 +60,7 @@ Mostra configuracio de couota i assegnim 300MB de cuota i 200 MB per la adverten
 Per a crear els usuaris anem a administracio d'equips
 <img width="298" height="582" alt="image" src="https://github.com/user-attachments/assets/7cab2625-6eeb-472a-9271-5d5a90e93b2c" />
 
-Usuaris i grups locals> usuaris
+Usuaris i grups locals > usuaris
 <img width="185" height="81" alt="image" src="https://github.com/user-attachments/assets/a7e874b3-7abc-4828-bd2f-e12ecf1eadf0" />
 
 Ara adins podem fer clic dret i usuari nou
@@ -74,7 +74,13 @@ I alumne2
 
 <img width="436" height="404" alt="image" src="https://github.com/user-attachments/assets/54e6f138-13fc-46fe-b842-f42b81d17890" />
 
-* **Pas 9:** Provar la còpia de fitxers fins a superar el límit per verificar que la quota bloqueja l'escriptura.
+* Provar la còpia de fitxers fins a superar el límit per verificar que la quota bloqueja l'escriptura.
+<img width="240" height="232" alt="image" src="https://github.com/user-attachments/assets/9b427976-386e-4bae-828e-0668bfe8e83e" />
+
+<img width="277" height="172" alt="image" src="https://github.com/user-attachments/assets/a76c446e-46b5-4e84-86db-4b91bc2bc7cb" />
+
+<img width="594" height="469" alt="image" src="https://github.com/user-attachments/assets/5865dc20-92c3-416b-b209-ff24d58c2b23" />
+
 
 ## Fase 3 - Script de còpia i automatització
 * **Pas 10 i 11:** Afegir un tercer disc virtual (Backups) en format NTFS i crear la carpeta `CòpiesUsuaris`.
