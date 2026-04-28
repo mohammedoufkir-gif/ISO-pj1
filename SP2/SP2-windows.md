@@ -38,8 +38,15 @@ Surt una particio mes per que hem elegit la taula de particions GPT aixo lo que 
 
 
 ## Fase 2 - Quotes i usuaris
-* **Pas 5 i 6:** Activar les quotes de disc a la partició Dades, establint un límit de 300 MB per usuari amb notificació d'advertència.
-  <img width="496" height="526" alt="image" src="https://github.com/user-attachments/assets/5898f403-663e-4711-a87e-310ed14a86ec" />
+* Activar les quotes de disc a la partició Dades, establint un límit de 300 MB per usuari amb notificació d'advertència.
+*
+
+    <img width="470" height="511" alt="image" src="https://github.com/user-attachments/assets/11aa8058-7a66-434f-b9b1-6967bc10a486" />
+<img width="376" height="503" alt="image" src="https://github.com/user-attachments/assets/947b3a51-5b17-4a0f-aa23-bf807cc34d0d" />
+<img width="376" height="503" alt="image" src="https://github.com/user-attachments/assets/e9416f5f-2e9b-4657-bcc6-aaefc67c4364" />
+
+<img width="376" height="503" alt="image" src="https://github.com/user-attachments/assets/c7062179-ea37-4545-a371-25f22679bb5d" />
+
 
 * **Pas 7 i 8:** Crear els usuaris locals `alumne1` i `alumne2` i afegir-los al nou grup "Limitats".
   al<img width="436" height="404" alt="image" src="https://github.com/user-attachments/assets/f7f61474-18ea-44c1-8458-570fdeadb3ab" />
