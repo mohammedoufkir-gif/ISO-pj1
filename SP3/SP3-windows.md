@@ -5,8 +5,16 @@
 <img width="798" height="549" alt="image" src="https://github.com/user-attachments/assets/72cfa455-27cd-4281-a2ce-1772e2f432bf" />
 <img width="798" height="549" alt="image" src="https://github.com/user-attachments/assets/23b778c4-6a87-4c8f-818e-59b4ba10dac9" />
 <img width="798" height="549" alt="image" src="https://github.com/user-attachments/assets/390837d2-4e82-40d1-bd84-197610fbe48c" />
+<img width="798" height="549" alt="image" src="https://github.com/user-attachments/assets/c77ce602-2597-4ca5-805f-ec4cb3a414c6" />
 
+<img width="447" height="378" alt="image" src="https://github.com/user-attachments/assets/b8fd35a6-c83d-49f7-9415-08174ba73817" />
+<img width="447" height="378" alt="image" src="https://github.com/user-attachments/assets/5be56e19-7962-48f4-83d8-c87a59be8f9e" />
+<img width="447" height="378" alt="image" src="https://github.com/user-attachments/assets/ff53662e-1f1f-466a-a7c2-e21d69d7b856" />
 
 Alumne1
 crear uo
 crear usr
+
+
+<img width="665" height="243" alt="image" src="https://github.com/user-attachments/assets/944b882b-9ee8-440f-bac3-244051ad6d1f" />
+
