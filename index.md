@@ -18,6 +18,7 @@
 ## Projecte 2
 ### [Sprint 1: Instal·lació, Configuració Inicial i Programari de Base](SP1/SP1-windows.md)  
 ### [Sprint 2: Instal·lació, Configuració de Programari de Base i Gestió de Fitxers](SP2/SP2-windows.md)  
+### [Sprint 3: Administració de Dominis i Seguretat](SP3/SP3-windows.md) 
 
 ## Licencia
 
