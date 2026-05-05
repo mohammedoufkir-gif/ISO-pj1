@@ -101,14 +101,34 @@ Creem la carpeta CòpieUsuaris a dins del disc de Backup
 <img width="785" height="612" alt="image" src="https://github.com/user-attachments/assets/867848b8-05fd-46fd-93b4-3af0bb817683" />
 
 
-* **Pas 12:** Crear un fitxer `script.bat` que copiï el contingut de la carpeta de l'usuari actual cap a la unitat de Backups.
+* Crear un fitxer `script.bat` que copiï el contingut de la carpeta de l'usuari actual cap a la unitat de Backups.
 Fixer 
 <img width="750" height="517" alt="image" src="https://github.com/user-attachments/assets/cf877ea4-45ba-41ee-b3b5-b79efc862013" />
 
 Comprobacio del funcionament
 <img width="790" height="595" alt="image" src="https://github.com/user-attachments/assets/c98cb7c1-059a-44d8-98b2-d60e691650ff" />
 
-* **Pas 13 i 14:** Utilitzar `gpedit.msc` per configurar l'script perquè s'executi automàticament en l'inici de sessió.
+*  Utilitzar `gpedit.msc` per configurar l'script perquè s'executi automàticament en l'inici de sessió.
+
+
+Per a configura que el escript es ejecuta cada que iniciem anem a Gpedit >Configguracio d'equip> Configuracio de windows> Scripts> Inici
+
+<img width="761" height="552" alt="image" src="https://github.com/user-attachments/assets/8b466b9a-8077-4be2-b67f-67cc3dbce2e1" />
+
+Ara fem clic a affegir
+
+<img width="394" height="458" alt="image" src="https://github.com/user-attachments/assets/61202a48-5594-439f-85d9-a790c2f2588f" />
+
+cerquem el fixer
+
+<img width="623" height="496" alt="image" src="https://github.com/user-attachments/assets/29324146-31e8-4b36-97b1-916e6c2100f3" />
+
+per ultim fem clic a accesptar
+<img width="444" height="464" alt="image" src="https://github.com/user-attachments/assets/36cd8570-828e-4984-93ea-f4ae7bf81579" />
+
+
+
+
 
 ## Fase 4 - Verificació i documentació
 * **Pas 15:** Iniciar sessió amb els usuaris creats per comprovar que l'automatització funciona i que les restriccions d'espai s'apliquen correctament.
