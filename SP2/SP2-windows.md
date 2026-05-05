@@ -131,11 +131,29 @@ per ultim fem clic a accesptar
 
 
 ## Fase 4 - Verificació i documentació
-* **Pas 15:** Iniciar sessió amb els usuaris creats per comprovar que l'automatització funciona i que les restriccions d'espai s'apliquen correctament.
+* Iniciar sessió amb els usuaris creats per comprovar que l'automatització funciona i que les restriccions d'espai s'apliquen correctament.
+
+Comprobem el funcionamen del script, podem veure que al inicia  amb un dels usuaris creat anteriorment se fa la copia de seguretat automaticament
+<img width="831" height="615" alt="image" src="https://github.com/user-attachments/assets/9c1c2cae-edcb-4987-8b1c-3556e6ef5a8e" />
+
 
 ## Fase 5 - Gestió de processos i serveis
-* **Pas 19:** Llistar i exportar els processos actius a un fitxer de text mitjançant `tasklist > procesos_inici.txt`.
-* **Pas 20 i 21:** Identificar processos no essencials (OneDrive, Teams, Skype) i eliminar-los manualment amb la comanda `taskkill /IM [nom] /F`.
+*  Llistar i exportar els processos actius a un fitxer de text mitjançant `tasklist > procesos_inici.txt`.
+
+Ara amb la comanda  asklist > procesos_inici.txt gener un fixer de text amb els procesos actius
+<img width="355" height="17" alt="image" src="https://github.com/user-attachments/assets/7fb486a7-1dcf-49bd-91cd-4c4c014658e3" />
+
+fixer generat
+<img width="746" height="516" alt="image" src="https://github.com/user-attachments/assets/f7de0c0b-677c-4ab4-8788-7853603562ca" />
+
+
+* Identificar processos no essencials (OneDrive, Teams, Skype) i eliminar-los manualment amb la comanda `taskkill /IM [nom] /F`.
+Eleminarem el seguent process
+<img width="725" height="25" alt="image" src="https://github.com/user-attachments/assets/027444df-5af0-41d2-a3f4-fb8426c13d29" />
+
+ara amb la comanda  taskkill /IM M365Copilot.exe /F
+<img width="533" height="31" alt="image" src="https://github.com/user-attachments/assets/2725faa0-3a85-4f84-bcaf-b0c7c76623d0" />
+
 * **Pas 22 i 23:** Automatitzar el tancament d'aquests processos a l'script d'inici i documentar la millora de rendiment a la màquina virtual.
 
 ## Fase 6 - Gestió de permisos (ACLs)
