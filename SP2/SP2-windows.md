@@ -86,7 +86,21 @@ Podem comprobar que al supera el limit de 300 MB no hem deixa pujar mes fixers
 
 
 ## Fase 3 - Script de còpia i automatització
-* **Pas 10 i 11:** Afegir un tercer disc virtual (Backups) en format NTFS i crear la carpeta `CòpiesUsuaris`.
+* Afegir un tercer disc virtual (Backups) en format NTFS i crear la carpeta `CòpiesUsuaris`.
+  
+Affegim un nou disc virtual
+
+<img width="892" height="553" alt="Captura de pantalla de 2026-05-05 08-46-18" src="https://github.com/user-attachments/assets/79f0f683-e280-4279-9cd3-93480aa5e4bc" />
+
+Ara el fortem com a NTFS
+
+<img width="606" height="464" alt="image" src="https://github.com/user-attachments/assets/9b226d71-ef59-4227-8068-5d486dad2475" />
+
+Creem la carpeta CòpieUsuaris a dins del disc de Backup
+
+<img width="785" height="612" alt="image" src="https://github.com/user-attachments/assets/867848b8-05fd-46fd-93b4-3af0bb817683" />
+
+
 * **Pas 12:** Crear un fitxer `script.bat` que copiï el contingut de la carpeta de l'usuari actual cap a la unitat de Backups.
 * **Pas 13 i 14:** Utilitzar `gpedit.msc` per configurar l'script perquè s'executi automàticament en l'inici de sessió.
 
