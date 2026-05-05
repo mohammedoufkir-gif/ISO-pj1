@@ -212,6 +212,11 @@ I donem control total al grup limitats
 
 Affegim una exepcio al alumne2 per que nomes tingui permis de lectura
 
-<img width="672" height="77" alt="image" src="https://github.com/user-attachments/assets/868fb370-5c60-4f55-bb4a-e3ed093aaa31" />
+<img width="600" height="67" alt="image" src="https://github.com/user-attachments/assets/df74f372-89a0-4562-9962-4c717d05fecf" />
 
-* **Pas 29:** Consultar i verificar els permisos finals aplicats amb la comanda `icacls "D:\Projectes"`.
+Provem de crear un fixer desde el usuari alumne2 com podem veure no ensdeixa
+<img width="591" height="330" alt="image" src="https://github.com/user-attachments/assets/ffd8852b-c5f3-4e1c-a683-67bf2d7f6c47" />
+
+
+* Consultar i verificar els permisos finals aplicats amb la comanda `icacls "E:\Projectes"`.
+<img width="616" height="97" alt="image" src="https://github.com/user-attachments/assets/ea6e7727-4ceb-4e0e-a178-74bc4ac0cc12" />
