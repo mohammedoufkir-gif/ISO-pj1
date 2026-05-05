@@ -161,7 +161,57 @@ Ara incorporem lla comanda taskill al script per cuan inicie el windows es tanqu
 <img width="513" height="746" alt="image" src="https://github.com/user-attachments/assets/640d3a98-72de-4307-af9a-7c8da9ffa513" />
 
 ## Fase 6 - Gestió de permisos (ACLs)
-* **Teoria:** Comprendre el funcionament de les ACL (Access Control List) i les ACE (entrades de control d'accés) per a permisos detallats.
-* **Pas 24 i 25:** Crear la carpeta `Projectes`, desactivar l'herència de permisos i donar "Control total" al grup "Limitats".
-* **Pas 26 al 28:** Aplicar una excepció per a `alumne2` mitjançant `icacls`, restringint el seu accés a "Només lectura" mentre la resta del grup manté el control total.
+### ACLs a Windows (Access Control Lists)
+
+Les **ACLs** són el mecanisme de seguretat de Windows per gestionar qui pot accedir a fitxers i carpetes.
+
+1. Components
+* **ACE (Access Control Entry):** Les entrades individuals que formen la llista (Usuari + Permís).
+* **DACL (Discretionary ACL):** Defineix qui té permís d'accés.
+* **SACL (System ACL):** Registra intents d'accés (auditoria).
+
+2. Regles d'Or
+1.  **La Denegació mana:** Si un usuari té un permís de "Denegar", aquest ignora qualsevol altre permís de "Permetre".
+2.  **Herència:** Els permisos solen baixar de les carpetes pare als fills.
+3.  **Acumulació:** Els permisos d'usuari i de grup se sumen (excepte si hi ha una denegació).
+
+3. Permisos Bàsics
+| Permís | Descripció |
+| :--- | :--- |
+| **Llegir (R)** | Permet veure el contingut. |
+| **Escriure (W)** | Permet fer canvis. |
+| **Modificar (M)** | Inclou lectura, escriptura i eliminació. |
+| **Control Total (F)** | Permet fer-ho tot, fins i tot canviar els permisos. |
+
+4. Gestió per Terminal
+Es pot utilitzar la comanda `icacls` per visualitzar i modificar aquestes llistes ràpidament.*
+
+**Pas 24 i 25:** Crear la carpeta `Projectes`, desactivar l'herència de permisos i donar "Control total" al grup "Limitats".
+
+Primer creo un grup que es dira limitats per alumne1 i 2
+
+<img width="432" height="390" alt="image" src="https://github.com/user-attachments/assets/0b240287-cc34-4f30-a283-ea5bc6e185b4" />
+
+Creem la carpeta
+
+<img width="627" height="60" alt="image" src="https://github.com/user-attachments/assets/0cafc954-2132-4a4f-9d69-165b94b5f17c" />
+
+Afegim el grup a la carpeta Projectes
+
+<img width="362" height="277" alt="image" src="https://github.com/user-attachments/assets/d31346b2-7c48-4d13-8f6b-b88c86c939a1" />
+
+Deshabilitem la herencia
+<img width="769" height="173" alt="image" src="https://github.com/user-attachments/assets/f3ad621e-e2f6-4370-a461-b73ef60a2c4d" />
+
+I donem control total al grup limitats
+<img width="327" height="226" alt="image" src="https://github.com/user-attachments/assets/1cd0151d-8fb3-4d01-ac09-4922452de117" />
+
+
+
+*  Aplicar una excepció per a `alumne2` mitjançant `icacls`, restringint el seu accés a "Només lectura" mentre la resta del grup manté el control total.
+
+Affegim una exepcio al alumne2 per que nomes tingui permis de lectura
+
+<img width="672" height="77" alt="image" src="https://github.com/user-attachments/assets/868fb370-5c60-4f55-bb4a-e3ed093aaa31" />
+
 * **Pas 29:** Consultar i verificar els permisos finals aplicats amb la comanda `icacls "D:\Projectes"`.
