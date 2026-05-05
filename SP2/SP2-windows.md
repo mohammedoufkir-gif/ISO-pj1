@@ -102,6 +102,12 @@ Creem la carpeta CòpieUsuaris a dins del disc de Backup
 
 
 * **Pas 12:** Crear un fitxer `script.bat` que copiï el contingut de la carpeta de l'usuari actual cap a la unitat de Backups.
+Fixer 
+<img width="750" height="517" alt="image" src="https://github.com/user-attachments/assets/cf877ea4-45ba-41ee-b3b5-b79efc862013" />
+
+Comprobacio del funcionament
+<img width="790" height="595" alt="image" src="https://github.com/user-attachments/assets/c98cb7c1-059a-44d8-98b2-d60e691650ff" />
+
 * **Pas 13 i 14:** Utilitzar `gpedit.msc` per configurar l'script perquè s'executi automàticament en l'inici de sessió.
 
 ## Fase 4 - Verificació i documentació
