@@ -154,7 +154,11 @@ Eleminarem el seguent process
 ara amb la comanda  taskkill /IM M365Copilot.exe /F
 <img width="533" height="31" alt="image" src="https://github.com/user-attachments/assets/2725faa0-3a85-4f84-bcaf-b0c7c76623d0" />
 
-* **Pas 22 i 23:** Automatitzar el tancament d'aquests processos a l'script d'inici i documentar la millora de rendiment a la màquina virtual.
+* Automatitzar el tancament d'aquests processos a l'script d'inici i documentar la millora de rendiment a la màquina virtual.
+
+  
+Ara incorporem lla comanda taskill al script per cuan inicie el windows es tanquen automaticament els procesos no esencials de Onedrive, Teams, Skype
+<img width="513" height="746" alt="image" src="https://github.com/user-attachments/assets/640d3a98-72de-4307-af9a-7c8da9ffa513" />
 
 ## Fase 6 - Gestió de permisos (ACLs)
 * **Teoria:** Comprendre el funcionament de les ACL (Access Control List) i les ACE (entrades de control d'accés) per a permisos detallats.
