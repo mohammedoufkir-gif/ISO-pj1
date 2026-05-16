@@ -1,3 +1,4 @@
+# Sprint 5: Monitoratge, Auditories i Programari Client/Servidor (10h)
 
 ## Guia de Configuració d'Autoritzacions i Auditories de Seguretat en Windows Server
 
@@ -136,4 +137,75 @@ Com a darrera acció per concloure el cicle pràctic de gestió i manteniment d'
 <img width="634" height="470" alt="image" src="https://github.com/user-attachments/assets/4d1e5d4a-4e54-46fa-b29f-06e0fc58c728" />
 
 <img width="634" height="470" alt="image" src="https://github.com/user-attachments/assets/2c03a847-11b8-4d63-8ed1-8feb655fdf25" />
+
+## Guia de Monitorització del Rendiment en Sistemes Windows Server
+
+### 1. Introducció a la Supervisió de Recursos
+La monitorització activa dels components de programari i de maquinari és un pilar fonamental per garantir la disponibilitat, estabilitat i eficiència operativa d'un servidor Windows. Mitjançant l'anàlisi de mètriques clau, els administradors de sistemes poden diagnosticar colls d'ampolla, anticipar anomalies i avaluar l'impacte en el rendiment provocat per l'execució d'aplicacions i serveis en segon pla.
+
+A continuació, s'exposen els principals indicadors de rendiment dividits per branques de maquinari i es detalla el procediment per analitzar-los de manera pràctica a través de les eines natives del sistema operatiu.
+
+---
+
+### 2. Mètriques Fonamentals de Rendiment
+
+#### 2.1. Unitat Central de Processament (CPU)
+* **Elements Registrats:** Mostra el conjunt complet de processos en estat actiu juntament amb el percentatge específic de capacitat de procés que estan consumint a cada instant. Així mateix, llista els subprocesos, serveis vinculats i estadístiques de traçabilitat tals com el recompte de fils o l'identificador únic de procés o PID.
+* **Interpretació de Dades:** El percentatge de CPU indica la fracció del processador assignada a una tasca. Si un servei manté de forma sostinguda valors superiors al 80-90%, s'ha de considerar com un indici de sobrecàrrega o d'una fallada en l'aplicació. El PID facilita la correlació del procés amb altres diagnòstics al Visor d'Esdeveniments o consoles PowerShell, mentre que el nom ajuda a diferenciar executables legítims d'anomalies del sistema.
+
+#### 2.2. Memòria Volàtil (RAM)
+* **Elements Registrats:** Indexa la quantitat de memòria física retinguda per cada procés executat. Detalla l'estat global de la RAM física (lliure, retinguda, en ús, en espera), a més del dimensionament de l'arxiu de paginació (*swap*) i les incidències d'accés a les adreces de memòria.
+* **Interpretació de Dades:** La memòria en ús l'és la porció física ocupada de forma instantània per l'aplicació. La memòria en espera conté dades llistes per ser reaprofitades ràpidament per Windows si és necessari, i la disponible és la suma de la memòria lliure i la d'espera. Un ús intensiu de la memòria virtual (RAM combinada amb l'arxiu en disc) indica una mancança greu de memòria física instal·lada.
+
+#### 2.3. Subsistema de Disc
+* **Elements Registrats:** Identifica quins processos estan efectuant operacions d'entrada/sortida (lectura i escriptura) sobre les unitats d'emmagatzematge, el volum de dades transferit per segon, els temps de resposta, la latència de les operacions i les rutes específiques de fitxers en ús.
+* **Interpretació de Dades:** La velocitat de lectura/escriptura (expressada en Bytes per segon) alerta sobre processos com una alta dependència de disc. Un temps de resposta que superi de manera contínua el llindar dels 20-30 ms denota problemes de rendiment de la unitat. Si la cua de disc és alta, el maquinari és incapaç d'atendre les peticions al mateix ritme que es generen, provocant la ralentització general del servidor.
+
+#### 2.4. Interfície de Xarxa
+* **Elements Registrats:** Traça les aplicacions que es troben transmetent o rebent trames de dades a través de les targetes de xarxa. Detalla els ports locals o remots de comunicació empleats, les adreces IP de destinació i el volum total de bytes transferits per segon tant en enviament com en recepció ($Tx$ i $Rx$).
+* **Interpretació de Dades:** El percentatge d'utilització de la xarxa avalua l'estat d'ocupació de la línia respecte al seu ample de banda total. La llista de ports ajuda a diagnosticar quins serveis estan actius (p. ex., port 80 per a HTTP o 443 per a HTTPS), mentre que la identificació de les IP remotes i connexions actives resulta crucial per auditar possibles fluxos de dades sospitosos o cap a destinacions no desitjades.
+
+---
+
+### 3. Procediments Pràctics de Monitorització
+
+#### Pas 1: Accés a l'Administrador de Tasques
+Per fer una primera aproximació al consum de recursos en temps real, iniciem la utilitat nativa del sistema operatiu prement la combinació de tecles `Ctrl + Shift + Esc`. Dins d'aquest entorn, a la pestanya principal podrem consultar el desgast de recursos distribuït granularment per aplicacions, serveis o usuaris.
+
+<img width="956" height="636" alt="image" src="https://github.com/user-attachments/assets/1c0008c0-d685-487f-bd75-818c6c63cf74" />
+
+#### Pas 2: Monitorització de la Gràfica de Rendiment de CPU i Memòria
+Per disposar d'una perspectiva històrica de l'ús de la infraestructura, ens desplacem cap a la pestanya "Rendimiento" de la mateixa eina. Des d'aquest panell podem analitzar el comportament tant de la CPU com de la memòria d'una manera gràfica.
+
+<img width="956" height="636" alt="image" src="https://github.com/user-attachments/assets/bc87c7be-d63b-4da7-a023-f5b88411fc5f" />
+
+<img width="956" height="636" alt="image" src="https://github.com/user-attachments/assets/45cd2924-c524-4bcc-a14f-32ff170d75a3" />
+
+<img width="956" height="636" alt="image" src="https://github.com/user-attachments/assets/93513f2b-d77b-4445-8320-d22ebc773ba5" />
+
+<img width="956" height="636" alt="image" src="https://github.com/user-attachments/assets/7fd15606-e776-468e-a20e-feba493eda92" />
+
+<img width="956" height="636" alt="image" src="https://github.com/user-attachments/assets/8c17e37a-467c-454a-8cf3-ddff23549304" />
+
+
+
+
+#### Pas 3: Diagnòstic Detallat com el Monitor de Recursos
+Quan es requereix una anàlisi molt més exhaustiva i minuciosa que superi el nivell de detall aportat per l'Administrador de Tasques, passem a utilitzar l'eina "Monitor de recursos". Aquesta utilitat s'organitza mitjançant pestanyes dedicades exclusivament a cadascun dels elements de maquinari analitzats anteriorment.
+
+<img width="792" height="604" alt="image" src="https://github.com/user-attachments/assets/beff16cc-7152-43c1-b275-3fa8a8c4eb8d" />
+
+<img width="792" height="604" alt="image" src="https://github.com/user-attachments/assets/98649c2e-069d-4e76-ba83-6fae3fc70798" />
+
+<img width="792" height="604" alt="image" src="https://github.com/user-attachments/assets/95ffc0b7-3c2d-4174-b655-76c32c35a31d" />
+
+<img width="792" height="604" alt="image" src="https://github.com/user-attachments/assets/54bad642-c4ad-4d3e-a63e-e9c2340ca34f" />
+
+<img width="792" height="604" alt="image" src="https://github.com/user-attachments/assets/67b7aaca-872f-4773-8d2c-9310ae3e6dba" />
+
+
+
+
+
+
 
