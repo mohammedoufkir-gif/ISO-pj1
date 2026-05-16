@@ -12,6 +12,7 @@
 
 ## Fase 1 - Preparació del sistema
 * Afeggim un dis vdi a la nostra maquina
+  
 <img width="742" height="450" alt="image" src="https://github.com/user-attachments/assets/5e1d2f73-8eb3-41a3-9121-57265d613fa1" />
   
 * Creacio de partcions
@@ -23,6 +24,7 @@ NTFS DADES
 FAT32 PORTABLE
 
 <img width="499" height="394" alt="image" src="https://github.com/user-attachments/assets/a7aa07a4-b0ed-4ac3-9fb2-ea162e0edaca" />
+
 <img width="762" height="106" alt="image" src="https://github.com/user-attachments/assets/d1209893-3525-4995-906b-d3296025d370" />
 
 
