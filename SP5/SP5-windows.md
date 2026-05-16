@@ -126,11 +126,16 @@ Per finalitzar el catàleg d'auditories pràctiques, ens dirigim a les directive
 #### Pas 9: Monitorització de la Desactivació d'Usuaris (Event ID 4725)
 Si fem ús de les eines d'Active Directory sobre el perfil del nou usuari i passem a modificar el seu estat operatiu triant l'opció de "Deshabilitar cuenta", el visor de seguretat del sistema registrarà immediatament aquesta acció mitjançant l'**Event ID 4725**.
 
-> 📷 **[MISSATGE DE CAPTURA - NOTIFICACIÓ DE DESACTIVACIÓ DE COMPTE I EVENT ID 4725]**
-> *Es visualitza en primer pla una petita finestra de diàleg de confirmació del sistema anomenada "Servicios de dominio de Active Directory" amb el text informatiu "El objeto prova ha sido deshabilitado." acompanyat d'un botó d'Aceptar. Al darrere d'aquesta finestra, es mostra el Visor d'Esdeveniments on apareix fixat un registre d'auditoria correcta de gestió de comptes marcat amb l'ID de succés 4725, el desglossament del qual a la pestanya General recull formalment la línia: "Se deshabilitó una cuenta de usuario.", lligant l'acció a la "Cuenta de destino: MARIA0\prova".*
+<img width="568" height="328" alt="image" src="https://github.com/user-attachments/assets/ae04c8b3-5437-4e4a-b292-907b57bcda22" />
+
+<img width="634" height="470" alt="image" src="https://github.com/user-attachments/assets/a62ac114-3e20-40e8-a64b-f04eae53c155" />
 
 #### Pas 10: Eliminació Definitiva del Compte (Event ID 4726)
 Com a darrera acció per concloure el cicle pràctic de gestió i manteniment d'entitats de seguretat, si optem per esborrar de forma permanent el compte d'usuari `prova` del nostre llistat del directori actiu, la bitàcola de seguretat reflectirà aquesta operació final mitjançant el registre de l'**Event ID 4726**.
+
+<img width="634" height="470" alt="image" src="https://github.com/user-attachments/assets/4d1e5d4a-4e54-46fa-b29f-06e0fc58c728" />
+
+<img width="634" height="470" alt="image" src="https://github.com/user-attachments/assets/2c03a847-11b8-4d63-8ed1-8feb655fdf25" />
 
 ---
 
