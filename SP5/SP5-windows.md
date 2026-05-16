@@ -36,53 +36,92 @@ Per establir un entorn complet de monitorització en Windows Server s'ha de proc
 Per iniciar el procediment pràctic, accedim a l'eina de gestió de seguretat local executant el comando `secpol.msc`. Dins de l'arbre de navegació situat a la columna esquerra, ens desplacem per la següent ruta: **Configuració de seguretat** > **Directives locals** > **Directiva d'auditoria**. Un cop oberta aquesta secció, configurem les polítiques anomenades "Auditar eventos de inicio de sesión" i "Auditar el acceso a objetos" per tal d'activar el seu seguiment.
 
 
+<img width="1120" height="436" alt="image" src="https://github.com/user-attachments/assets/7e622d63-2307-42d3-a33d-d394d837de58" />
 
 
 Un cop aplicats els canvis, ambdues directives queden registrades correctament amb l'estat de control activat per a esdeveniments d'èxit i fallada (Correcto, Erróneo).
 
-#### Pas 2: Validació d'Inicis de Sessió i Traçabilitat (Event ID 4624)
-Per verificar que el sistema respon de forma adequada a la política que acabem d'activar, procedim a tancar la sessió del compte d'administrador i realitzem una nova autenticació utilitzant les credencials d'un usuari de proves. Posteriorment, obrim el Visor d'Esdeveniments (`eventvwr.msc`) per examinar els registres interns. Si el procés s'ha completat de manera satisfactòria, localitzarem un assentament lligat a l'identificador numèric **Event ID 4624**, el qual certifica l'obertura d'una sessió correcta.
+<img width="512" height="40" alt="image" src="https://github.com/user-attachments/assets/0cb403f0-d575-4535-8425-69dfaf123cd9" />
 
-> 📷 **[MISSATGE DE CAPTURA - VISOR D'ESDEVENIMENTS - EVENT ID 4624 DE LOGON]**
-> *La imatge mostra dues captures combinades del Visor d'Esdeveniments (`eventvwr.msc`). La primera part presenta el llistat general d'esdeveniments dins de la bitàcola de "Seguridad". S'hi pot observar una graella amb columnes que detallen les "Palabras clave", "Fecha y hora", "Origen" (Microsoft Windows security auditing), "Id. del evento" i "Categoría de la tarea". Es troba seleccionada una fila amb l'ID 4624 assignada a la categoria de tasca "Logon". La segona part de la captura mostra el panell de detalls inferiors en la seva pestanya "General", on es llegeix textualment el text descriptiu del sistema: "Se inició sesión correctamente en una cuenta.", seguit de les dades del subjecte amb l'ID de seguretat "NULL SID" i el nom de l'equip local del domini "MARIA\MARIA.local".*
+#### Pas 2: Validació d'Inicis de Sessió i Traçabilitat (Event ID 4624)
+Per verificar que el sistema respon de forma adequada a la política que acabem d'activar, procedim a tancar la sessió del compte d'administrador i realitzem una nova autenticació. Posteriorment, obrim el Visor d'Esdeveniments (`eventvwr.msc`) per examinar els registres interns. Si el procés s'ha completat de manera satisfactòria, localitzarem un assentament lligat a l'identificador numèric **Event ID 4624**, el qual certifica l'obertura d'una sessió correcta.
+
+<img width="742" height="499" alt="image" src="https://github.com/user-attachments/assets/d6193ec4-9538-46aa-b4e6-93140854400e" />
+
+<img width="1219" height="606" alt="image" src="https://github.com/user-attachments/assets/1d3e4c32-7671-452b-a323-fd05d65be8e8" />
+
+
 
 #### Pas 3: Creació d'un Recurs i Configuració de l'Auditoria d'Objectes
 Creem un directori nou a l'arrel del disc local `C:` anomenat `ProvaAuditoria`. A continuació, configurem les condicions de monitorització accedint a les propietats de la carpeta i desplaçant-nos cap a la pestanya de "Seguridad". Dins d'aquest menú, fem clic a les opcions avançades per obrir el panell de gestió de controls i auditories.
 
-> 📷 **[MISSATGE DE CAPTURA - OPCIONS AVANÇADES DE LA CARPETA PROVAAUDITORIA]**
-> *Es visualitzen dues pantalles superposades relacionades amb els paràmetres de la carpeta `ProvaAuditoria`. La finestra superior correspon a les propietats bàsiques de Seguretat de Windows, on es detallen els "Nombres de grupos o usuarios" (CREATOR OWNER, SYSTEM, Administradores, Usuarios) i els seus respectius permisos. El cursor es troba fent clic sobre el botó de la part inferior anomenat "Opciones avanzadas". La finestra inferior mostra la "Configuración de seguridad avanzada para ProvaAuditoria" posicionada sobre la pestanya "Auditoría". Aquest panell es troba completament buit de línies de control, mostrant a la part inferior esquerra el botó "Agregar" preparat per definir una nova directiva.*
+<img width="1048" height="510" alt="image" src="https://github.com/user-attachments/assets/ea2b6a1b-ef80-422f-bafc-3a976327b33f" />
 
-Premem el botó "Agregar" i definim la configuració de l'entrada d'auditoria: seleccionem l'usuari local de l'entorn (en aquest cas, l'usuari "Maria"), establim el tipus com a "Correcto", comprovem que s'aplica a "Esta carpeta, subcarpetas y archivos" i marquem únicament els permisos bàsics de "Lectura y ejecución" i "Lectura".
+
+Premem el botó "Agregar" i definim la configuració de l'entrada d'auditoria: seleccionem l'usuari local de l'entorn (en aquest cas, l'usuari "moha"), establim el tipus com a "Correcto", comprovem que s'aplica a "Esta carpeta, subcarpetas y archivos" i marquem únicament els permisos bàsics de "Lectura y ejecución" i "Lectura".
+
+
+<img width="774" height="529" alt="image" src="https://github.com/user-attachments/assets/7816906c-cb1e-43b7-a733-243c3272aeeb" />
+
+
+<img width="915" height="591" alt="image" src="https://github.com/user-attachments/assets/eedb5049-d256-4314-8875-bf300277bba4" />
+
+
+<img width="425" height="495" alt="image" src="https://github.com/user-attachments/assets/24bf93c3-74a9-4611-9b95-1bc9c680b2aa" />
+
 
 #### Pas 4: Ampliació d'Entrades d'Auditoria (Perfil Administrador)
 Per tal de disposar d'un ventall de proves més complet i comparar diferents perfils d'accés, tornem al panell de configuració avançada d'auditoria del directori i hi incorporem un segon registre de control enfocat, en aquest cas, a la compta de l'Administrador del sistema, assignant-li un perfil de "Control total" sobre la carpeta.
 
-> 📷 **[MISSATGE DE CAPTURA - LLISTA D'ENTRADES D'AUDITORIA ACTIVES]**
-> *La captura mostra la finestra de "Configuración de seguridad avanzada para ProvaAuditoria" amb la pestanya d'Auditoría activa. En la graella central d'entrades d'auditoria es detallen de manera clara dues regles en funcionament: la primera fila identifica un tipus d'auditoria "Correcto" per a l'entitat de seguretat "Maria MGA. Gutierrez Amposta" amb un accés de "Lectura y ejecución"; la segona fila recull un tipus "Correcto" enfocat a l'entitat de seguretat "Administrador" amb privilegis de "Control total". Per a ambdues regles s'especifica que l'origen d'herència és "Ninguno" i que la seva aplicació afecta a "Esta carpeta, subcarpetas y archivos".*
+<img width="917" height="604" alt="image" src="https://github.com/user-attachments/assets/c2726161-696d-4016-835e-42da2f10b6d6" />
 
-#### Pas 5: Validació d'Accés i Interacció amb Fitxers (Event ID 4663)
-Per realitzar la prova de camp, accedim a l'interior del directori `C:\ProvaAuditoria` i generem activitat ordinària (com la creació de noves carpetes o arxius buits anomenats "hola" i "adeu", o l'obertura dels documents existents). Tot seguit, tornem a la consola del Visor d'Esdeveniments de seguretat; si verifiquem els nous registres generats pel sistema operatiu, veurem reflectit l'**Event ID 4663**, codi de referència que confirma l'accés a un objecte de fitxers.
 
-> 📷 **[MISSATGE DE CAPTURA - GENERACIÓ D'ACTIVITAT I REGISTRE D'OBJECTES ID 4663]**
-> *La imatge es compon de dues interfícies del sistema operatiu Windows Server. A la part superior, es veu la finestra de l'Explorador de Fitxers oberta a la ruta `Este equipo > Disco local (C:) > ProvaAuditoria`, llistant el contingut de la carpeta amb dos elements de tipus text anomenats "adeu" i "hola" amb les seves respectives dates de modificació. A la part inferior es mostra la consola del Visor d'Esdeveniments, on a la llista superior es troba marcat l'ID 4663 de la categoria "File System". El panell inferior "General" d'aquest esdeveniment detalla de forma explícita que el tipus d'objecte afectat és un "File" i que el paràmetre "Nombre del objeto" apunta directament a la ubicació física del recurs compromès: `C:\ProvaAuditoria`.*
+#### Pas 5: Validació d'Accés i Interacció amb Fitxers (Event ID 4662)
+Per realitzar la prova de camp, accedim a l'interior del directori `C:\ProvaAuditoria` i generem activitat ordinària com un acarpeta prova. Tot seguit, tornem a la consola del Visor d'Esdeveniments de seguretat; si verifiquem els nous registres generats pel sistema operatiu, veurem reflectit l'**Event ID 4662**, codi de referència que confirma l'accés a un objecte de fitxers.
+
+
+<img width="908" height="341" alt="image" src="https://github.com/user-attachments/assets/e9045070-33f8-40f6-aa1c-f93cfe65ff33" />
+
+
+<img width="617" height="444" alt="image" src="https://github.com/user-attachments/assets/fee70613-ff66-4895-9ca0-a85fc09fcdbe" />
 
 #### Pas 6: Monitorització de l'Inici de Processos (Event ID 4688)
 Continuant amb el desenvolupament pràctic, ens desplacem de nou a la secció de directives locals de seguretat per habilitar la política corporativa anomenada "Auditar el seguimiento de procesos". L'objectiu d'aquesta acció és auditar l'arrencada d'aplicacions del sistema. Per comprovar que respon correctament, procedim a obrir el navegador d'internet Microsoft Edge. Aquesta acció genera de forma instantània el registre de l'**Event ID 4688**, associat a la creació de processos actius.
 
-> 📷 **[MISSATGE DE CAPTURA - DIRECTIVA DE PROCESSOS I EVENT ID 4688 INICIAL]**
-> *S'aprecien diverses captures que documenten el procés complet. Primer, la finestra de Directives de Seguretat Local mostrant l'activació com a "Correcto, Erróneo" de la línia "Auditar el seguimiento de procesos". Després, es visualitza l'obertura de l'aplicació Microsoft Edge mostrant una finestra en blanc on es demana importar els favorits de l'usuari. Finalment, acoblat al conjunt, es mostra el Visor d'Esdeveniments seleccionant el registre d'auditoria correcta de tipus "Process Creation" amb l'ID d'esdeveniment 4688. El seu quadre de text descriptiu general identifica la compta d'origen de l'acció i el camp "Nombre del nuevo proceso", el qual apunta cap a l'executable del navegador a la ruta: `C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe`.*
+
+<img width="1183" height="549" alt="image" src="https://github.com/user-attachments/assets/03886e67-9bdc-4fcb-8d6b-0852e9fd9e7a" />
+
+<img width="1329" height="636" alt="image" src="https://github.com/user-attachments/assets/ddae0af1-8875-473e-8311-2c41d93f57bc" />
+
+
+
+<img width="814" height="491" alt="image" src="https://github.com/user-attachments/assets/6696391a-aa38-4b9e-8635-82c41077b221" />
+
 
 #### Pas 7: Traçabilitat de la Finalització de Processos (Event ID 4689)
 Com a contrapartida al pas anterior, realitzem ara el tancament complet del navegador que acabem d'obrir (ja sigui finalitzant l'aplicació de forma ordinària o forçant la seva detenció a través de l'Administrador de Tasques). Aquesta operació queda guardada automàticament al log de seguretat sota l'**Event ID 4689**, codi encarregat d'identificar que un procés en memòria s'ha donat per finalitzat.
 
-> 📷 **[MISSATGE DE CAPTURA - VISOR D'ESDEVENIMENTS - EVENT ID 4689 DE FINALITZACIÓ]**
-> *La captura mostra la finestra del Visor d'Esdeveniments posicionada sobre la llista de logs de seguretat del servidor. S'ha seleccionat una línia d'auditoria correcta corresponent a l'ID de succés 4689 lligat a la categoria "Process Termination". El panell inferior llegeix en el seu apartat de resum textual la descripció del sistema operatiu: "Se salió de un proceso.", lligat de forma directa al tancament de l'executable de l'aplicació del navegador d'internet fet servir en el test anterior.*
+<img width="762" height="451" alt="image" src="https://github.com/user-attachments/assets/9f7d436d-7b5d-42bc-954f-4d955aba13e2" />
+
+
 
 #### Pas 8: Auditoria i Administració de Comptes d'Usuari (Event ID 4720 i 4722)
 Per finalitzar el catàleg d'auditories pràctiques, ens dirigim a les directives del servidor per activar la política de seguretat "Auditar la administración de cuentas". Per validar aquest control, procedim a realitzar accions d'administració de comptes: accedim a la consola de gestió d'Usuaris i Equips d'Active Directory i donem d'alta un nou usuari dins del domini anomenat `prova`. Com a resposta directa, el sistema registrarà l'**Event ID 4720** (creació del compte d'usuari) seguit del registre **Event ID 4722** (habilitació i activació del compte creat).
 
-> 📷 **[MISSATGE DE CAPTURA - CONTROL DE COMPTES EN ACTIVE DIRECTORY I EVENTS ID 4720 / 4722]**
-> *La pantalla es divideix en tres interfícies operatives de Windows Server. Al fons a l'esquerra, es mostra l'assistent de creació de perfils d'Active Directory "Nuevo objeto: Usuario" on s'ha definit el nom d'usuari "prova" i es troba activat el xec de "La contraseña nunca expira". A la dreta es veu l'arbre d'unitats organitzatives destacant l'usuari "prova" ja llistat a la carpeta "Informatica". A la part inferior es troba el Visor d'Esdeveniments llistant consecutivament els dos logs generats per aquesta acció d'administració: l'ID d'esdeveniment 4720, on el quadre de text de detall indica expressament "Se creó una cuenta de usuario.", i l'ID d'esdeveniment 4722 de la mateixa categoria "User Account Management" que recull la frase "Se habilitó una cuenta de usuario.".*
+
+<img width="1078" height="573" alt="image" src="https://github.com/user-attachments/assets/485d7931-c6a8-4d95-b8cf-d964075b925a" />
+
+<img width="783" height="503" alt="image" src="https://github.com/user-attachments/assets/665aa19d-edf8-496f-982d-52e4e8a98802" />
+
+
+<img width="783" height="503" alt="image" src="https://github.com/user-attachments/assets/e11ea201-14bb-4c50-8b45-3b8dad6e8401" />
+
+
+<img width="1071" height="397" alt="image" src="https://github.com/user-attachments/assets/1d4aaf6f-c895-4328-b924-409b003b896b" />
+
+
+<img width="730" height="421" alt="image" src="https://github.com/user-attachments/assets/b675f0a3-33d2-47ee-89b0-48263aec3cb0" />
+
 
 #### Pas 9: Monitorització de la Desactivació d'Usuaris (Event ID 4725)
 Si fem ús de les eines d'Active Directory sobre el perfil del nou usuari i passem a modificar el seu estat operatiu triant l'opció de "Deshabilitar cuenta", el visor de seguretat del sistema registrarà immediatament aquesta acció mitjançant l'**Event ID 4725**.
