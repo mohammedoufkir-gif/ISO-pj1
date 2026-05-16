@@ -57,34 +57,42 @@ S'assigna una lletra d'unitat al volum.
 
 <img width="498" height="410" alt="image" src="https://github.com/user-attachments/assets/454ceb04-4ffe-4f97-ad48-d9b19b38e21f" />
 
-7. Es formata el volum utilitzant el sistema de fitxers **NTFS** i s'estableix l'etiqueta de volum: **RAID5-Test**.
+Es formata el volum utilitzant el sistema de fitxers **NTFS** i s'estableix l'etiqueta de volum: **RAID5-Test**.
    
 <img width="498" height="410" alt="image" src="https://github.com/user-attachments/assets/89e07d9e-e83e-4519-b3cf-be78cf8c1b30" />
 
-9. S'espera que finalitzi el procés de format i es verifica que es mostra com a un volum únic al sistema (amb una capacitat útil de 20 GB, corresponent a la suma dels discos menys l'espai de paritat).
+S'espera que finalitzi el procés de format i es verifica que es mostra com a un volum únic al sistema (amb una capacitat útil de 20 GB, corresponent a la suma dels discos menys l'espai de paritat).
 
-<img width="1277" height="369" alt="image" src="https://github.com/user-attachments/assets/4d6b6ef2-9a68-4308-b0b2-65ec8ca1c124" />
+<img width="1277" height="369" alt="image" src="https://github.com/user-attachments/assets/ac50d18c-6ecb-4074-afc5-783f2f7e0399" />
 
 
 ### Pas 4: Proves de funcionalitat i accés
-1. S'obre l'Explorador de fitxers de Windows i es desplaça fins al volum `R:\`.
-2. Es copien arxius de prova a l'arrel de la unitat (per exemple, una carpeta amb imatges o documents).
-3. S'obren i es comprova que els fitxers són completament accessibles i es llegeixen sense problemes.
+S'obre l'Explorador de fitxers de Windows i es desplaça fins al volum `E:\`.
+  <img width="795" height="595" alt="image" src="https://github.com/user-attachments/assets/faae2fbf-6485-4472-8955-7943027a57bd" />
 
-> **📸 [INSERIR CAPTURA]:** *Mostra l'interior de la unitat R:\ amb els fitxers de prova que has copiat col·locats correctament.*
+Es copien arxius de prova a l'arrel de la unitat.
+<img width="795" height="595" alt="image" src="https://github.com/user-attachments/assets/b70ab182-f29a-4ac6-885a-2a6c8f3551e7" />
+
+S'obren i es comprova que els fitxers són completament accessibles i es llegeixen sense problemes.
+<img width="795" height="595" alt="image" src="https://github.com/user-attachments/assets/3a515157-47d2-47c8-b6d0-5f356caff1c1" />
+
 
 ### Pas 5: Simulació de primera fallada (Un disc Offline)
-1. Es torna a accedir a l'eina **Disk Management**.
-2. Es fa clic dret sobre un dels tres discos que configuren el RAID i es selecciona l'opció **Offline** per simular una fallada crítica de la unitat.
-3. S'observa el comportament del sistema: Windows Server mostrarà un advertiment indicant que el volum es troba en estat degradat, però que segueix estant accessible.
-4. Es torna a comprovar que es poden obrir els fitxers de forma normal gràcies a la reconstrucció en temps real per paritat.
+Es torna a accedir a l'eina **Disk Management**, Es fa clic dret sobre un dels tres discos que configuren el RAID i es selecciona l'opció **Offline** per simular una fallada crítica de la unitat.
 
-> **📸 [INSERIR CAPTURA]:** *Mostra el Gestor de discs reflectint l'estat de "Failed Redundancy" (Redundància fallada) en color groc i el disc seleccionat marcat com a Offline.*
+<img width="795" height="236" alt="image" src="https://github.com/user-attachments/assets/f95935b1-3386-4322-b24a-0688d81c6d5f" />
+
+<img width="1006" height="322" alt="image" src="https://github.com/user-attachments/assets/f6362fcb-9677-4f03-ba22-16b8c2c9c3d5" />
+
+  
+S'oberva el cosmportament del sistema: Windows Server mostrarà un advertiment indicant que el volum es troba en estat degradat, però que segueix estant accessiblem es torna a comprovar que es poden obrir els fitxers de forma normal gràcies a la reconstrucció en temps real per paritat.
+
+<img width="831" height="524" alt="image" src="https://github.com/user-attachments/assets/1a152e65-87fc-4be8-8481-30ffdaa04b4e" />
 
 ### Pas 6: Simulació de segona fallada (Dos discs Offline)
 1. Es procedeix a forçar una segona fallada col·locant un **segon disc en estat Offline**.
 2. Atès que el RAID 5 només té tolerància per suportar la fallada d'un sol disc de forma simultània, el volum sencer deixarà de funcionar immediatament.
-3. S'intenta accedir de nou a la unitat `R:\` i es comprova que l'accés als arxius queda totalment bloquejat.
+3. S'intenta accedir de nou a la unitat `E:\` i es comprova que l'accés als arxius queda totalment bloquejat.
 
 > **📸 [INSERIR CAPTURA]:** *Mostra l'Administrador de discs amb l'estat del volum en color vermell i el text "Failed" (Fallat), confirmant la pèrdua de disponibilitat de la matriu.*
 
