@@ -100,7 +100,6 @@ Atès que el RAID 5 només té tolerància per suportar la fallada d'un sol disc
 
 <img width="175" height="47" alt="image" src="https://github.com/user-attachments/assets/cbc1c568-6ba3-4a4f-9cc2-d4da0aa8a3af" />
 
-<img width="1067" height="314" alt="image" src="https://github.com/user-attachments/assets/2377c47d-ab42-4b7c-9d96-047eb3774fa6" />
 
 
 ### Pas 7: Recuperació del sistema
@@ -112,7 +111,8 @@ Es fa clic dret sobre un dels discos desconnectats prèviament i es torna a posa
 
 El volum inicia de forma automàtica la seva recuperació o entra en un procés actiu de reconstrucció de les dades, es torna a intentar l'accés als arxius de la unitat i es comprova que la integritat de les dades s'ha mantingut.
 
-> **📸 [INSERIR CAPTURA]:** *Mostra l'estat de reconstrucció ("Resynching" o "Regenerating") en el Gestor de discs o el volum completament sanejat un cop acabat el procés.*
+<img width="696" height="181" alt="image" src="https://github.com/user-attachments/assets/e17336f3-b64e-4d0c-b02a-5bee0c4f2e48" />
+
 
 ---
 
