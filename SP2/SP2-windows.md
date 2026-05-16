@@ -246,5 +246,4 @@ Provem de crear un fixer desde el usuari alumne2 com podem veure no ensdeixa
 
 
 * Consultar i verificar els permisos finals aplicats amb la comanda `icacls "E:\Projectes"`.
-* 
 <img width="616" height="97" alt="image" src="https://github.com/user-attachments/assets/ea6e7727-4ceb-4e0e-a178-74bc4ac0cc12" />
