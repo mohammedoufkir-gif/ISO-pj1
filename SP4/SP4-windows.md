@@ -90,16 +90,27 @@ S'oberva el cosmportament del sistema: Windows Server mostrarà un advertiment i
 <img width="831" height="524" alt="image" src="https://github.com/user-attachments/assets/1a152e65-87fc-4be8-8481-30ffdaa04b4e" />
 
 ### Pas 6: Simulació de segona fallada (Dos discs Offline)
-1. Es procedeix a forçar una segona fallada col·locant un **segon disc en estat Offline**.
-2. Atès que el RAID 5 només té tolerància per suportar la fallada d'un sol disc de forma simultània, el volum sencer deixarà de funcionar immediatament.
-3. S'intenta accedir de nou a la unitat `E:\` i es comprova que l'accés als arxius queda totalment bloquejat.
+Es procedeix a forçar una segona fallada col·locant un **segon disc en estat Offline**.
+   
+<img width="1083" height="144" alt="image" src="https://github.com/user-attachments/assets/285513c5-c75c-488c-a35c-4cfda1ea0434" />
 
-> **📸 [INSERIR CAPTURA]:** *Mostra l'Administrador de discs amb l'estat del volum en color vermell i el text "Failed" (Fallat), confirmant la pèrdua de disponibilitat de la matriu.*
+<img width="1298" height="324" alt="image" src="https://github.com/user-attachments/assets/c9fb5c2b-32e8-4d98-89db-60e81fda79d0" />
+
+Atès que el RAID 5 només té tolerància per suportar la fallada d'un sol disc de forma simultània, el volum sencer deixarà de funcionar immediatament. S'intenta accedir de nou a la unitat `E:\` i es comprova que l'accés als arxius queda totalment bloquejat.
+
+<img width="175" height="47" alt="image" src="https://github.com/user-attachments/assets/cbc1c568-6ba3-4a4f-9cc2-d4da0aa8a3af" />
+
+<img width="1067" height="314" alt="image" src="https://github.com/user-attachments/assets/2377c47d-ab42-4b7c-9d96-047eb3774fa6" />
+
 
 ### Pas 7: Recuperació del sistema
-1. Es fa clic dret sobre un dels discos desconnectats prèviament i es torna a posar en estat **Online**.
-2. El volum inicia de forma automàtica la seva recuperació o entra en un procés actiu de reconstrucció de les dades.
-3. Es torna a intentar l'accés als arxius de la unitat i es comprova que la integritat de les dades s'ha mantingut.
+Es fa clic dret sobre un dels discos desconnectats prèviament i es torna a posar en estat **Online**.
+
+<img width="294" height="175" alt="image" src="https://github.com/user-attachments/assets/0b167ac8-48c3-47a8-9169-3b704a979bbe" />
+
+
+
+El volum inicia de forma automàtica la seva recuperació o entra en un procés actiu de reconstrucció de les dades, es torna a intentar l'accés als arxius de la unitat i es comprova que la integritat de les dades s'ha mantingut.
 
 > **📸 [INSERIR CAPTURA]:** *Mostra l'estat de reconstrucció ("Resynching" o "Regenerating") en el Gestor de discs o el volum completament sanejat un cop acabat el procés.*
 
