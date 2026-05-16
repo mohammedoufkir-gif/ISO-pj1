@@ -137,16 +137,3 @@ Com a darrera acció per concloure el cicle pràctic de gestió i manteniment d'
 
 <img width="634" height="470" alt="image" src="https://github.com/user-attachments/assets/2c03a847-11b8-4d63-8ed1-8feb655fdf25" />
 
----
-
-### 4. Referències i Recursos de Consulta
-
-* **Materials del Curs:** Informació extreta de la plataforma Moodle de la assignatura *0369 - Implantació de Sistemes Operatius*.
-* **Recursos Audiovisuals Externs:**
-    * Vídeo didàctic de YouTube: *Cómo configurar auditorías en Windows Server*.
-    * Vídeo de suport tècnic de YouTube: *Auditorías en Windows Server 2019*.
-* **Documentació Tècnica de Microsoft:**
-    * Guia oficial sobre desplegament de polítiques de seguretat i auditories centralitzades a Windows Server.
-* **Blogs de Seguretat Informàtica:**
-    * Micromouse: *Política de auditoría en Windows*.
-    * Blog de la Universitat de Granada (UGR): *Activar la auditoría de inicio de sesión en Windows*.
