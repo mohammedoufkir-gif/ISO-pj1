@@ -18,6 +18,7 @@ rendiment
 
 <img width="735" height="195" alt="image" src="https://github.com/user-attachments/assets/4ebf7e1e-475f-4989-82c8-d9d0905c76a7" />
 
+## Servidor d'actualitzacions
 
 
 <img width="766" height="501" alt="Captura de pantalla de 2026-03-09 12-28-49" src="https://github.com/user-attachments/assets/42d71fd7-1562-4e69-9a8c-c368087aad94" />
