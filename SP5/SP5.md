@@ -20,11 +20,15 @@ rendiment
 
 ## Servidor d'actualitzacions
 
+### 1. Instal·lació dels paquets necessaris
 
-<img width="766" height="501" alt="Captura de pantalla de 2026-03-09 12-28-49" src="https://github.com/user-attachments/assets/42d71fd7-1562-4e69-9a8c-c368087aad94" />
 
+
+Es realitza la instal·lació dels serveis bàsics per al funcionament del repositori local: el propi gestor de rèpliques i el servidor web Apache per a servir els fitxers.  
 
 <img width="292" height="17" alt="image" src="https://github.com/user-attachments/assets/41e8f17f-9c2b-4dd5-b508-0434477d409d" />
+
+<img width="766" height="501" alt="Captura de pantalla de 2026-03-09 12-28-49" src="https://github.com/user-attachments/assets/42d71fd7-1562-4e69-9a8c-c368087aad94" />
 
 
 <img width="305" height="25" alt="image" src="https://github.com/user-attachments/assets/0949e85f-b12b-4579-8fba-6ffdbb6ba0d8" />
